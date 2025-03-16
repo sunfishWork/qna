@@ -185,8 +185,8 @@ def process_document(input_path: str, out_folder: str, chunk_size: int = 1000) -
 
 # Example usage
 if __name__ == "__main__":
-    from_folder = "from"  # 'from' 폴더 지정
-    to_folder = "to"  # 결과 저장할 상위 폴더 지정
+    from_folder = "0_spec"  # 'qnaspec' 폴더 지정
+    to_folder = "1_chunk"  # 결과 저장할 상위 폴더 지정
 
     # 'from' 폴더 내 모든 .pdf 및 .docx 파일 찾기
     if not os.path.exists(from_folder):
@@ -205,7 +205,7 @@ if __name__ == "__main__":
         # Extract the base name of the input file without extension
         base_name = os.path.splitext(os.path.basename(input_file))[0]
 
-        # Create an output folder inside 'to' with the same name as the original file
+        # Create an output folder inside '1_chunk' with the same name as the original file
         output_folder = os.path.join(to_folder, base_name)
         os.makedirs(output_folder, exist_ok=True)
         print(f"Processing '{file}' and saving output to: {output_folder}")
