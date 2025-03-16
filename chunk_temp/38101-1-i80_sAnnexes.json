@@ -1,0 +1,281 @@
+[
+  {
+    "id": "38101-1-i80_sAnnexes_chunk_1",
+    "document_id": "38101-1-i80_sAnnexes",
+    "chunk_id": 1,
+    "text": "Annex A normative Measurement channels A1 General The throughput values defined in the measurement channels specified in Annex A are calculated and are valid per datastream codeword For multi-stream more than one codeword transmissions the throughput referenced in the minimum requirements is the sum of throughputs of all datastreams codewords The UE category entry in the definition of the reference measurement channel in Annex A is only informative and reveals the UE categories which can support the corresponding measurement channel Whether the measurement channel is used for testing a certain UE category or not is specified in the individual minimum requirements A2 UL reference measurement channels A21 General The measurement channels in the following clauses are defined to derive the requirements in clause 6 Transmitter Characteristics and clause 7 Receiver Characteristics",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_sAnnexes.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_sAnnexes_chunk_2",
+    "document_id": "38101-1-i80_sAnnexes",
+    "chunk_id": 2,
+    "text": "The measurement channels represent example configurations of physical channels for different data rates The measurement channels in the following clauses are applicable to both FDD and TDD The active uplink slots for TDD configurations are specified in Table A21-1 TDD slot patterns defined for reference sensitivity tests will be used for TDD UL RMCs unless otherwise stated The active uplink slots for additional TDD configuration specified in Table A21-2 with the TDD pattern defined in Table A21-3 is used for the phase continuity tests for DMRS bundling with 15 kHz SCS",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_sAnnexes.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_sAnnexes_chunk_3",
+    "document_id": "38101-1-i80_sAnnexes",
+    "chunk_id": 3,
+    "text": "The active uplink slots configuration specified in Table A21-4 and the additional TDD pattern in Table A21-5 are used for shorter transient period capability EVM tests at 15 kHz SCS Table A21-1 TDD active uplink slots Table A21-2 TDD active uplink slots for additional TDD configuration Table A21-3 TDD pattern for additional TDD configuration Table A21-4 TDD active uplink slots for shorter transient period capability Table A21-5 Additional TDD pattern for shorter transient period capability A22 Reference measurement channels A221 DFT-s-OFDM Pi2-BPSK Table A221-1 Reference Channels for DFT-s-OFDM Pi2-BPSK Table A221-2 Void Table A221-3 Void A222 DFT-s-OFDM QPSK Table A222-1 Reference Channels for DFT-s-OFDM QPSK for Table A222-2 Void Table A222-3 Void A223 DFT-s-OFDM 16QAM Table A223-1 Reference Channels for DFT-s-OFDM 16QAM Table A223-2 Void Table A223-3 Void A224 DFT-s-OFDM 64QAM Table A224-1 Reference Channels for DFT-s-OFDM 64QAM Table A224-2 Void Table A224-3 Void A225 DFT-s-OFDM 256QAM Table A225-1 Reference Channels for DFT-s-OFDM 256QAM Table A225-2 Void Table A225-3 Void A226 CP-OFDM QPSK Table A226-1 Reference Channels for CP-OFDM QPSK Table A226-2 Void Table A226-3 Void A227 CP-OFDM 16QAM Table A227-1 Reference Channels for CP-OFDM 16QAM Table A227-2 Void Table A227-3 Void A228 CP-OFDM 64QAM Table A228-1 Reference Channels for CP-OFDM 64QAM Table A228-2 Void Table A228-3 Void A229 CP-OFDM 256QAM Table A229-1 Reference Channels for CP-OFDM 256QAM Table A229-2 Void Table A229-3 Void A23 Reference measurement channels for TDD The TDD UL RMCs are defined in clause A22 with the active UL slots specified in Table A21-1 and TDD slot patterns as defined for reference sensitivity tests The TDD UL RMCs for the phase continuty tests for DMRS bundling are defined in clause A22 with the active UL slots and TDD pattern specified in Tables A21-2 and A21-3 A231 DFT-s-OFDM Pi2-BPSK Table A231-1 Void Table A231-2 Void Table A231-3 Void A232 DFT-s-OFDM QPSK Table A232-1 Void Table A232-2 Void Table A232-3 Void A233 DFT-s-OFDM 16QAM Table A233-1 Void Table A233-2 Void Table A233-3 Void A234 DFT-s-OFDM 64QAM Table A234-1 Void Table A234-2 Void Table A234-3 Void A235 DFT-s-OFDM 256QAM Table A235-1 Void Table A235-2 Void Table A235-3 Void A236 CP-OFDM QPSK Table A236-1 Void Table A236-2 Void Table A236-3 Void A237 CP-OFDM 16QAM Table A237-1 Void Table A237-2 Void Table A237-3 Void A238 CP-OFDM 64QAM Table A238-1 Void Table A238-2 Void Table A238-3 Void A239 CP-OFDM 256QAM Table A239-1 Void Table A239-2 Void Table A239-3 Void A3 DL reference measurement channels A31 General",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_sAnnexes.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_sAnnexes_chunk_4",
+    "document_id": "38101-1-i80_sAnnexes",
+    "chunk_id": 4,
+    "text": "Unless otherwise stated Tables A322-1 A322-2 A322-3 A332-1 A332-2 and A332-3 are applicable for measurements of the Receiver Characteristics clause 7 with the exception of clauses 74 Maximum input level Unless otherwise stated Tables A323-1 A323-2 A323-3 A333-1 A333-2 and A333-3 are applicable for clauses 74 Maximum input level and for UE not supporting PDSCH 256QAM Unless otherwise stated Tables A324-1 A324-2 A324-3 A334-1 A334-2 and A334-3 are applicable for clauses 74 Maximum input level and for UE supporting PDSCH 256QAM Unless otherwise stated Tables A322-1 A322-2 A322-3 A332-1 A332-2 and A332-3 also apply for the modulated interferer used in Clauses 75 76 and 78 with test specific bandwidths",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_sAnnexes.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_sAnnexes_chunk_5",
+    "document_id": "38101-1-i80_sAnnexes",
+    "chunk_id": 5,
+    "text": "In case of carrier aggregation scenarios the k1 values and number of HARQ processes of the Reference Measurement Channels specified in Annex A3 shall be adapted as specified in Tables A31-2 and A31-3 Table A31-1 Common reference channel parameters Table A31-2 Carrier aggregation test parameters for K1 values Table A31-3 Carrier Aggregation test parameters for number of HARQ processes A32 DL reference measurement channels for FDD A321 General Table A321-1 Additional reference channels parameters for FDD A322 FRC for receiver requirements for QPSK Table A322-1 Fixed reference channel for receiver requirements SCS 15 kHz FDD QPSK 13 Table A322-2 Fixed reference channel for receiver requirements SCS 30 kHz FDD QPSK 13 Table A322-3 Fixed reference channel for receiver requirements SCS 60 kHz FDD QPSK 13 A323 FRC for maximum input level for 64QAM Table A323-1 Fixed reference channel for maximum input level receiver requirements SCS 15 kHz FDD 64QAM Table A323-2 Fixed reference channel for maximum input level receiver requirements SCS 30 kHz FDD 64QAM Table A323-3 Fixed Reference Channel for Maximum input level receiver requirements SCS 60 kHz FDD 64QAM A324 FRC for maximum input level for 256 QAM Table A324-1 Fixed reference channel for maximum input level receiver requirements SCS 15 kHz FDD 256QAM Table A324-2 Fixed reference channel for maximum input level receiver requirements SCS 30 kHz FDD 256QAM Table A324-3 Fixed reference channel for maximum input level receiver requirements SCS 60 kHz FDD 256QAM A325 FRC for maximum input level for 1024 QAM Table A325-1 Fixed reference channel for maximum input level receiver requirements SCS 15 kHz FDD 1024QAM Table A325-2 Fixed reference channel for maximum input level receiver requirements SCS 30 kHz FDD 1024QAM Table A325-3 Fixed reference channel for maximum input level receiver requirements SCS 60 kHz FDD 1024QAM A33 DL reference measurement channels for TDD A331 General Table A331-1 Additional reference channels parameters for TDD A332 FRC for receiver requirements for QPSK Table A332-1 Fixed reference channel for receiver requirements SCS 15 kHz TDD QPSK 13 Table A332-2 Fixed reference channel for receiver requirements SCS 30 kHz TDD QPSK 13 Table A332-3 Fixed reference channel for receiver requirements SCS 60 kHz TDD QPSK 13 A333 FRC for maximum input level for 64QAM Table A333-1 Fixed reference channel for maximum input level receiver requirements SCS 15 kHz TDD 64QAM Table A333-2 Fixed reference channel for maximum input level receiver requirements SCS 30 kHz TDD 64QAM Table A333-3 Fixed reference channel for maximum input level receiver requirements SCS 60 kHz TDD 64QAM A334 FRC for maximum input level for 256 QAM Table A334-1 Fixed reference channel for maximum input level receiver requirements SCS 15 kHz TDD 256QAM Table A334-2 Fixed Reference channel for maximum input level receiver requirements SCS 30 kHz TDD 256QAM Table A334-3 Fixed reference channel for maximum input level receiver requirements SCS 60 kHz TDD 256QAM A335 FRC for maximum input level for 1024 QAM Table A335-1 Fixed reference channel for maximum input level receiver requirements SCS 15 kHz TDD 1024QAM Table A335-2 Fixed Reference channel for maximum input level receiver requirements SCS 30 kHz TDD 1024QAM Table A335-3 Fixed reference channel for maximum input level receiver requirements SCS 60 kHz TDD 1024QAM A4 CSI reference measurement channels A5 OFDMA Channel Noise Generator OCNG A51 OCNG Patterns for FDD A511 OCNG FDD pattern 1",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_sAnnexes.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_sAnnexes_chunk_6",
+    "document_id": "38101-1-i80_sAnnexes",
+    "chunk_id": 6,
+    "text": "Generic OCNG FDD Pattern for all unused REs Table A511-1 OP1 FDD Generic OCNG FDD Pattern for all unused REs A52 OCNG Patterns for TDD A521 OCNG TDD pattern 1 Generic OCNG TDD Pattern for all unused REs Table A521-1 OP1 TDD Generic OCNG TDD Pattern for all unused REs A6 Void A7 V2X reference measurement channels A71 General",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_sAnnexes.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_sAnnexes_chunk_7",
+    "document_id": "38101-1-i80_sAnnexes",
+    "chunk_id": 7,
+    "text": "The algorithm for determining the payload size A is as follows given a desired coding rate R and radio block allocation NRB 1 Calculate the RE number of 2nd stage SCI Q_SCI2 that can be transmitted in a given sub-frame where in order to make sure that the code-rate of 2-A is approximate to SCI 1-A a beta offset is selected based on MCS and vacant resource elements γ value is determined based on NRB and DMRS frequency density 2 Transport Block Size is determined according to clause 8132 of TS 38214 13 based on Table A71-1 3 Calculate Binary Channel Bits per Slot for PSSCH as below Binary Channel Bits per Slot NRB Subcarriers per resource blockCP-OFDM symbols per slot DMRS resource REs PSCCH resource Res - Q_SCI2 Qm",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_sAnnexes.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_sAnnexes_chunk_8",
+    "document_id": "38101-1-i80_sAnnexes",
+    "chunk_id": 8,
+    "text": "Where Qm is the modulation order corresponding to MCS In Table A71-1 Common reference channel parameters are listed the Sidelink reference measurement channels specified in annexes A72 to A76 Table A71-1 Common reference channel parameters A72 FRC for V2X receiver requirements for QPSK For V2X transmission over PC5 Table A72-1 Table A72-2 and Table A72-3 are applicable for measurements on the Receiver Characteristics with the exception of Maximum input level Table A72-1 Fixed reference channel for V2X receiver requirements SCS 15 kHz QPSK Table A72-2 Fixed reference channel for V2X receiver requirements SCS 30 kHz QPSK Table A72-3 Fixed reference channel for V2X receiver requirements SCS 60 kHz QPSK A73 FRC for maximum input level for 64QAM For V2X transmission over PC5 Table A73-1 Table A73-2 and TableA73-3 are applicable for Maximum input level when the maximum modulation order is 64QAM Table A73-1 Fixed reference channel for V2X receiver requirements SCS 15 kHz 64QAM Table A73-2 Fixed reference channel for V2X receiver requirements SCS 30 kHz 64QAM TableA73-3 Fixed reference channel for V2X receiver requirements SCS 60 kHz 64QAM A74 FRC for maximum input level for 256QAM For V2X transmission over PC5 Table A74-1 Table A74-2 and Table A74-3 are applicable for Maximum input level when the 256QAM is supported Table A74-1 Fixed reference channel for V2X receiver requirements SCS 15 kHz 256QAM Table A74-2 Fixed reference channel for V2X receiver requirements SCS 30 kHz 256QAM Table A74-3 Fixed reference channel for V2X receiver requirements SCS 60kHz 256QAM Annex B informative Void Annex C informative Downlink physical channels",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_sAnnexes.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_sAnnexes_chunk_9",
+    "document_id": "38101-1-i80_sAnnexes",
+    "chunk_id": 9,
+    "text": "C1 General The following clauses describes the downlink Physical Channels that are transmitted during a connection ie when measurements are done C2 Setup Table C2-1 describes the downlink Physical Channels that are required for connection set up Table C2-1 Downlink Physical Channels required for connection set-up C3 Connection C31 Measurement of Receiver Characteristics",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_sAnnexes.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_sAnnexes_chunk_10",
+    "document_id": "38101-1-i80_sAnnexes",
+    "chunk_id": 10,
+    "text": "Unless otherwise stated Table C31-1 is applicable for measurements on the Receiver Characteristics clause 7 Table C31-1 Downlink Physical Channels transmitted during a connection FDD and TDD Annex D normative Characteristics of the interfering signal D1 General Some RF performance requirements for the NR UE receiver are defined with interfering signals present in addition to the wanted signal For NR bands with FDL_high 2700 MHz and FUL_high 2700 MHz a modulated 5 MHz full bandwidth NR down link signal and in some cases an additional CW signal are used as interfering signal For intra-band contiguous CA bandwidth class B and C a modulated 5 MHz NR downlink signal is used And for some cases an additional CW signal is used For NR bands with FDL_low 3300 MHz and FUL_low 3300 MHz a modulated NR downlink signal which equals to channel bandwidth of the wanted signal for single carrier and inter-band CA cases is used as interfering signal For intra-band contiguous CA bandwidth Class C a modulated NR downlink signal which equals to the aggregated channel bandwidth of the wanted signal is used For intra-band contiguous CA bandwidth class D and E cases a modulated 50 MHz NR downlink signal is used And for some cases an additional CW signal is used D2 Interference signals Table D2-1 and Table D2-4 describes the modulated interferer for different channel bandwidth options for NR band lower than 2700MHz Table D2-1 Description of modulated NR interferer for NR bands with FDL_high 2700 MHz and FUL_high 2700 MHz Table D2-2 and Table D2-3 describe the modulated interferer for different channel bandwidth options for NR band higher than 3300MHz Table D2-2 Description of modulated NR interferer for NR bands with FDL_low 3300 MHz and FUL_low 3300 MHz Table D2-3 Description of modulated NR interferer for NR bands with FDL_low 3300 MHz and FUL_low 3300 MHz for Intra-band contiguous CA Table D2-4 Description of modulated NR interferer for NR bands with FDL_low 2700 MHz and FUL_low 2700 MHz for Intra-band contiguous CA Annex E normative Environmental conditions",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_sAnnexes.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_sAnnexes_chunk_11",
+    "document_id": "38101-1-i80_sAnnexes",
+    "chunk_id": 11,
+    "text": "E1 General This normative annex specifies the environmental requirements of the UE Within these limits the requirements of the present documents shall be fulfilled E2 Environmental The requirements in this clause apply to all types of UEs E21 Temperature The UE shall fulfil all the requirements in the full temperature range of Table E21-1 Temperature conditions Outside this temperature range the UE if powered on shall not make ineffective use of the radio frequency spectrum In no case shall the UE exceed the transmitted levels as defined in clause 62 for extreme operation E22 Voltage",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_sAnnexes.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_sAnnexes_chunk_12",
+    "document_id": "38101-1-i80_sAnnexes",
+    "chunk_id": 12,
+    "text": "The UE shall fulfil all the requirements in the full voltage range ie the voltage range between the extreme voltages The manufacturer shall declare the lower and higher extreme voltages and the approximate shutdown voltage For the equipment that can be operated from one or more of the power sources listed below the lower extreme voltage shall not be higher and the higher extreme voltage shall not be lower than that specified below Table E22-1 Voltage conditions Outside this voltage range the UE if powered on shall not make ineffective use of the radio frequency spectrum In no case shall the UE exceed the transmitted levels as defined in clause 62 for extreme operation In particular the UE shall inhibit all RF transmissions when the power supply voltage is below the manufacturer declared shutdown voltage E23 Vibration",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_sAnnexes.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_sAnnexes_chunk_13",
+    "document_id": "38101-1-i80_sAnnexes",
+    "chunk_id": 13,
+    "text": "The UE shall fulfil all the requirements when vibrated at the following frequencyamplitudes Table E23-1 Vibration conditions Outside the specified frequency range the UE if powered on shall not make ineffective use of the radio frequency spectrum In no case shall the UE exceed the transmitted levels as defined in TS 38101-1 for extreme operation Annex F normative Transmit modulation F0 General While measuring the transmit modulation quality of carriers an existence of the carrier leakage needs to be taken into account indicated by the parameters in UplinkTxDirectCurrent IE UplinkTxDirectCurrentTwoCarrierList-r16 or UplinkTxDirectCurrentMoreCarrierList F1 Measurement Point Figure F1-1 shows the measurement point for the unwanted emission falling into non-allocated RBs and the EVM for the allocated RBs Figure F1-1",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_sAnnexes.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_sAnnexes_chunk_14",
+    "document_id": "38101-1-i80_sAnnexes",
+    "chunk_id": 14,
+    "text": "EVM measurement points F2 Basic Error Vector Magnitude measurement The EVM is the difference between the ideal waveform and the measured waveform for the allocated RBs where is a set of modulation symbols with the considered modulation scheme being active within the measurement period are the samples of the signal evaluated for the EVM is the ideal signal reconstructed by the measurement equipment and is the average power of the ideal signal For normalized modulation symbols is equal to 1",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_sAnnexes.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_sAnnexes_chunk_15",
+    "document_id": "38101-1-i80_sAnnexes",
+    "chunk_id": 15,
+    "text": "The basic EVM measurement interval is defined over one slot in the time domain for PUCCH and PUSCH and over one preamble sequence for the PRACH F3 Basic in-band emissions measurement The in-band emissions are a measure of the interference falling into the non-allocated resources blocks The in-band emission requirement is evaluated for PUCCH and PUSCH transmissions The in-band emission requirement is not evaluated for PRACH transmissions The in-band emissions are measured as follows where is a set of OFDM symbols with the considered modulation scheme being active within the measurement period is the starting frequency offset between the allocated RB and the measured non-allocated RB eg or for the first adjacent RB resp is the lower resp upper edge of the UL UE channel bandwidth and are the lower and upper edge of the allocated BW and is the frequency domain signal evaluated for in-band emissions as defined in the clause ii",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_sAnnexes.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_sAnnexes_chunk_16",
+    "document_id": "38101-1-i80_sAnnexes",
+    "chunk_id": 16,
+    "text": "The relative in-band emissions are given by where is the number of allocated RBs The basic in-band emissions measurement interval is defined over one slot in the time domain When the PUSCH or PUCCH transmission slot is shortened due to multiplexing with SRS the in-band emissions measurement interval is reduced by one OFDM symbol accordingly In the evaluation of in-band emissions the timing is set according to where sample time offsets and are defined in clause F4 F4 Modified signal under test Implicit in the definition of EVM is an assumption that the receiver is able to compensate a number of transmitter impairments The DFT-s-OFDM modulated signals or PRACH signal under test is modified and in the case of DFT-s-OFDM modulated signals decoded according to where is the time domain samples of the signal under test The CP-OFDM modulated signals or PUSCH demodulation reference signal or PUCCH data signal under test is equalised and in the case of CP-OFDM modulated signals decoded according to where is the time domain samples of the signal under test To minimize the error the signal under test should be modified with respect to a set of parameters following the procedure explained below Notation is the sample timing difference between the FFT processing window in relation to nominal timing of the ideal signal is the RF frequency offset is the phase response of the TX chain is the amplitude response of the TX chain In the following represents the middle sample of the EVM window of length defined in the next clauses or the last sample of the first window half if is even The EVM analyser shall - detect the start of each slot and estimate and - determine so that the EVM window of length is centred - on the time interval determined by the measured cyclic prefix minus 16κ samples of the considered OFDM symbol for symbol l for subcarrier spacing configuration µ in a subframe with l 0 or l 72µ for normal CP ie the first 16κ samples of the CP should not be taken into account for this step In the determination of the number of excluded samples a sampling rate of 1Tc is assumed If a different sampling rate is used the number of excluded samples is scaled linearly - on the measured cyclic prefix of the considered OFDM symbol symbol for all other symbols for normal CP and for symbol 0 to 11 for extended CP - on the measured preamble cyclic prefix for the PRACH To determine the other parameters a sample timing offset equal to is corrected from the signal under test The EVM analyser shall then - correct the RF frequency offset for each time slot and - apply an FFT of appropriate size The chosen FFT size shall ensure that in the case of an ideal signal under test there is no measured inter-subcarrier interference The carrier leakage shall be removed from the evaluated signal before calculating the EVM and the in-band emissions however the removed relative carrier leakage power also has to satisfy the applicable requirement At this stage the allocated RBs shall be separated from the non-allocated RBs In the case of PUCCH and PUSCH EVM the signal on the non-allocated RBs is used to evaluate the in-band emissions",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_sAnnexes.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_sAnnexes_chunk_17",
+    "document_id": "38101-1-i80_sAnnexes",
+    "chunk_id": 17,
+    "text": "Moreover the following procedure applies only to the signal on the allocated RBs - In the case of PUCCH and PUSCH the UL EVM analyzer shall estimate the TX chain equalizer coefficients and used by the ZF equalizer for all subcarriers by time averaging at each signal subcarrier of the amplitude and phase of the reference and data symbols The time-averaging length is 1 slot This process creates an average amplitude and phase for each signal subcarrier used by the ZF equalizer The knowledge of data modulation symbols may be required in this step because the determination of symbols by demodulation is not reliable before signal equalization -",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_sAnnexes.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_sAnnexes_chunk_18",
+    "document_id": "38101-1-i80_sAnnexes",
+    "chunk_id": 18,
+    "text": "In the case of PRACH the UL EVM analyzer shall estimate the TX chain coefficients and used for phase and amplitude correction and are seleted so as to minimize the resulting EVM The TX chain coefficients are not dependent on frequency ie and The TX chain coefficient are chosen independently for each preamble transmission and for each At this stage estimates of and are available is one of the extremities of the window ie can be or where if is odd and if is even The EVM analyser shall then - calculate EVMl with set to - calculate EVMh with set to For the EVM calculation on the symbols with a transient period when the UE signals a transient period capability tp of 2 4 or 7usec is is given below - calculate EVMl_tp with set to where is 1Tc the sampling rate - calculate EVMh_tp with set to where 1Tc is the sampling rate and the CP is the cyclic prefix of the symbol on which EVM is calculatedeg long CP for the first symbol of the slot in seconds A pictorial representation of the EVM measurement windows is given in Figure F4-1 Figure F4-1 EVM measruement window F5 Window length F51 Timing offset As a result of using a cyclic prefix there is a range of which at least in the case of perfect Tx signal quality would give close to minimum error vector magnitude As a first order approximation that range should be equal to the length of the cyclic prefix Any time domain windowing or FIR pulse shaping applied by the transmitter reduces the range within which the error vector is close to its minimum F52 Window length The window length W affects the measured EVM and is expressed as a function of the configured cyclic prefix length In the case where equalization is present as with frequency domain EVM computation the effect of FIR is reduced This is because the equalization can correct most of the linear distortion introduced by the FIR",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_sAnnexes.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_sAnnexes_chunk_19",
+    "document_id": "38101-1-i80_sAnnexes",
+    "chunk_id": 19,
+    "text": "However the time domain windowing effect cant be removed F53 Window length for normal CP Tables F53-1 F53-2 and F53-3 below specify the EVM window length W for normal CP Table F53-1 EVM window length for normal CP for NR FR1 15 kHz SCS Table F53-2 EVM window length for normal CP for NR FR1 30 kHz SCS Table F53-3 EVM window length for normal CP for NR 60 kHz SCS F54 Window length for Extended CP Table F54-1 below specifies the EVM window length W for extended CP The number of CP samples excluded from the EVM window is the same as for normal CP length Table F54-1 EVM window length for extended CP for NR FR1 60 kHz SCS F55 Window length for PRACH The table below specifies the EVM window length for PRACH preamble formats for LRA 839 and Table F55-1 EVM window length for PRACH formats for LRA 839",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_sAnnexes.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_sAnnexes_chunk_20",
+    "document_id": "38101-1-i80_sAnnexes",
+    "chunk_id": 20,
+    "text": "The table below specifies the EVM window length for PRACH preamble formats for LRA 139 and where Table F55-2 EVM window length for PRACH formats for LRA 139 F6 Averaged EVM The general EVM is averaged over basic EVM measurements for n slots in the time domain where n is for PUCCH PUSCH The EVM requirements shall be tested against the maximum of the RMS average at the window W extremities of the EVM measurements Thus is calculated using in the expressions above and is calculated using Thus we get The calculation of the EVM for the demodulation reference signal follows the same procedure as calculating the general EVM with the exception that the modulation symbol set defined in clause F2 is restricted to symbols containing uplink demodulation reference signals The basic measurements are first averaged over n slots in the time domain to obtain an intermediate average In the determination of each the timing is set to if and it is set to otherwise where and are the general average EVM values calculated in the same n slots over which the intermediate average is calculated Note that in some cases the general average EVM may be calculated only for the purpose of timing selection for the demodulation reference signal EVM Then the results are further averaged to get the EVM for the demodulation reference signal The PRACH EVM is averaged over 2 preamble sequence measurements for long preamble formats as defined in Table 6331-1 in 6 and averaged over 10 preamble sequence measurements for short preamble formats as defined in Table 6331-2 in 6 The EVM requirements shall be tested against the maximum of the RMS average at the window W extremities of the EVM measurements Thus is calculated using and is calculated using Thus we get F7 Spectrum Flatness",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_sAnnexes.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_sAnnexes_chunk_21",
+    "document_id": "38101-1-i80_sAnnexes",
+    "chunk_id": 21,
+    "text": "The data shall be taken from FFT coded data symbols and the demodulation reference symbols of the allocated resource block F8 EVM measurement for multiple Tx For UE with multiple transmission antennas if UE indicates Tx diversity capability EVM is measured at each antenna connector to get EVMi and the total EVM is calculated by values of EVMi with weighting factor of linear power at each antenna connector where k2 4 and Pi denotes the linear power measured at each antenna connector respectively F9 Phase offset measurement for DMRS bundling F91 Measurement point The measurement point for phase offset measurement is defined in Figure F91-1 Figure F91-1 Measurement point for phase offset for DMRS bundling F92 Symbols used Phase offset is determined based on DMRS REs 3 DMRS symbols per slot with the option to use data symbols F93 Modified test signal Same as described in Annex F4 F94 Phase offset measurement The phase offset measurement is based on the phase response of the Tx chain as derived based on Annex F4 The subcarrier at the carrier leakage frequency of the transmitted signal shall be excluded from the measured subcarriers The phase difference for each measured subcarrier between a reference timeslot tref and the measurement timeslot tm is then calculated as defined below The phase offset between the reference and measurement timeslots are then calculated as the maximum over the results for all measured subcarriers as shown below F10 EVM for UL MIMO F101 General EVM for UL MIMO is measured per layer A zero-forcing ZF MIMO receiver architecture is used so that dual layer or 4-layer transmissions by the UE can be demodulated by the test equipment receiver Figure F101-1 EVM calculation block diagram for 2-Layer UL MIMO Figure F101-2 EVM calculation block diagram for 4-Layer UL MIMO",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_sAnnexes.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_sAnnexes_chunk_22",
+    "document_id": "38101-1-i80_sAnnexes",
+    "chunk_id": 22,
+    "text": "The TE receives signals from 2 or 4 different ports which are connected to two or four antenna connectors in the test system For UL MIMO measurements a MIMO equalization step as described in section F102 is performed to separate the layers Each layer is then processed as described in section F103 to receive the measurement results for each individual layer F102 MIMO Equalization The MIMO equalization is based only on reference signals DMRS without using any data symbols For the equalization process all available DMRS symbols shall be used The effective 2x2 or 4x4 channel matrix is estimated using reference signals of different subcarriers eg in case of DMRS antenna ports 0 and 2",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_sAnnexes.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_sAnnexes_chunk_23",
+    "document_id": "38101-1-i80_sAnnexes",
+    "chunk_id": 23,
+    "text": "In case that same subcarriers are used eg DMRS antenna ports 0 and 1 a channel decomposition is necessary taking advantage of the orthogonal codes wf and wt and assuming identical channel coefficients for adjacent subcarriers of same CDM group Effective channel including the precoding matrix P is for 2-Layer UL MIMO or for 4-Layer UL MIMO with where y denotes the received symbol on port index n and r the reference signal for layer index ν",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_sAnnexes.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_sAnnexes_chunk_24",
+    "document_id": "38101-1-i80_sAnnexes",
+    "chunk_id": 24,
+    "text": "Since reference signals of a specific layer are transmitted only on subcarriers of one CDM group channel interpolation is needed in order to obtain channel coefficients for all subcarriers Channel interpolation is done using the channel coefficients of active CDM group in all other CDM groups The channel coefficients used to calculate the equalizer coefficients are obtained after channel smoothing in frequency domain by computing the moving average of interpolated channel coefficients The moving average window size is 7 For subcarriers at or near the edge of allocation the window size is reduced accordingly The ZF equalizer coefficients are calculated as the inverse of the effective channel matrix in general F103 Layer processing After performing the MIMO equalization as described in section F102 each layer is processed using the existing procedure as defined in Annex E of TS 38521-1 4 Since the channel estimation is calculated only on the DMRS symbols an averaging including all 14 symbols of one slot ie data and reference signals is needed in order to minimize EVM The averaging is achieved by the least square LS equalization method described for single layer in Annex E3 of TS 38521",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_sAnnexes.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_sAnnexes_chunk_25",
+    "document_id": "38101-1-i80_sAnnexes",
+    "chunk_id": 25,
+    "text": "-1 4 MSft and NSft are processed with a LS estimator to derive one equalizer coefficient per time slot and per allocated subcarrier ECf is defined for each layer as With denoting complex conjugation ECf are used to equalize layer data symbols EVM equalizer spectral flatness is derived from equalizer coefficients for each layer as follows for 2-Layer UL MIMO or for 4-Layer UL MIMO Annex G normative Difference of relative phase and power errors G0 General This annex gives further information needed for understanding and implementing 64D4 The following terms should be understood as follows Relative phase error refers to the phase difference between signals at different antenna connectors which should be ideally 0",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_sAnnexes.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_sAnnexes_chunk_26",
+    "document_id": "38101-1-i80_sAnnexes",
+    "chunk_id": 26,
+    "text": "It should be understood as for a slot ie slot relative phase It is calculated based on DMRS symbols of that slot or on SRS symbols Difference of relative phase error refers to the difference between the relative phase error determined per slot and the relative phase error determined based on the SRS transmitted G1 Measurement Point Figure G1-1 shows the measurement point for the difference of relative phase and power errors Figure G1-1 - Measurement point for difference of relative phasepower error for UL coherent MIMO G2 Relative Phase Error Measurement Here are listed the different aspects that may lead to different interpretations G21 Symbols and subcarriers used Phase error is determined based on DMRS REs DMRS mapping type A with 3 DMRS symbols per slot the REs corresponding to the odd subcarriers and DMRS symbols are non-allocated for data or DMRS and SRS REs with 4 SRS symbols in the SRS slot same SRS resource mapping is used for non-codebook-based and codebook-based precoding For the DMRS and SRS to occupy identical SCs and maximimize their frequency density DMRS configuration type 1 and SRS comb2 configuration are used UL RMC described in Annex A2 is used G22 CFO carrier frequency offset correction The TE performs a CFO correction on a slot-by-slot basis using a common frequency correction at the two uplink antenna connectors G23 Steps of the measurement method Below are detailed the steps necessary to obtain the maximum difference of relative phase error during the 20ms time window 1 Determination for each subcarrier and at each antenna the SRS relative phase error based on the last SRS transmitted on Ant1 and Ant2 that relative phase error serves as a reference for the calculation of the difference of relative phase error for each slot inside the 20 ms time window",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_sAnnexes.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_sAnnexes_chunk_27",
+    "document_id": "38101-1-i80_sAnnexes",
+    "chunk_id": 27,
+    "text": "The output is the SRS relative phase error vector for the last SRS transmitted 2 Calculation for the last SRS transmitted for each RB of the SRS relative phase errors based on the arithmetic mean of the subcarrier SRS relative phase errors determined in previous step The output is the SRS relative phase error vector for the last SRS transmitted 3 CFO correction on slot-by-slot basis using a common frequency correction for both antenna outputs 4 Determination for each subcarrier and at each antenna the phase over the slot being analyzed The phase is extracted from the channel estimate derived from the 3 DMRS symbols of the slot using the LSE technique The output is one vector of dimension for each antenna 5 Calculation for a slot for each subcarrier of the relative phase error difference between the vectors determined in the previous step The output is subcarrier relative phase errors of a slot 6 Calculation for a slot for each RB of the relative phase errors based on the arithmetic mean of the subcarrier relative phase errors determined in previous step The output is a slot relative phase error vector for a slot 7 Calculation for a slot of the difference of relative phase errors based on the SRS relative phase error reference determined in step 2 and the slot relative phase error determined in previous step The output is a difference of relative phase error vector for a slot 8 Calculation for a slot of the arithmetic mean value of the difference of relative phase error vector determined in previous step this value corresponds to an RB",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_sAnnexes.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_sAnnexes_chunk_28",
+    "document_id": "38101-1-i80_sAnnexes",
+    "chunk_id": 28,
+    "text": "The output is a difference of relative phase error value for a slot 9 Perform for each slot of the 20ms time window steps 3 to 8 The output is a difference of relative phase error vector 10 Calculation of the maximum value of the difference of relative phase error The output is the difference of relative phase error that should be verified as complying with the 40 maximum allowable difference of relative phase error requirement Annex H informative Void Annex",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_sAnnexes.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_sAnnexes_chunk_29",
+    "document_id": "38101-1-i80_sAnnexes",
+    "chunk_id": 29,
+    "text": "I informative Void Annex J informative Void Annex K informative Void Annex L normative ModifiedMPR-Behavior L1 Indication of modified MPR behavior This annex contains the definitions of the bits in the field modifiedMPR-Behaviour indicated per supported NR band in the IE RF-Parameters 7 by a UE supporting an MPR or A-MPR modified in a given version of this specification A modified MPR or A-MPR behaviour can apply to a supported NR band in stand-alone operation including CA and NN-DC operation or in non-standalone operation with the said NR band as part of an EN-DC or NE-DC band combination NOTE 1",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_sAnnexes.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_sAnnexes_chunk_30",
+    "document_id": "38101-1-i80_sAnnexes",
+    "chunk_id": 30,
+    "text": "In the present release the modifiedMPR-Behaviour is indicated 7 by an 8-bit bitmap per supported NR band Table L1-1 Definitions of the bits in the field modifiedMPR-Behaviour Annex M normative Declared Supported Post Antenna Gain for UE M1 FRMCS operating bands Due to large form factor of the FRMCS Future Railway Mobile Communication System rooftop mounted cab-radio unit UE in bands n100 and n101 can have external antenna placed far away from the chipset unit In this case the effective antenna gain is a UE specific condition This effective antenna gain includes the feeding loss of all components after the chipset unit antenna connector and the peak directional gain of the external antenna and hence will be called the post connector gain Gn100post connector and Gn101post connector for band n100 and n101 respectively",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_sAnnexes.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_sAnnexes_chunk_31",
+    "document_id": "38101-1-i80_sAnnexes",
+    "chunk_id": 31,
+    "text": "The 3GPP specifications mandate UE manufacturer declarations of the supported value of the post connector gain Gn100post connector and Gn101post connector as a way to accommodate the requirement without putting requirements on the UE specific condition If external antenna is not used the value of 0dBi will be used The applicable regional requirements for bands n100 and n101 in PEIRP shall be converted to conducted requirements by subtracting Gn100post connector or Gn101post connector as PConducted PEIRP - Gn100post connector for band n100 and PConducted PEIRP - G101post connector for band n101 Annex N informative Change history",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_sAnnexes.docx"
+    }
+  }
+]

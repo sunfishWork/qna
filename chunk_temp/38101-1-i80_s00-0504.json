@@ -1,0 +1,632 @@
+[
+  {
+    "id": "38101-1-i80_s00-0504_chunk_1",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 1,
+    "text": "",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_2",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 2,
+    "text": "Foreword This Technical Specification has been produced by the 3rd Generation Partnership Project 3GPP The contents of the present document are subject to continuing work within the TSG and may change following formal TSG approval Should the TSG modify the contents of the present document it will be re-released by the TSG with an identifying change of release date and an increase in version number as follows Version xyz where x the first digit 1 presented to TSG for information 2 presented to TSG for approval 3 or greater indicates TSG approved document under change control y the second digit is incremented for all changes of substance ie technical enhancements corrections updates etc z the third digit is incremented when editorial only changes have been incorporated in the document In the present document modal verbs have the following meanings shall indicates a mandatory requirement to do something shall not indicates an interdiction prohibition to do something The constructions shall and shall not are confined to the context of normative provisions and do not appear in Technical Reports",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_3",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 3,
+    "text": "The constructions must and must not are not used as substitutes for shall and shall not Their use is avoided insofar as possible and they are not used in a normative context except in a direct citation from an external referenced non-3GPP document or so as to maintain continuity of style when extending or modifying the provisions of such a referenced document should indicates a recommendation to do something should not indicates a recommendation not to do something may indicates permission to do something need not indicates permission not to do something The construction may not is ambiguous and is not used in normative elements The unambiguous constructions might not or shall not are used instead depending upon the meaning intended can indicates that something is possible cannot indicates that something is impossible The constructions can and cannot are not substitutes for may and need not will indicates that something is certain or expected to happen as a result of action taken by an agency the behaviour of which is outside the scope of the present document will not indicates that something is certain or expected not to happen as a result of action taken by an agency the behaviour of which is outside the scope of the present document might indicates a likelihood that something will happen as a result of action taken by some agency the behaviour of which is outside the scope of the present document might not indicates a likelihood that something will not happen as a result of action taken by some agency the behaviour of which is outside the scope of the present document",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_4",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 4,
+    "text": "In addition is or any other verb in the indicative mood indicates a statement of fact is not or any other negative verb in the indicative mood indicates a statement of fact The constructions is and is not do not indicate requirements 1 Scope The present document establishes the minimum RF requirements for NR User Equipment UE operating on frequency",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_5",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 5,
+    "text": "Range 1 2 References The following documents contain provisions which through reference in this text constitute provisions of the present document References are either specific identified by date of publication edition number version number etc or non-specific For a specific reference subsequent revisions do not apply For a non-specific reference the latest version applies In the case of a reference to a 3GPP document including a GSM document a non-specific reference implicitly refers to the latest version of that document in the same Release as the present document 1 3GPP TR 21905 Vocabulary for 3GPP Specifications 2 3GPP TS 38101-2 NR User Equipment UE radio transmission and reception",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_6",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 6,
+    "text": "Part 2 Range 2 Standalone 3 3GPP TS 38101-3 NR User Equipment UE radio transmission and reception Part 3 Range 1 and Range 2 Interworking operation with other radios 4 3GPP TS 38521-1 NR User Equipment UE conformance specification Radio transmission and reception Part 1 Range 1 Standalone 5 Recommendation ITU-R M1545 Measurement uncertainty as it applies to test limits for the terrestrial component of International Mobile Telecommunications-2000 6 3GPP TS 38211 NR Physical channels and modulation 7 3GPP TS 38331 Radio Resource Control RRC protocol specification 8 3GPP TS 38213 NR Physical layer procedures for control 9 ITU-R Recommendation SM329-10 Unwanted emissions in the spurious domain 10 3GPP TS 38214 NR Physical layer procedures for data 11 3GPP TS 36101 Evolved Universal Terrestrial Radio Access E-UTRA User Equipment UE radio transmission and reception 12 ETSI TS 102 792 Intelligent Transport Systems",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_7",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 7,
+    "text": "ITS Mitigation techniques to avoid interference between European CEN Dedicated Short Range Communication CEN DSRC equipment and Intelligent Transport Systems ITS operating in the 5 GHz frequency range 13 3GPP TS 38133 NR Requirements for support of radio resource management 14 3GPP TS 37213 Physical layer procedures for shared spectrum channel access 15 3GPP TS 38306 NR User Equipment UE radio access capabilities 16 3GPP TS 38104 NR Base Station BS radio transmission and reception 17 3GPP TS 23256 Support of Uncrewed Aerial Systems UAS connectivity identification and tracking Stage 2 18 ECC Decision2207",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_8",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 8,
+    "text": "Harmonised technical conditions for the usage of aerial UE for communications based on LTE and 5G NR in the bands 703-733 MHz 832-862 MHz 880-915 MHz 1710-1785 MHz 1920-1980 MHz 2500-2570 MHz and 2570-2620 MHz harmonised for MFCN 18 November 22 19 ECC Decision2002 Harmonised use of the paired frequency bands 8744-8800 MHz and 9194-9250 MHz and of the unpaired frequency band 1900-1910 MHz for Railway Mobile Radio RMR 3 Definitions symbols and abbreviations 31 Definitions For the purposes of the present document the terms and definitions given in 3GPP TR 21905 1 and the following apply A term defined in the present document takes precedence over the definition of the same term if any in 3GPP TR 21905 1 Aerial UE A UE supporting UAS Uncrewed Aircraft Systems as indicated by the capability aerialUE-Capability-r18 15 and that has an aerial subscription as described in TS 23256 17",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_9",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 9,
+    "text": "The UE is considered to have access to UAS services after the UE ha performed a successful authentication and authorization with the USS as described in TS 23256 17 Aggregated Allocation Bandwidth Total bandwidth of all allocated RBs in a transmission occasion Can be calculated for two aggregated CCs as LCRB 1 12 SCS1 LCRB2 12 SCS2 Aggregated Channel Bandwidth The RF bandwidth in which a UE transmits and receives multiple contiguously aggregated carriers ATG UE",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_10",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 10,
+    "text": "The terminals or user equipments which are mounted in aircraft and support ATG feature ie UE capability airToGroundNetwork-r18 as defined in clause 422 from TS3830615 Carrier aggregation Aggregation of two or more component carriers in order to support wider transmission bandwidths Carrier aggregation band A set of one or more operating bands across which multiple carriers are aggregated with a specific set of technical requirements Carrier aggregation bandwidth class A class defined by the aggregated transmission bandwidth configuration and maximum number of component carriers supported by a UE Carrier aggregation configuration A combination of CA operating bands and CA bandwidth classes supported by a UE Concurrent operation The simultaneous transmission and reception of sidelink and Uu interfaces while operation is agnostic of the service used on each interface Contiguous carriers",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_11",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 11,
+    "text": "A set of two or more carriers configured in a spectrum block where there are no RF requirements based on co-existence for un-coordinated operation within the spectrum block Contiguous resource allocation A resource allocation of consecutive resource blocks within one carrier or across contiguously aggregated carriers The gap between contiguously aggregated carriers due to the nominal channel spacing is allowed Contiguous spectrum Spectrum consisting of a contiguous block of spectrum with no sub-block gaps Enhanced channel raster channel raster with a 10 kHz granularity in bands with a 100 kHz channel raster eRedCap UE",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_12",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 12,
+    "text": "The UE with enhanced reduced capabilities as defined in clause 42221 from TS38306 15 Inter-band carrier aggregation Carrier aggregation of component carriers in different operating bands NOTE Carriers aggregated in each band can be contiguous or non-contiguous Inter-band concurrent operation Operation of NR Uu carrier and NR Sidelink carrier in different operating bands Intra-band contiguous carrier aggregation Contiguous carriers aggregated in the same operating band Intra-band non-contiguous carrier aggregation Non-contiguous carriers aggregated in the same operating band Intra-band SL CA UE UE that supports NR SL CA operation in a single band NR SL CA Aggregation of two or more NR Sidelink component carriers in order to support wider transmission bandwidths NR SL inter-band concurrent operating BandBand combinations of NR Uu carrier and NR Sidelink carrier in different operating bands NR SL-U UE UE that supports NR Sidelink operation in unlicensed bands eg n46 n96 n102 Railway Mobile Radio railway operations encompassing GSM-R and its successors including the Future Railway Mobile Communication System FRMCS in the context of this specification the Railway Mobile Radio is limited to NR operation in band n100 or n101 RedCap UE",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_13",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 13,
+    "text": "The UE with reduced capabilities as defined in clause 42211 from TS38306 15 Sub-band For a UE that supports shared spectrum channel access in wideband operation a sub-band is the set of RBs within an approximately 20 MHz segment of the channel where the wideband channel is uniformly divided into an integer number of 20 MHz sub-bands Sub-bands may be separately allocated in uplink and downlink Sub-block This is one contiguous allocated block of spectrum for transmission and reception by the same UE There may be multiple instances of sub-blocks within an RF bandwidth Sub-block bandwidth The bandwidth of one sub-block Sub-block gap A frequency gap between two consecutive sub-blocks within an RF bandwidth where the RF requirements in the gap are based on co-existence for un-coordinated operation Two Rx antenna port XR UE",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_14",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 14,
+    "text": "A non-eRedCap XR UE that is equipped with only two Rx antenna ports in frequency bands where 4 Rx antenna ports are required The UE is intended to be worn on human head When in use is intended to be supported only bybehind the ears and by a nose-bridge resulting in a constrained form factor with limited volume available for Rx chains UE transmission bandwidth configuration Set of resource blocks located within the UE channel bandwidth which may be used for transmitting or receiving by the UE Vehicular UE",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_15",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 15,
+    "text": "A UE embedded in a vehicle permanently connected to an embedded antenna system that radiates externally for NR operating bands NOTE Vehicular UE does not refer to other UE form factors placed inside the vehicle Wideband operation For a UE that supports shared spectrum channel access wideband operation refers to operation within a channel larger than 20 MHz in which intra-cell guard bands may be configured to distinguish individual RB-sets 32 Symbols For the purposes of the present document the following symbols apply ΔFGlobal Granularity of the global frequency raster ΔFRaster Band dependent channel raster granularity ΔfOOB Δ Frequency of Out Of Band emission ΔFTX-RX Maximum deviation to the Tx-Rx carrier center frequency separation for asymmetric uplinkdownlink channel bandwidth operation MPRc Allowed Maximum Power Reduction relaxation for serving cell c ΔPPowerClass Adjustment to maximum output power for a given power class RB",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_16",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 16,
+    "text": "The starting frequency offset between the allocated RB and the measured non-allocated RB ΔRIBc Allowed reference sensitivity relaxation due to support for inter-band CA operation for serving cell c ΔRIBC Allowed relaxation to the power class 3 reference sensitivity level due to support for intra-band contiguous CA operation ΔRIBNC Allowed relaxation to the power class 3 reference sensitivity level due to support for intra-band non-contiguous CA operation ΔRIB4R Reference sensitivity adjustment due to support for 4 antenna ports ΔRIB8R Reference sensitivity adjustment due to support for 8 antenna ports ΔR1R Reference sensitivity adjustment due to support for 1 antenna ports ΔRXR2R",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_17",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 17,
+    "text": "Reference sensitivity adjustment for two antenna ports XR UEs on bands defined in Table 732-2b ΔShift Channel raster offset TC Allowed operating band edge transmission power relaxation TCc Allowed operating band edge transmission power relaxation for serving cell c ΔTIBc Allowed maximum configured output power relaxation due to support for inter-band CA operation inter-band NR-DC operation and due to support for SUL operations for serving cell c BWChannel Channel bandwidth BWChannelblock Sub-block bandwidth expressed in MHz BWChannelblock Fedgeblockhigh- Fedgeblocklow BWChannel_CA Aggregated channel bandwidth expressed in MHz BWChannelmax Maximum channel bandwidth supported among all bands in a release BWGB maxGBChannellow GBChannelhigh BWDL Channel bandwidth for DL BWUL Channel bandwidth for UL BWinterferer Bandwidth of the interferer Ceilx Rounding upwards ceilx is the smallest integer",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_18",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 18,
+    "text": "such that ceilx x Floorx Rounding downwards floorx is the greatest integer such that floorx x FC Center frequency of a carrier for a numerology defined by the RF reference frequency on the channel raster mapped to the carrier according to sub-clause 5422FCblock high Fc of the highest transmittedreceived carrier in a sub-block FCblock low Fc of the lowest transmittedreceived carrier in a sub-block FClow The Fc of the lowest carrier expressed in MHz FChigh The Fc of the highest carrier expressed in MHz FDL_low The lowest frequency of the downlink operating band FDL_high The highest frequency of the downlink operating band FUL_low The lowest frequency of the uplink operating band FUL_high The highest frequency of the uplink operating band Fedgeblocklow",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_19",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 19,
+    "text": "The lower sub-block edge where Fedgeblocklow FCblocklow - Foffset low Fedgeblockhigh The upper sub-block edge where Fedgeblockhigh FCblockhigh Foffset high Fedge low The lower edge of aggregated channel bandwidth expressed in MHz Fedgelow FClow - Foffsetlow Fedge high The higher edge of aggregated channel bandwidth expressed in MHz Fedgehigh FChigh Foffsethigh FInterferer offset Frequency offset of the interferer between the center frequency of the interferer and the carrier frequency of the carrier measured For intra-band contiguous CA the FInterferer offset is the frequency separation of the center frequency of the carrier closest to the interferer and the center frequency of the interferer FInterferer Frequency of the interferer FIoffset Frequency offset of the interferer between the center frequency of the interferer and the closest edge of the carrier measured Foffset Frequency offset from FC_high to the higher edge or FC_low to the lower edge Foffsethigh Frequency offset from FChigh to the upper UE RF Bandwidth edge or from FCblock high to the upper sub-block edge Foffsetlow Frequency offset from FClow to the lower UE RF Bandwidth edge or from FCblock low to the lower sub-block edge FOOB",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_20",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 20,
+    "text": "The boundary between the NR out of band emission and spurious emission domains FREF RF reference frequency FREF-Offs Offset used for calculating FREF FREF shift RF reference frequency for Supplementary Uplink SUL bands the uplink of all FDD bands and TDD bands Fuw offset The frequency separation of the center frequency of the carrier closest to the interferer and the center frequency of the interferer Gn100post connector Declared value of the post chipset unit antenna connector gain for band n100 used for conversion of the radiated requirement into a conducted requirement see principles described in annex M Gn101post connector Declared value of the post chipset unit antenna connector gain for band n101 used for conversion of the radiated requirement into a conducted requirement see principles described in annex M GBChannel Minimum guard band defined in clause 533 expressed in kHz GBChanneli Minimum guard band defined in clause 533 of carrier i GBChannellow Minimum guard band defined in clause 533 for the lowest assigned component carrier in clause 53A3 GBChannelhigh Minimum guard band defined in clause 533 for the highest assigned component carrier in clause 53A3 LCRB Transmission bandwidth which represents the length of a contiguous resource block allocation expressed in units of resources blocks Max",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_21",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 21,
+    "text": "The largest of given numbers Min The smallest of given numbers Physical resource block number NRACLR NR ACLR NRB Transmission bandwidth configuration expressed in units of resource blocks NRB_agg The number of the aggregated RBs within the fully allocated aggregated channel bandwidth for carrier 1 to j where μ is defined in TS 38211 6 NRBc The transmission bandwidth configuration of component carrier c expressed in units of resource blocks for carrier j where μ is defined in TS 38211 6 NRBlargest BW The largest transmission bandwidth configuration of the component carriers in the bandwidth combination expressed in units of resource blocks NRBlow",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_22",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 22,
+    "text": "The transmission bandwidth configurations according to Table 532-1 for the lowest assigned component carrier in clause 53A1 NRBhigh The transmission bandwidth configurations according to Table 532-1 for the highest assigned component carrier in clause 53A1 NREF NR Absolute Radio Frequency Channel Number NR-ARFCN NREF-Offs Offset used for calculating NREF PCMAX The configured maximum UE output power PCMAX c The configured maximum UE output power for serving cell c PCMAX f c The configured maximum UE output power for carrier f of serving cell c in each slot PEMAX Maximum allowed UE output power signalled by higher layers PEMAX c Maximum allowed UE output power signalled by higher layers for serving cell c PInterferer Modulated mean power of the interferer Plargest BW Power of the largest transmission bandwidth configuration of the component carriers in the bandwidth combination PPowerClass The nominal UE power ie no tolerance PmaxcAC",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_23",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 23,
+    "text": "Maximum output power defined as the sum of measurement of all antenna connectors PmaxcTABC Maximum carrier output power defined as the sum of measurement of all TAB connectors PratedcAC Rated maximum output power defined as the sum of power over all antenna connectors PratedcTABC Rated maximum output power defined as the sum of power over all TAB connectors P-MPRc Power Management Maximum Power Reduction for serving cell c PRB The transmitted power per allocated RB measured in dBm PREFSENS_SL",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_24",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 24,
+    "text": "The REFSENS power for Sidelink PUMAX The measured configured maximum UE output power Puw Power of an unwanted DL signal Pw Power of a wanted DL signal RBstart The lowest RB index of transmitted resource blocks RBstart_CA The lowest RB index of transmitted resource blocks for intra-band contiguous CA SCSc SCS for the component carrier c expressed in kHz SCSlargest BW SCS for the largest transmission bandwidth configuration of the component carriers in the bandwidth combination expressed in kHz SCSlow SCS for the lowest assigned component carrier in clause 53A1 expressed in kHz SCShigh SCS for the highest assigned component carrier in clause 53A1 expressed in kHz tp Transient Period value signalled by the UE tpstart Start position of transient period relative to the symbol boundary TPCMAX f c",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_25",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 25,
+    "text": "Tolerance for applicable values of PCMAX f c for configured maximum UE output power for carrier f of serving cell c TLc Absolute value of the lower tolerance for the applicable operating band as specified in clause 621 SSREF SS block reference frequency position UTRAACLR UTRA ACLR 33 Abbreviations For the purposes of the present document the abbreviations given in 3GPP TR 21905 1 and the following apply An abbreviation defined in the present document takes precedence over the definition of the same abbreviation if any in 3GPP TR 21905 1 ACLR Adjacent Channel Leakage Ratio ACS Adjacent Channel Selectivity A-MPR Additional Maximum Power Reduction ATG Air-To-Ground BS Base Station BW Bandwidth BWP Bandwidth Part CA Carrier Aggregation CA_nX-nY Inter-band CA of component carriers in one sub-block within Band nX and component carriers in one sub-block within Band nY where nX and nY are the applicable NR operating bands CC Component Carriers CG Carrier Group CP-OFDM Cyclic Prefix-OFDM CW Continuous Wave DC Dual Connectivity DFT-s-OFDM Discrete Fourier Transform-spread-OFDM DM-RS Demodulation Reference Signal DTX Discontinuous Transmission E-UTRA Evolved UTRA EIRP Equivalent Isotropically Radiated Power eRedCap Redcap or eRedCap eRedCap enhanced Reduced Capability EVM Error Vector Magnitude FR Frequency Range FRC Fixed Reference Channel FRMCS Future Railway Mobile Communication System FWA Fixed Wireless Access GSCN Global Synchronization Channel Number HD Half Duplex IBB",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_26",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 26,
+    "text": "In-band Blocking IDFT Inverse Discrete Fourier Transformation ITS Intelligent Transportation System ITU-R Radiocommunication Sector of the International Telecommunication Union MBW Measurement bandwidth MCG Master Cell Group MOP Maximum Output Power MPR Allowed maximum power reduction MSD Maximum Sensitivity Degradation NR New Radio NR-ARFCN NR Absolute Radio Frequency Channel Number NS Network Signalling OCNG OFDMA Channel Noise Generator OOB Out-of-band P-MPR Power Management Maximum Power Reduction PRB Physical Resource Block PS Public Safety PSBCH Physical Sidelink Broadcast CHannel PSCCH Physical Sidelink Control CHannel PSFCH Physical Sidelink Feedback CHannel PSSCH Physical Sidelink Shared CHannel QAM Quadrature Amplitude Modulation RE Resource Element REFSENS Reference Sensitivity RedCap Reduced Capability RF Radio Frequency RMR Railway Mobile Radio RMS Root Mean Square value RSRP Reference Signal Receiving PowerRx",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_27",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 27,
+    "text": "Receiver Rx Receiver SC Single Carrier SCG Secondary Cell Group SCS Subcarrier spacing SDL Supplementary Downlink SEM Spectrum Emission Mask SL Sidelink SL-MIMO Sidelink-Multiple Antenna transmission SL-U Sidelink at unlicensed band SNR Signal-to-Noise Ratio SRS Sounding Reference Symbol SS Synchronization Symbol S-SSB Sidelink Synchronization Signal Block SUL Supplementary uplink TAB Transceiver Array Boundary TAE Time Alignment Error TAG Timing Advance Group",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_28",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 28,
+    "text": "Tx Transmitter TxD Tx Diversity UAS Uncrewed Aircraft Systems UAV Uncrewed Aerial Vehicle UL MIMO Uplink Multiple Antenna transmission ULFPTx Uplink Full Power Transmission USS UAS Service Supplier V2X Vehicle to Everything XR eXtended Reality 4 General 41 Relationship between minimum requirements and test requirements The present document is a Single-RAT specification for NR UE covering RF characteristics and minimum performance requirements Conformance to the present specification is demonstrated by fulfilling the test requirements specified in the conformance specification 3GPP TS 38521-1 4 The Minimum Requirements given in this specification make no allowance for measurement uncertainty The test specification TS 38521-1 4 defines test tolerances These test tolerances are individually calculated for each test The test tolerances are used to relax the minimum requirements in this specification to create test requirements For some requirements including regulatory requirements the test tolerance is set to zero",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_29",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 29,
+    "text": "The measurement results returned by the test system are compared - without any modification - against the test requirements as defined by the shared risk principle The shared risk principle is defined in Recommendation ITU-R M1545 5 42 Applicability of minimum requirements a In this specification the Minimum Requirements are specified as general requirements and additional requirements Where the Requirement is specified as a general requirement the requirement is mandated to be met in all scenarios b For specific scenarios for which an additional requirement is specified in addition to meeting the general requirement the UE is mandated to meet the additional requirements c The spurious emissions power requirements are for the long-term average of the power For the purpose of reducing measurement uncertainty it is acceptable to average the measured power over a period of time sufficient to reduce the uncertainty due to the statistical nature of the signal d",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_30",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 30,
+    "text": "All the requirements for intra-band contiguous and non-contiguous CA apply under the assumption of the same slot format indicated by TDD-UL-DL-ConfigurationCommon and TDD-UL-DL-ConfigurationDedicated in the PCell and SCells for NR SA e The requirements for Tx diversity are applied for UE which indicates Tx diversity capability by IE txDiversity-r16 txDiversity2Tx-r18 or txDiversity4Tx-r18 2Tx requirements for TxD should be applied to UE indicating txDiversity-r16 or txDiversity2Tx-r18 and 4Tx requirements should be applied to UE indicating txDiversity4Tx-r18 f All the requirements for intra-band contiguous SL CA apply under the assumption of the same subcarrier spacing for SL CA 43 Specification suffix information Unless stated otherwise the suffixes shown in Table 43-1 are used for indicating at 2nd level clause For shared spectrum channel access suffixes A B",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_31",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 31,
+    "text": "and D are used for indicating at 3rd level clause For V2X suffixes A and F are used for indicating at 3rd level clause Table 43-1 Definition of suffixes A terminal which supports the above features needs to meet both the general requirements and the additional requirement applicable to the additional clause suffixes A to L in clauses 5 6 and 7 Where there is a difference in requirement between the general requirements and the additional clause requirements suffixes A to L in clauses 5 6 and 7 the tighter requirements are applicable unless stated otherwise in the additional clause A terminal which supports advanced V2X services public safety services and other commercial use cases related to NR sidelink operation shall meet all of the separate corresponding requirements in suffix E For a terminal that supports SUL for the band combination specified in Table 52C-1",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_32",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 32,
+    "text": "the current version of the specification assumes the terminal is configured with active transmission either on UL carrier or SUL carrier at any time in one serving cell and the UE requirements for single carrier shall apply for the active UL or SUL carrier accordingly For a terminal that supports public safety service using sidelink the minimum requirements are applicable when -",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_33",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 33,
+    "text": "The UE is associated with a serving cell on PS carrier or - The UE is not associated with a serving cell on the PS carrier and is provisioned with the preconfigured radio parameters for PS that are associated with known Geographical Area or - The UE is associated with a serving cell on a carrier different than the PS carrier and the radio parameters for PS that are provided by the serving cell or - The UE is associated with a serving cell on a carrier different than the PS carrier and has a non-serving cell selected on the PS carrier with the preconfigured radio parameters When the advanced-V2X or PS UE is not associated with a serving cell on the V2X or PS carrier and the UE does not have knowledge of its geographical area or is provisioned with preconfigured radio parameters that are not associated with any Geographical Area V2X or PS UE transmissions are not allowed and the requirements in Section 63E2 apply For a terminal that supports operation in shared spectrum the current version of this specification assumes in the uplink sub-bands within a wideband channel shall be contiguously allocated to the UE",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_34",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 34,
+    "text": "The uplink requirements for one or more non-transmitted sub-bands between two transmitted sub-bands does not form a part of the current version of this specification Terminal that supports inter-band NR-DC configuration shall meet the minimum requirements for corresponding CA configuration suffix A unless otherwise specified For a terminal that supports inter-band Carrier Aggregation CA with UL MIMO or Tx diversity operation the requirements are targeted for FWA form factor in current version of specification A terminal which supports intra-band contiguous UL CA with UL MIMO shall meet the corresponding requirements in suffix H with all UL CCs with UL MIMO A terminal which supports inter-band UL CA with UL MIMO shall meet the corresponding requirements in suffix H with all UL CCs with UL MIMO for the frequency bands said to be with UL MIMO 5 Operating bands and channel arrangement 51 General",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_35",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 35,
+    "text": "The channel arrangements presented in this clause are based on the operating bands and channel bandwidths defined in the present release of specifications NOTE Other operating bands and channel bandwidths may be considered in future releases Requirements throughout the RF specifications are in many cases defined separately for different frequency ranges FR The frequency ranges in which NR can operate according to this version of the specification are identified as described in Table 51-1",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_36",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 36,
+    "text": "Whenever the FR2 is referred both FR2-1 and FR2-2 frequency sub-ranges shall be considered unless otherwise stated Table 51-1 Definition of frequency ranges The present specification covers FR1 operating bands 52 Operating bands NR is designed to operate in the FR1 operating bands defined in Table 52-1 Table 52-1 NR operating bands in FR1 52A Operating bands for CA 52A0 General CA operating bands including Band n90 are defined by the corresponding CA operating bands including Band n41 with Band n90 replacing Band n41 For brevity",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_37",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 37,
+    "text": "the said CA operating bands including Band n90 are not listed in the tables below but are covered by this specification 52A1 Intra-band CA NR intra-band carrier aggregation is designed to operate in the operating bands defined in Table 52A1-1 and Table 52A1-2 where all operating bands are within FR1 Table 52A1-1 Intra-band contiguous CA operating bands in FR1 Table 52A1-2 Intra-band non-contiguous CA operating bands in FR1 52A2 Inter-band CA NR inter-band carrier aggregation is designed to operate in the operating bands defined in Table 52A21-1 Table 52A22-1 Table 52A23-1 Table 52A24-1 and Table 52A25-1 where all operating bands are within FR1 If the mandatory simultaneous RxTx capability applies for a lower order band combination when the applicable lower order band combination is a band pair in a higher order band combination the mandatory simultaneous RxTx capability also applies for the band pair in the higher order band combination Table 52A2-1 Void Table 52A2-2 Void Table 52A2-3 Void 52A21",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_38",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 38,
+    "text": "Inter-band CA two bands Table 52A21-1 Inter-band CA operating bands involving FR1 two bands 52A22 Inter-band CA three bands Table 52A22-1 Inter-band CA operating bands involving FR1 three bands 52A23 Inter-band CA four bands Table 52A23-1 Inter-band CA operating bands involving FR1 four bands 52A24 Inter-band CA five bands Table 52A24-1 Inter-band CA operating bands involving FR1 five bands 52A25 Inter-band CA six bands Table 52A25-1 Inter-band CA operating bands involving FR1 six bands 52B Operating bands for DC",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_39",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 39,
+    "text": "The operating bands are specified in clause 55B for operation with NR dual connectivity configured where all operating bands are within FR1 If the mandatory simultaneous RxTx capability applies for a band combination the mandatory simultaneous RxTx capability also applies for the band combination when the applicable band combination is a subset of a higher order band combination 52C Operating band combination for SUL NR operation is designed to operate in the operating band combination defined in Table 52C-1 Table 52C-2 Table 52C-3 and Table 52C-4 where all operating bands are within FR1 If the mandatory simultaneous RxTx capability applies for a band combination when the applicable lower order band combination is a band pair in a higher order band combination the mandatory simultaneous RxTx capability also applies for the band pair in the higher order band combination Table 52C-1 Operating band combination for SUL in FR1 Table 52C-2",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_40",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 40,
+    "text": "Operating SUL band combination with intra-band non-contiguous CA in FR1 Table 52C-3 Operating SUL band combination with intra-band contiguous CA in FR1 Table 52C-4",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_41",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 41,
+    "text": "Operating SUL band combination with inter-band CA in FR1 52D Operating bands for UL MIMO NR is designed to support UL MIMO where all of the operating bands are in FR1 defined in Table 52D-1 Table 52D-1 NR operating bands for UL MIMO in FR1 52E Operating band for V2X 52E1 V2X operating bands NR V2X is designed to operate in the operating bands in FR1 defined in Table 52E1-1 Table 52E1-1 V2X operating bands in FR1 52E1A Sidelink CA operating bands For NR sidelink intra-band CA operation is designed to operate in the operating bands in FR1 defined in Table 52E1A-1 Table 52E1A-1 Intra-band contiguous SL CA operating bands in FR1 52E1F Operating bands for Sidelink Unlicensed NR Sidelink is designed to operate in the unlicensed operating bands in FR1 defined in Table 52E1F-1 Table 52E1F-1 NR SL-U operating bands in FR1 52E2 V2X operating bands for concurrent operation NR V2X operation is designed to operate concurrent with NR uplinkdownlink on the operating bands combinations listed in Table 52E2-1 and Table 52E2-2 Table 52E2-1 Inter-band concurrent V2X operating bands Table 52E2-2 Intra-band concurrent V2X operating bands 52E2F",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_42",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 42,
+    "text": "Operating bands for SL-U concurrent operation For NR SL-U inter-band concurrent operation NR sidelink in the unlicensed operating band is designed to operate concurrently with NR uplinkdownlink on the operating band combinations are listed in Table 52E2F-1 Table 52E2F-1 SL-U Inter-band concurrent operating bands 52J Operating band for ATG NR operating bands n1 n3 n34 n39 n41 n78 n79 which are defined in Table 52-1 can be applied for ATG operation 52K Operating bands for Aerial UE Aerial UE is designed to operate in NR operating bands as defined in Table 52-1 following applicable spectrum regulations eg ECC Decision 2207 17 for CEPT countries 53 UE channel bandwidth 531 General The UE channel bandwidth supports a single NR RF carrier in the uplink or downlink at the UE From a BS perspective different UE channel bandwidths may be supported within the same spectrum for transmitting to and receiving from UEs connected to the BS Transmission of multiple carriers to the same UE CA or multiple carriers to different UEs within the BS channel bandwidth can be supported From a UE perspective the UE is configured with one or more BWP carriers each with its own UE channel bandwidth The UE does not need to be aware of the BS channel bandwidth or how the BS allocates bandwidth to different UEs",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_43",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 43,
+    "text": "The placement of the UE channel bandwidth for each UE carrier is flexible but can only be completely within the BS channel bandwidth The relationship between the channel bandwidth the guardband and the maximum transmission bandwidth configuration is shown in Figure 531-1 3MHz channel bandwidth is only applicable for single-carrier operation in the current release Figure 531-1 Definition of the channel bandwidth and the maximum transmission bandwidth configuration for one NR channel 532 Maximum transmission bandwidth configuration The maximum transmission bandwidth configuration NRB for each UE channel bandwidth and subcarrier spacing is specified in Table 532-1 Table 532-1 Maximum transmission bandwidth configuration NRB 533 Minimum guardband and transmission bandwidth configuration The minimum guardband for each UE channel bandwidth and SCS is specified in Table 533-1 Table 533-1 Minimum guardband for each UE channel bandwidth and SCS kHz NOTE",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_44",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 44,
+    "text": "The minimum guardbands have been calculated using the following equation GBChannel BWChannel x 1000 kHz - NRB x SCS x 12 2 - SCS2 where NRB are from Table 532-1 and GBChannel expressed in kHz",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_45",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 45,
+    "text": "Figure 533-1 Void The number of RBs configured in any channel bandwidth shall ensure that the minimum guardband specified in this clause is met Figure 533-2 UE PRB utilization In the case that multiple numerologies are multiplexed in the same symbol due to BS transmission of SSB the minimum guardband on each side of the carrier is the guardband applied at the configured channel bandwidth for the numerology that is received immediately adjacent to the guard If multiple numerologies are multiplexed in the same symbol and the UE channel bandwidth is 50 MHz the minimum guardband applied adjacent to 15 kHz SCS shall be the same as the minimum guardband defined for 30 kHz SCS for the same UE channel bandwidth Figure 533-3 Guard band definition when transmitting multiple numerologies NOTE Figure 533-3 is not intended to imply the size of any guard between the two numerologies Inter-numerology guard band within the carrier is implementation dependent For a UE supporting wideband operation the nominal intra-cell guard bands and the corresponding sizes of the RB sets separated by the said guard bands are as specified in Table 533-2 for each UE channel bandwidth and sub-carrier spacing for the downlink uplink and sidelink The nominal intra-cell guard bands in Table 533-2 are applicable when the respective IE intraCellGuardBandsUL-List intraCellGuardBandsDL-List 7 and intraCellGuardBandsSL-List for the uplink downlink and sidelink are not provided as specified in 10 clause 7 Table 533-2 Nominal intra-cell guard bands for wideband operation For a UE that supports shared spectrum channel access there are no uplink downlink or sidelink intra-cell guard bands for operation with 10 MHz and 20 MHz channel bandwidths the maximum transmission bandwidth configurations for these channel bandwidths are in accordance with clause 532",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_46",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 46,
+    "text": "For each UE channel bandwidth and sub-carrier spacing given by Table 533-2 the maximum transmission bandwidth configuration of the carrier including intra-cell guard bands if configured for the uplink downlink and sidelink by the respective IE intraCellGuardBandsUL-List intraCellGuardBandsDL-List 7 and intraCellGuardBandsSL-List and corresponding RB-sets shall be in accordance with clause 532 with a minimum inter-cell guard band of the UE channel bandwidth as specified in Table 533-1 for the uplink downlink and sidelink Minimum requirements specified for wideband operation in Clause 6 and Clause 7 also apply for intra-cell guard bands larger than the nominal sizes in Table 533-2 as listed in Table 533-3 for each sub-carrier spacing each guard band in order of CRB index must be larger than or equal to the corresponding nominal guard band specified in Table 533-2 for each channel bandwidth Table 533-3 Applicable intra-cell guard bands for wideband operation If the UE is configured with zero width intra-cell guard bands for the uplink downlink and sidelink by the IE intraCellGuardBandsUL-List intraCellGuardBandsDL-List 7 and intraCellGuardBandsSL-List on a carrier greater than 20 MHz the maximum transmission bandwidth configuration for the uplink downlink and sidelink shall be in accordance with clause 532 with a minimum inter-cell guard band of the UE channel bandwidth as specified in Table 533-1 534 RB alignment For each numerology its common resource blocks are specified in Clause 4443 in TS 38211 6 and the starting point of its transmission bandwidth configuration on the common resource block grid for a given channel bandwidth is indicated by an offset to Reference point A in the unit of the numerology",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_47",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 47,
+    "text": "The UE transmission bandwidth configuration is indicated by the higher layer parameter carrierBandwidth 7 and will fulfil the minimum UE guardband requirement specified in Clause 533 535 UE channel bandwidth per operating band The requirements in this specification apply to the combination of channel bandwidths SCS and operating bands shown in Table 535-1 The transmission bandwidth configuration in Table 532-1 shall be supported for each of the specified channel bandwidths The channel bandwidths are specified for both the TX and RX path Table 535-1 Channel bandwidths for each NR band 536 Asymmetric channel bandwidths The UE channel bandwidth can be asymmetric in downlink and uplink In asymmetric channel bandwidth operation the narrower carrier shall be confined within the frequency range of the wider channel bandwidth In FDD the confinement is defined as a maximum deviation to the Tx-Rx carrier center frequency separation defined in Table 544-1 as following ΔFTX-RX BWDL BWUL2",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_48",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 48,
+    "text": "The operating bands and supported asymmetric channel bandwidth combinations are defined in Table 536-1 Table 536-1 FDD asymmetric UL and DL channel bandwidth combinations In TDD the operating bands and supported asymmetric channel bandwidth combinations are defined in Table 536-2 Table 536-2 TDD asymmetric UL and DL channel bandwidth combinations 53A UE channel bandwidth for CA 53A1 General Figure 53A1-1 Void Figure 53A1-2 Void 53A2 Maximum transmission bandwidth configuration for CA For carrier aggregation the maximum transmission bandwidth configuration is defined per component carrier and the requirement is specified in clause 532 53A3 Minimum guardband and transmission bandwidth configuration for CA For intra-band contiguous carrier aggregation Aggregated Channel Bandwidth and Guard Bands are defined as follows see Figure 53A3-1 Figure 53A3-1 Definition of Aggregated Channel Bandwidth for intra-band carrier aggregation The aggregated channel bandwidth BWChannel_CA is defined as BWChannel_CA Fedgehigh - Fedgelow MHz",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_49",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 49,
+    "text": "The lower bandwidth edge Fedge low and the upper bandwidth edge Fedgehigh of the aggregated channel bandwidth are used as frequency reference points for transmitter and receiver requirements and are defined by Fedgelow FClow - Foffsetlow Fedgehigh FChigh Foffsethigh The lower and upper frequency offsets depend on the transmission bandwidth configurations of the lowest and highest assigned edge component carrier and are defined as Foffsetlow NRBlow12 1SCSlow2 BWGB MHz Foffsethigh NRBhigh12 - 1SCShigh2 BWGB MHz BWGB maxGBChannellow GBChannelhigh NRBlow and NRBhigh are the transmission bandwidth configurations according to Table 532-1 for the lowest and highest assigned component carrier SCSlow and SCShigh are the sub-carrier spacing for the lowest and highest assigned component carrier respectively SCSlow SCShigh NRBlow NRBhigh GBChannellow and GBChannelhigh use the largest μ value among the subcarrier spacing configurations supported in the operating band for both of the channel bandwidths according to Table 535-1 GBChannellow and GBChannelhigh are the minimum guard band for the lowest and highest assigned component carrier according to Table 533-1 for the said μ value respectively",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_50",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 50,
+    "text": "In case there is no common μ value for both of the channel bandwidths μ1 is used for SCSlow SCShigh NRBlow NRBhigh GBChannellow and GBChannelhigh For intra-band non-contiguous carrier aggregation Sub-block Bandwidth and Sub-block edges are defined as follows see Figure 53A3-2 Figure 53A3-2 Definition of sub-block bandwidth for intra-band non-contiguous spectrum The lower sub-block edge of the Sub-block Bandwidth BWChannelblock is defined as Fedgeblock low FCblocklow - Foffset low The upper sub-block edge of the Sub-block Bandwidth is defined as Fedgeblockhigh FCblockhigh Foffsethigh The Sub-block Bandwidth BWChannelblock is defined as follows BWChannelblock Fedgeblockhigh - Fedgeblocklow MHz The lower and upper frequency offsets Foffsetblocklow and Foffsetblockhigh depend on the transmission bandwidth configurations of the lowest and highest assigned edge component carriers within a sub-block and are defined as Foffsetblocklow NRBlow12 1SCSlow2 BWGB MHz Foffsetblockhigh NRBhigh12 - 1SCShigh2 BWGBMHz BWGB maxGBChannellow GBChannelhigh where NRBlow and NRBhigh are the transmission bandwidth configurations according to Table 532-1 for the lowest and highest assigned component carrier within a sub-block respectively SCSlow and SCShigh are the sub-carrier spacing for the lowest and highest assigned component carrier within a sub-block respectively SCSlow SCShigh NRBlow NRBhigh GBChannellow and GBChannelhigh use the largest μ value among the subcarrier spacing configurations supported in the operating band for both of the channel bandwidths according to Table 535-1 GBChannellow and GBChannelhigh are the minimum guard band for the lowest and highest assigned component carrier according to Table 533-1 for the said μ value respectively",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_51",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 51,
+    "text": "In case there is no common μ value for both of the channel bandwidths μ1 is used for SCSlow SCShigh NRBlow NRBhigh GBChannellow and GBChannelhigh The sub-block gap size between two consecutive sub-blocks Wgap is defined as Wgap Fedgeblock n1low - Fedgeblock nhigh MHz 53A4 Void 53A5 UE channel bandwidth per operating band for CA The requirements for carrier aggregation in this specification are defined for carrier aggregation configurations For intra-band contiguous carrier aggregation a carrier aggregation configuration is a single operating band supporting a carrier aggregation bandwidth class with associated bandwidth combination sets specified in clause 55A1",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_52",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 52,
+    "text": "For each carrier aggregation configuration requirements are specified for all aggregated channel bandwidths contained in a bandwidth combination set a UE can indicate support of several bandwidth combination sets per carrier aggregation configuration For intra-band non-contiguous carrier aggregation a carrier aggregation configuration is a single operating band supporting two or more sub-blocks each supporting a carrier aggregation bandwidth class For intra-band non-contiguous uplink carrier aggregation frequency separation class Fs specified in Table 53A5-2 indicates the maximum frequency span between lower edge of lowest component carrier and upper edge of highest component carrier that UE can support per band combination in uplink in non-contiguous intra-band operation when the signalling is absent for dualPA-Architecture IE For inter-band carrier aggregation a carrier aggregation configuration is a combination of operating bands each supporting a carrier aggregation bandwidth class Table 53A5-1 NR CA bandwidth classes Table 53A5-2 NR intra-band non-contiguous UL CA frequency separation classes 53E",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_53",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 53,
+    "text": "Channel bandwidth for V2X 53E1 General NR V2X operation channel bandwidths for each operating band are specified in Table 53E1-1 The same symmetrical channel bandwidth is specified for both the transmission and reception path The maximum channel bandwidth for SL operation in licensed band is 40MHz Table 53E1-1 NR V2X operation channel bandwidths for each operating band 53E1A Channel bandwidth for Sidelink CA For sidelink intra-band contiguous carrier aggregation a carrier aggregation configuration is a single ITS operating band supporting a carrier aggregation bandwidth class with associated bandwidth combination sets specified in clause 55E1A1",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_54",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 54,
+    "text": "The sidelink intra-band carrier aggregation bandwidth class follows Table 53A5-1 For each carrier aggregation configuration requirements are specified for all aggregated channel bandwidths contained in a bandwidth combination set 53E1F Channel bandwidth for Sidelink Unlicensed NR SL-U Channel bandwidths for each band are specified in Table 53E1F-1 The same symmetrical channel bandwidth is specified for both the transmission and reception path Table 53E1F-1 NR SL-U channel bandwidth 53E2 Channel bandwidth for V2X concurrent operation For NR V2X inter-band concurrent operation in FR1 the NR V2X channel bandwidths for each operating band are specified in Table 53E2-1 Table 53E2-1 Inter-band concurrent operation configurations For NR V2X intra-band concurrent operation in FR1 the NR V2X channel bandwidths for each operating band are specified in Table 53E2-2 Table 53E2-2 Intra-band concurrent operation configurations 53E2F",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_55",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 55,
+    "text": "Channel bandwidth for SL-U concurrent operation For NR SL-U inter-band concurrent operation the SL-U Channel bandwidths for each operating band are specified in Table 53E2F-1 Table 53E2F-1 NR SL-U inter-band concurrent operating configurations 53I Channel bandwidth for eRedCap The requirements in this specification apply to the combination of channel bandwidths SCS and operating bands shown in Table 535-1 with maximum channel bandwidth of 20MHz The transmission bandwidth configuration in Table 532-1 shall be supported for each of the specified channel bandwidths up to 20 MHz When UE supports IE supportOfERedCap-r18 and does not support IE eRedCapNotReducedBB-BW-r18 the requirements in this specification apply with maximum transmission bandwidth of 25RBs for 15 kHz SCS and 12 RBs for 30 kHz SCS for PDSCH and PUSCH",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_56",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 56,
+    "text": "The channel bandwidths are specified for both the TX and RX paths 3MHz channel bandwidth is not applicable for eRedCap UE in the current release 54 Channel arrangement 541 Channel spacing 5411 Channel spacing for adjacent NR carriers The spacing between carriers will depend on the deployment scenario the size of the frequency block available and the channel bandwidths The nominal channel spacing between two adjacent NR carriers is defined as following - For NR operating bands with 100 kHz or 10 kHz channel raster Nominal Channel spacing BWChannel1 BWChannel22 -",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_57",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 57,
+    "text": "For NR operating bands with 15 kHz channel raster Nominal Channel spacing BWChannel1 BWChannel22-5 kHz 0 kHz 5 kHz for FRaster equals 15 kHz Nominal Channel spacing BWChannel1 BWChannel22-10 kHz 0 kHz 10 kHz for FRaster equals 30 kHz where BWChannel1 and BWChannel2 are the channel bandwidths of the two respective NR carriers The channel spacing can be adjusted depending on the channel raster to optimize performance in a particular deployment scenario For NR bands restricted to operation with shared-spectrum channel access the maximum deviation from the nominal channel spacing is 40 kHz 542 Channel raster 5421 NR-ARFCN and channel raster The global frequency channel raster defines a set of RF reference frequencies FREF The RF reference frequency is used in signalling to identify the position of RF channels SS blocks and other elements The global frequency raster is defined for all frequencies from 0 to 100 GHz The granularity of the global frequency raster is ΔFGlobal RF reference frequencies are designated by an NR Absolute Radio Frequency Channel Number NR-ARFCN in the range 02016666 on the global frequency raster The relation between the NR-ARFCN and the RF reference frequency FREF in MHz is given by the following equation where FREF-Offs and NRef-Offs are given in Table 5421-1 and NREF is the NR-ARFCN FREF FREF-Offs ΔFGlobal NREF NREF-Offs Table 5421-1 NR-ARFCN parameters for the global frequency raster The channel raster defines a subset of RF reference frequencies that can be used to identify the RF channel position in the uplink and downlink The RF reference frequency for an RF channel maps to a resource element on the carrier For each operating band a subset of frequencies from the global frequency raster are applicable for that band and forms a channel raster with a granularity ΔFRaster which may be equal to or larger than ΔFGlobal For SUL bands except n95 n97 n98 and for the uplink of all FDD bands defined in Table 52-1 and for TDD bands n34 n39 n48 n90 n38 and n40 FREF shift FREF Δshift Δshift 0 kHz or 75 kHz where Δshift is signalled by the network in higher layer parameter frequencyShift7p5khz 7",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_58",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 58,
+    "text": "For Band n34 n38 n39 n40 n48 FREF shift is only applicable to uplink transmissions using a 15 kHz SCS The mapping between the channel raster and corresponding resource element is given in Clause 5422 The applicable entries for each operating band are defined in Clause 5423 5422 Channel raster to resource element mapping The mapping between the RF reference frequency on the channel raster and the corresponding resource element is given in Table 5422-1 and can be used to identify the RF channel position The mapping depends on the total number of RBs that are allocated in the channel and applies to both UL and DL",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_59",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 59,
+    "text": "The mapping must apply to at least one numerology supported by the UE Table 5422-1 Channel raster to resource element mapping NRB is the maximum transmission bandwidth configuration specified in sub-clause 532 is the PRB index within the NRB and is the resource element index within this PRB 5423 Channel raster entries for each operating band The RF channel positions on the channel raster in each NR operating band are given through the applicable NR-ARFCN in Table 5423-1 using the channel raster to resource element mapping in clause 5422 For NR operating bands with 100 kHz channel raster ΔFRaster 20 ΔFGlobal In this case every 20th NR-ARFCN within the operating band are applicable for the channel raster within the operating band and the step size for the channel raster in Table 5423-1 is given as 20 For NR operating bands with 15 kHz channel raster below 3GHz ΔFRaster",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_60",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 60,
+    "text": "I ΔFGlobal where I ϵ 36 Every Ith NR-ARFCN within the operating band are applicable for the channel raster within the operating band and the step size for the channel raster in Table 5423-1 is given as I For NR operating bands with 15 kHz channel raster above 3GHz ΔFRaster I ΔFGlobal where I ϵ 12 Every Ith NR-ARFCN within the operating band are applicable for the channel raster within the operating band and the step size for the channel raster in Table 5423-1 is given as I In frequency bands with two or more ΔFRaster the higher ΔFRaster For 15 kHz and 30 kHz channel raster applies to channels using only the SCS that is equal to or larger than the higher ΔFRaster and SSB SCS is equal to the higher FRaster Table 5423-1 Applicable NR-ARFCN per operating band Table 5423-2 Allowed NREF NR-ARFCN for operation in Band n46 Table 5423-3 Allowed NREF NR-ARFCN for operation in Band n96 Table 5423-4 Allowed NREF NR-ARFCN for operation in Band n102 For NR operating bands with 100 kHz channel raster Enhanced channel raster is defined with ΔFRaster 2 ΔFGlobal",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_61",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 61,
+    "text": "In this case every 2th NR-ARFCN within the operating band are applicable for the channel raster within the operating band and the step size for the channel raster in Table 5423-5 is given as 2 Table 5423-5 Applicable NR-ARFCN per operating band for enhanced channel raster 543 Synchronization raster 5431 Synchronization raster and numbering The synchronization raster indicates the frequency positions of the synchronization block that can be used by the UE for system acquisition when explicit signalling of the synchronization block position is not present A global synchronization raster is defined for all frequencies The frequency position of the SS block is defined as SSREF with corresponding number GSCN",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_62",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 62,
+    "text": "The parameters defining the SSREF and GSCN for all the frequency ranges are in Table 5431-1 for above 3 MHz channel bandwidth and in Table 5431-2 for 3 MHz channel bandwidth For band n100 additional parameters defining the SSREF and GSCN are specified in Table 5431-3 The resource element corresponding to the SS block reference frequency SSREF is given in clause 5432",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_63",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 63,
+    "text": "The synchronization raster and the subcarrier spacing of the synchronization block is defined separately for each band The synchronization raster and the corresponding SS block do not cover all possible RF channel bandwidths and locations on Enhanced channel raster Table 5431-1 GSCN parameters for the global frequency raster for above 3 MHz channel bandwidth Table 5431-2 GSCN parameters for the global frequency for 3 MHz channel bandwidth Table 5431-3 Additional GSCN parameters for band n100 5432 Synchronization raster to synchronization block resource element mapping The mapping between the synchronization raster and the corresponding resource element of the SS block is given in Table 5432-1 Table 5432-1 Synchronization raster to SS block resource element mapping is the subcarrier number of SSPBCH block defined in TS 38211 clause 7431 6 5433 Synchronization raster entries for each operating band The synchronization raster for above 3 MHz channel bandwidth for each band is give in Table 5433-1 The distance between applicable GSCN entries is given by the Step size indicated in Table 5433-1 Table 5433-1 Applicable SS raster entries per operating band for above 3 MHz channel bandwidth The synchronization raster for channel bandwidth 3 MHz for each band is given in Table 5433-2 The distance between applicable GSCN entries is given by the Step size indicated in Table 5433-2 Table 5433-2 Applicable SS raster entries per operating band for 3 MHz channel bandwidth 544 TXRX frequency separation The default TX channel carrier centre frequency to RX channel carrier centre frequency separation for operating bands is specified in Table 544-1 Table 544-1 UE TX-RX frequency separation 54A Channel arrangement for CA 54A1 Channel spacing for CA For intra-band contiguous carrier aggregation with two or more component carriers the nominal channel spacing between two adjacent NR component carriers is defined as the following unless stated otherwise For NR operating bands with a 100 kHz or 10 kHz channel raster while for NR operating bands without a 100 kHz channel raster with n µ0 where BWChannel1 and BWChannel2 are the channel bandwidths of the two respective NR component carriers according to Table 532-1 with values in MHz μ0 is the largest μ value among the subcarrier spacing configurations supported in the operating band for both of the channel bandwidths according to Table 535-1 and GBChanneli is the minimum guard band for channel bandwidth i according to Table 533-1 for the said μ value with μ as defined in TS 38211 In case there is no common μ value for both of the channel bandwidths μ01 is selected and GBChanneli is the minimum guard band for channel bandwidth i according to Table 533-1 for μ1 with μ as defined in TS 38211 The channel spacing for intra-band contiguous carrier aggregation can be adjusted to any multiple of least common multiple of channel raster and sub-carrier spacing less than the nominal channel spacing to optimize performance in a particular deployment scenario For intra-band contiguous carrier aggregation in NR bands restricted to operation with shared-spectrum channel access the maximum deviation from the nominal channel spacing is 300 kHz For intra-band non-contiguous carrier aggregation the channel spacing between two NR component carriers in different sub-blocks shall be larger than the nominal channel spacing defined in this clause 54A2 Channel raster for CA For inter-band and intra-band contiguous carrier aggregation the channel raster requirements in clause 542 apply for each operating band 54A3 Synchronization raster for CA For inter-band and intra-band contiguous carrier aggregation the synchronization raster requirements in clause 543 apply for each operating band 54A4 Tx-Rx frequency separation for CA For inter-band carrier aggregation the Tx-Rx frequency separation requirements in clause 544 apply for each operating band For intra-band contiguous carrier aggregation the same TX-RX frequency separation as specified in Table 544-1 is applied to PCC and SCC respectively 54B",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_64",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 64,
+    "text": "Reserved 54C Reserved 54D Reserved 54E Channel arrangement for V2X 54E1 Channel spacing For NR V2X the channel spacing requirements in clause 541 apply for each operating band 54E1A Channel spacing for Sidelink CA For NR sidelink CA operation the channel spacing requirements in clause 54A1 apply 54E1F Channel spacing for Sidelink Unlicensed For NR SL-U operation the channel spacing requirements in clause 541 apply for each operating band 54E2 Channel raster 54E21 NR-ARFCN and channel raster For NR V2X the NR-ARFCN and channel raster requirements in clause 5421 apply for each operating band For NR V2X UE the reference frequency can be shifted by configuration FREF_V2X FREF Δshift N 5 kHz where Δshift 0 kHz or 75 kHz indicated in IE frequencyShift7p5khz and N can be set as one of following values -1 0 1 which are signalled by the network in higher layer parameters or configured by pre-configuration parameters 54E21A Void 54E21F",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_65",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 65,
+    "text": "Void 54E22 Channel raster to resource element mapping For NR V2X the channel raster to resource element mapping requirements in clause 5422 apply for each operating band 54E22A Void 54E22F Void 54E23 Channel raster entries for each operating band For NR V2X the channel raster entries requirements in clause 5423 apply for each operating band The RF channel positions on the channel raster in each NR V2X operating band are given through the applicable NR-ARFCN in Table 5423-1 using the channel raster to resource element mapping in clause 5422 For NR V2X operating band n47 ΔFRaster I ΔFGlobal where I ϵ 1 Every Ith NR-ARFCN within the operating band are applicable for the channel raster within the operating band and the step size for the channel raster in Table 5423-1 is given as I 54E23A",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_66",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 66,
+    "text": "Void 54E23F Void 54E2A Channel raster for Sidelink CA 54E2A1 NR-ARFCN and channel raster for Sidelink CA For NR SL intra-band contiguous CA operation the NR-ARFCN and channel raster requirements in clause 54E21 apply for each component carrier 54E2A2 Channel raster to resource element mapping for Sidelink CA For NR SL intra-band contiguous CA operation the channel raster to resource element mapping requirements in clause 5422 apply for each component carrier 54E2A3 Channel raster entries for each operating band for Sidelink CA For NR SL intra-band contiguous CA operation the channel raster entries requirements in clause 54E23 apply for each component carrier 54E2F Channel raster for Sidelink Unlicensed 54E2F1 NR-ARFCN and channel raster for Sidelink Unlicensed For NR SL-U operation the general requirements in clause 542 are applied NR-ARFCN and channel raster requirements in clause 5421 are applied for NR SL-U with following exception - N5kHz75kHz frequency raster shift which can be used in NR V2X in band n47 is not defined for NR SL-U operation in bands n46 n96 n102 - Channel raster entries for each operating band requirements in clause 5423 are applied for NR SL-U with following exception Channel raster points for 10MHz CBW in band n46 as defined in Table 5423-2 are not applicable for NR SL-U 54E2F2 Channel raster to resource element mapping for",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_67",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 67,
+    "text": "Sidelink Unlicensed The mapping between the RF reference frequency on the channel raster and the corresponding resource element is given in Table 5422-1 and can be used to identify the RF channel position The mapping depends on the total number of RBs that are allocated in the channel and applies to both Tx and Rx for SL The mapping must apply to at least one numerology supported by the UE 54E2F3 Channel raster entries for Sidelink Unlicensed For NR SL-U operation the channel raster entries requirements in clause 5423 apply for each operating band 54E3 Synchronization raster for V2X There is no synchronization raster definition for NR V2X for both licensed bands and unlicensed bands 54E3A Synchronization raster for Sidelink CA There is no synchronization raster definition for NR SL CA operating bands 54E3F",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_68",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 68,
+    "text": "Synchronization raster for Sidelink Unlicensed There is no synchronization raster definition for NR SL-U operating bands n46 n96 n102 54I Channel arrangement for eRedCap 54I1 Channel spacing for eRedCap For eRedCap UEs the channel spacing requirements in clause 541 apply for each operating band 54I2 Channel raster for eRedCap 54I21 NR-ARFCN and channel raster For eRedCap UEs the NR-ARFCN and channel raster requirements in clause 5421 apply for each operating band 54I22 Channel raster to resource element mapping For eRedCap UEs the channel raster to resource element mapping requirements in clause 5422 apply for each operating band 54I23",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_69",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 69,
+    "text": "Channel raster entries for each operating band For eRedCap UEs the RF channel positions on the channel raster in each NR operating band are given through the applicable NR-ARFCN in Table 5423-1 and additional intermediary NR-ARFCN with a step size of 2 for operating bands that are included in Table 5423-1 with a step size of 20 using the channel raster to resource element mapping in clause 54I22",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s00-0504_chunk_70",
+    "document_id": "38101-1-i80_s00-0504",
+    "chunk_id": 70,
+    "text": "For NR operating bands included in Table 5423-1 with a step size of 20 the channel raster for eRedCap UEs is defined with ΔFRaster 2 ΔFGlobal In this case every 2nd NR-ARFCN within the operating band are applicable for the channel raster within the operating band and the step size for the channel raster is given as 2 every 10th of these channel raster entries coincides with entries defined in Table 5423-1 for this operating band 54I3 Synchronization raster for eRedCap For eRedCap UEs the synchronization raster requirements in clause 543 apply for each operating band The synchronization raster and the corresponding SS block do not cover all possible RF channel bandwidths and locations on the channel raster defined in sub-clause 54I2 54I4 Tx-Rx frequency separation for eRedCap For eRedCap UEs the Tx-Rx frequency separation requirements in clause 544 apply for each operating band",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s00-0504.docx"
+    }
+  }
+]

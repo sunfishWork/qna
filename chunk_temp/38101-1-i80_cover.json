@@ -1,0 +1,533 @@
+[
+  {
+    "id": "38101-1-i80_cover_chunk_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 1,
+    "text": "Contents Foreword 24 1 Scope 26 2 References 26 3 Definitions symbols and abbreviations 27 31 Definitions 27 32 Symbols 28 33 Abbreviations 31 4 General 32 41 Relationship between minimum requirements and test requirements 32 42 Applicability of minimum requirements 32 43 Specification suffix information 33 5 Operating bands and channel arrangement 34 51 General 34 52 Operating bands 34 52A Operating bands for CA 36 52A0 General 36 52A1 Intra-band CA 36 52A2 Inter-band CA 37 52A21 Inter-band CA two bands 38 52A22",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 2,
+    "text": "Inter-band CA three bands 42 52A23 Inter-band CA four bands 48 52A24 Inter-band CA five bands 51 52A25 Inter-band CA six bands 51 52B Operating bands for DC 51 52C Operating band combination for SUL 52 52D Operating bands for UL MIMO 54 52E Operating band for V2X 55 52E1 V2X operating bands 55 52E1A Sidelink CA operating bands 55 52E1F Operating bands for Sidelink Unlicensed 55 52E2 V2X operating bands for concurrent operation 56 52E2F Operating bands for SL-U concurrent operation 56 52J",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_3",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 3,
+    "text": "Operating band for ATG 56 52K Operating bands for Aerial UE 57 53 UE channel bandwidth 57 531 General 57 532 Maximum transmission bandwidth configuration 58 533 Minimum guardband and transmission bandwidth configuration 58 534 RB alignment 60 535 UE channel bandwidth per operating band 60 536 Asymmetric channel bandwidths 67 53A UE channel bandwidth for CA 68 53A1 General 68 53A2 Maximum transmission bandwidth configuration for CA 68 53A3 Minimum guardband and transmission bandwidth configuration for CA 68 53A4 Void 70 53A5 UE channel bandwidth per operating band for CA 70 53E Channel bandwidth for V2X 71 53E1 General 71 53E1A Channel bandwidth for Sidelink CA 71 53E1F Channel bandwidth for Sidelink Unlicensed 72 53E2 Channel bandwidth for V2X concurrent operation 73 53E2F Channel bandwidth for SL-U concurrent operation 74 53I",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_4",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 4,
+    "text": "Channel bandwidth for eRedCap 75 54 Channel arrangement 75 541 Channel spacing 75 5411 Channel spacing for adjacent NR carriers 75 542 Channel raster 75 5421 NR-ARFCN and channel raster 75 5422 Channel raster to resource element mapping 76 5423 Channel raster entries for each operating band 76 543 Synchronization raster 80 5431 Synchronization raster and numbering 80 5433 Synchronization raster entries for each operating band 81 544 TXRX frequency separation 83 54A Channel arrangement for CA 84 54A1 Channel spacing for CA 84 54A2 Channel raster for CA 85 54A3 Synchronization raster for CA 85 54A4 Tx-Rx frequency separation for CA 85 54B Reserved 85 54C Reserved 85 54D Reserved 85 54E Channel arrangement for V2X 85 54E1 Channel spacing 85 54E1A Channel spacing for Sidelink CA 85 54E1F Channel spacing for Sidelink Unlicensed 86 54E2 Channel raster 86 54E21",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_5",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 5,
+    "text": "NR-ARFCN and channel raster 86 54E21A Void 86 54E21F Void 86 54E22 Channel raster to resource element mapping 86 54E22A Void 86 54E22F Void 86 54E23 Channel raster entries for each operating band 86 54E23A Void 86 54E23F Void 86 54E3 Synchronization raster for V2X 87 54E3A Synchronization raster for Sidelink CA 87 54E3F Synchronization raster for Sidelink Unlicensed 87 54I Channel arrangement for eRedCap 87 54I1 Channel spacing for eRedCap 87 54I2 Channel raster for eRedCap 88 54I21 NR-ARFCN and channel raster 88 54I22 Channel raster to resource element mapping 88 54I23 Channel raster entries for each operating band 88 54I3 Synchronization raster for eRedCap 88 54I4 Tx-Rx frequency separation for eRedCap 88 55 Void 89 55A Configurations for CA 89 55A0 General 89",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_6",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 6,
+    "text": "55A1 Configurations for intra-band contiguous CA 90 55A2 Configurations for intra-band non-contiguous CA 93 55A3 Configurations for inter-band CA 98 55A30 General 98 55A31 Configurations for inter-band CA two bands 98 Table 55A31-1a Table 55A31-1e 98 Table 55A31-1f Table 55A31-1j 115 Table 55A31-1k Table 55A31-1n 133 55A32 Configurations for inter-band CA three bands 148 Table 55A32-1a 148 Table 55A32-1b 209 Table 55A32-1c 259 55A33 Configurations for inter-band CA four bands 281 Table 55A33-1a 282 Table 55A33-1b 334 55A34 Configurations for inter-band CA five bands 380 55A35 Configurations for inter-band CA six bands 403 55B Configurations for DC 405",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 7,
+    "text": "55C Configurations for SUL 419 55D Reserved 430 55E Void 430 55E1A Configurations for Sidelink CA 430 55E1A1 Configurations for Sidelink intra-band contiguous CA 430 6 Transmitter characteristics 431 61 General 431 61A General 431 61F General 431 61G Reserved 431 61H Reserved 431 61I Reserved 431 61J General 431 61K Reserved 432 61L Reserved 432 62 Transmitter power 432 621 UE maximum output power 432 621I Void 434 622 UE maximum output power reduction 434 623 UE additional maximum output power reduction 437 6231 General 437 6232 A-MPR for NS_04 441 6233 A-MPR for NS_10 445 6234 A-MPR for NS_05 and NS_05U 446 6235 A-MPR for NS_40 449 6236 A-MPR for NS_43 and NS_43U 450 6237 A-MPR for NS_03 and NS_03U 452 6238 A-MPR for NS_37 453 6239 A-MPR for NS_38 454 62310 A-MPR for NS_39 454 62311 A-MPR for NS_41 455 62312 A-MPR for NS_42 455 62313 A-MPR for NS_18 456 62314 A-MPR for NS_21 457 62315 A-MPR for NS_24 459 62316 A-MPR for NS_27 460 62317 A-MPR for NS_46 462 62318 A-MPR for NS_47 466 62319 A-MPR for NS_50 468 62320 A-MPR for NS_44 471 62321 A-MPR for NS_12 472 62322 A-MPR for NS_13 472 62323 A-MPR for NS_14 473 62324 A-MPR for NS_15 473 62325 A-MPR for NS_45 474 62326 A-MPR for NS_48 475 62327 A-MPR for NS_49 477 62328 A-MPR for NS_51 479 62329 A-MPR for NS_07 480 62330 A-MPR for NS_56 481 62331 A-MPR for NS_35 482 62332 A-MPR for NS_06 482 624 Configured transmitted power 483 62A",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_8",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 8,
+    "text": "Transmitter power for CA 488 62A0 General 488 62A1 UE maximum output power for CA 488 62A11 UE maximum output power for Intra-band contiguous CA 488 62A12 UE maximum output power for Intra-band non-contiguous CA 489 62A13 UE maximum output power for Inter-band CA 489 62A14 Void 495 62A15 Void 495 62A2 UE maximum output power reduction for CA 495 62A21 UE maximum output power reduction for Intra-band contiguous CA 495 62A22",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_9",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 9,
+    "text": "UE maximum output power reduction for Intra-band non-contiguous CA 498 62A220 General 498 62A221 MPR to meet -30dBmMHz 500 62A2211 PC3 with indicating dualPA-Architecture supported 500 62A2212 PC2 with indicating dualPA-Architecture supported 500 62A2213 PC3 without indicating dualPA-Architecture supported 500 62A2214 PC2 without indicating dualPA-Architecture supported 501 62A222 MPR to meet -13dBmMHz 501 62A2221 PC3 with indicating dualPA-Architecture supported 501 62A2222 PC2 with indicating dualPA-Architecture supported 502 62A2223 PC3 without indicating dualPA-Architecture supported 502 62A2224 PC2 without indicating dualPA-Architecture supported 502 62A23 UE maximum output power reduction for Inter-band CA 503 62A24 Void 503 62A3 UE additional maximum output power reduction for CA 503 62A31",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_10",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 10,
+    "text": "UE additional maximum output power reduction for Intra-band CA 503 62A311 UE additional maximum output power reduction for Intra-band contiguous CA 503 62A3111 A-MPR for CA_NS_04 504 62A31111 Contiguous allocations 504 62A31112 Non-contiguous allocations 505 62A312 UE additional maximum output power reduction for Intra-band non-contiguous CA 511 62A313 UE additional maximum output power reduction for Inter-band CA 514 62A4 Configured output power for CA 516 62A41",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_11",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 11,
+    "text": "Configured transmitted power level 516 62A411 Configured transmitted power for Intra-band contiguous CA 516 62A412 Configured transmitted power for Intra-band non-contiguous CA 519 62A413 Configured transmitted power for Inter-band CA 522 62A414 Void 526 62A42 ΔTIBc for CA 526 62A421 Void 526 62A422 Void 526 62A423 ΔTIBc for Inter-band CA two bands 526 62A424 ΔTIBc for Inter-band CA three bands 530 62A425 ΔTIBc for Inter-band CA four bands 537 62A426 ΔTIBc for Inter-band CA five bands 540 62A427 ΔTIBc for Inter-band CA six bands 540 62B Transmitter power for NR-DC 541 62B0 General 541 62B1 UE maximum output power for NR-DC 541 62B2 UE maximum output power reduction for NR-DC 542 62B3 UE additional maximum output power reduction for NR-DC 543 62B41 Configured transmitted power level for NR-DC 543 62B42 ΔTIBc for NR-DC 547 62C Transmitter power for SUL 547 62C1 Configured transmitted power for SUL 547 62C2 ΔTIBc 548 62D Transmitter power for UL MIMO 551",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_12",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 12,
+    "text": "62D1 UE maximum output power for UL MIMO 551 62D2 UE maximum output power reduction for UL MIMO 553 62D3 UE additional maximum output power reduction for UL MIMO 556 62D4 Configured transmitted power for UL MIMO 556 62E Transmitter power for V2X 557 62E1 UE maximum output power for V2X 557 62E11 General 557 62E11A Void 558 62E12 UE maximum output power for V2X concurrent operation 558 62E1A UE maximum output power for Sidelink CA 560 62E1F UE maximum output power for Sidelink Unlicensed 560 62E1F1 General 560 62E12F Void 561 62E1F2 UE Maximum output power for SL-U concurrent operation 561 62E2 UE maximum output power reduction for V2X 562 62E21 General 562 62E21A MPR for sidelink CA 562 62E22 MPR for Power class 2 and Power class 3 V2X UE 563 62E23 MPR for Power class 2 and Power class 3 V2X concurrent operation 565 62E24",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_13",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 13,
+    "text": "MPR for Power class 1 UE in Band n14 568 62E2F UE maximum output power reduction for Sidelink Unlicensed 568 62E2F1 General 568 62E2F2 MPR for NR SL-U UE 568 62E2F3 MPR for SL-U concurrent operation 570 62E3 UE additional maximum output power reduction for V2X 570 62E31 General 570 62E32 A-MPR for V2X UE by NS_33 571 62E33 A-MPR for Power class 3 V2X UE by NS_52 575 62E34 A-MPR for V2X concurrent operation 576 62E3F UE additional maximum output power reduction for Sidelink Unlicensed 577 62E3F1 General 577 62E3F2 A-MPR for NS_31 578 62E3F3 Void 579 62E3F4 Void 579 62E3F5 Void 579 62E3F6 A-MPR for NS_61 579 62E3F7 A-MPR for SL-U concurrent operation 580 62E3F8 A-MPR for NS_28 580 62E3F9",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_14",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 14,
+    "text": "A-MPR for NS_29 582 62E3F10 A-MPR for NS_30 583 62E3F11 A-MPR for NS_54 585 62E3F12 A-MPR for NS_64 586 62E3F13 A-MPR for NS_65 588 62E3F14 A-MPR for NS_66 589 62E3F15 A-MPR for NS_67 or NS_71 590 62E3F16 A-MPR for NS_68 591 62E3F17 A-MPR for NS_69 592 62E4 Configured transmitted power for V2X 593 62E41 General 593 62E42 Configured transmitted power for inter-band V2X concurrent operation 594 62E43 Configured transmitted power for intra-band V2X concurrent operation 595 62E4A Configured transmitted power for Sidelink CA 597 62E4F Configured transmitted power for Sidelink Unlicensed 598 62E4F1 General",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_15",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 15,
+    "text": "598 62E4F2 Configured transmitted power for inter-band concurrent operation 599 62F Transmitter power for shared spectrum channel access 600 62F1 UE maximum output power 600 62F1A UE maximum output power for CA 601 62F1A1 UE maximum output power for inter-band CA 601 62F1A2 UE maximum output power for intra-band contiguous CA 602 62F1A21 Additional requirements for transmit power density for intra-band contiguous CA for CA_NS_53 602 62F1A22 Additional requirements for transmit power density for intra-band contiguous CA for CA_NS_54 602 62F1B UE maximum output power for NR-DC 603 62F1D UE maximum output power for UL MIMO 603 62F2 UE maximum output power reduction 603 62F2A UE maximum output power reduction for CA 606 62F2A1 UE maximum output power reduction for inter-band CA 606 62F2A2 UE maximum output power reduction for intra-band contiguous CA 606 62F2D UE maximum output power reduction for UL MIMO 609 62F3 UE additional maximum output power reduction 609 62F31 General 609 62F32 A-MPR for NS_28 610 62F33",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_16",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 16,
+    "text": "A-MPR for NS_29 611 62F34 A-MPR for NS_30 612 62F35 A-MPR for NS_31 613 62F36 A-MPR for NS_53 614 62F37 A-MPR for NS_54 614 62F38",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_17",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 17,
+    "text": "A-MPR for NS_58 615 62F39 A-MPR for NS_59 616 62F310 A-MPR for NS_60 617 62F311 A-MPR for NS_61 618 62F312 A-MPR for NS_63 619 62F313 A-MPR for NS_64 620 62F314 A-MPR for NS_65 620 62F315 A-MPR for NS_66 621 62F316 A-MPR for NS_67 or NS_71 621 62F317 A-MPR for NS_68 622 62F318 A-MPR for NS_69 622 62F3A UE additional maximum output power reduction for CA 623 62F3A1 UE additional maximum output power reduction for inter-band CA 623 62F3A2 UE additional maximum output power reduction for intra-band CA 623 62F3A20 General 623 62F3A21 UE additional maximum output power reduction for intra-band contiguous CA 623 62F3A22 A-MPR for CA_NS_53 625 62F3A23 A-MPR for CA_NS_54 626 62F3D UE additional maximum output power reduction for UL MIMO 626 62F4 Configured transmitted power 626 62F4D Configured transmitted power UL MIMO 626 62G Transmitter power for Tx Diversity 627 62G1 UE maximum output power for Tx Diversity 627 62G2 UE maximum output power reduction for Tx Diversity 627 62G3 UE",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_18",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 18,
+    "text": "additional maximum output power reduction for Tx Diversity 627 62G4 Configured transmitted power for Tx Diversity 627 62H Transmitter power for CA with UL MIMO 628 62H1 Transmitter power for intra-band UL contiguous CA with UL MIMO 628 62H11 UE maximum output power for intra-band UL contiguous CA with UL MIMO 628 62H12 UE maximum output power reduction for intra-band UL contiguous CA with UL MIMO 629 62H13 UE additional maximum output power reduction for intra-band UL contiguous CA with UL MIMO 629 62H14 Configured transmitted power for intra-band UL contiguous CA with UL MIMO 629 62H2 Void 630 62H3 Transmitter power for inter-band UL CA with UL MIMO 630 62H31 UE maximum output power for inter-band UL CA with UL MIMO 630 62H32 UE maximum output power reduction for inter-band UL CA with UL MIMO 632 62H33 UE additional maximum output power reduction for inter-band UL CA with UL MIMO 632 62H34",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_19",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 19,
+    "text": "Configured transmitted power for inter-band UL CA with UL MIMO 632 62I Transmitter power for eRedCap 632 62I1 Maximum output power for RedCap 632 62J Transmitter power for ATG 633 62J1 UE maximum output power for ATG 633 62J2 Configured transmitted power for ATG 633 62K Transmitter power for Aerial UE 634 62K1 Maximum output power for Aerial UE 634 62K2 Maximum output power reduction for Aerial UE 634 62K3 Additional maximum output power reduction for Aerial UE 634 62K31 General 634 62K32 A-MPR for NS_UAV_44 635 62K33 A-MPR for NS_UAV_70 636 62K4 Configured transmitted power for Aerial UE 637 62L Transmitter power for CA with Tx Diversity 637 62L1 Void 637 62L2 Void 637 62L3 Transmitter power for inter-band UL CA with Tx Diversity 637 62L31 UE maximum output power for inter-band UL CA with Tx Diversity 637 62L32 UE maximum output power reduction for inter-band UL CA with Tx Diversity 639 62L33",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_20",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 20,
+    "text": "UE additional maximum output power reduction for inter-band UL CA with Tx Diversity 639 62L34 Configured transmitted power for inter-band UL CA with Tx Diversity 640 63 Output power dynamics 640 631 Minimum output power 640 632 Transmit OFF power 640 633 Transmit ONOFF time mask 641 6331 General 641 6332 General ONOFF time mask 641 6333 Transmit power time mask for slot and short or long subslot boundaries 641 6334 PRACH time mask 642 6335 Void 643 6336 SRS time mask 643 6337 PUSCH-PUCCH and PUSCH-SRS time masks 644 6338 Transmit power time mask for consecutive slot or long subslot transmission and short subslot transmission boundaries 645 6339 Transmit power time mask for consecutive short subslot transmissions boundaries 646 634 Power control 646 6341 General 646 6342 Absolute power tolerance 646 6343 Relative power tolerance 647 6344 Aggregate power tolerance 647 63A Output power dynamics for CA 648 63A1 Minimum output power for CA 648 63A11",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_21",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 21,
+    "text": "Minimum output power for intra-band contiguous CA 648 63A12 Minimum output power for intra-band non-contiguous CA 648 63A13 Minimum output power for inter-band CA 648 63A14 Void 648 63A2 Transmit OFF power for CA 648 63A21 Transmit OFF power for intra-band contiguous CA 648 63A22 Transmit OFF power for intra-band non-contiguous CA 648 63A23 Transmit OFF power for inter-band CA 648 63A24 Void 649 63A3 Transmit ONOFF time mask for CA 649 63A31 Transmit ONOFF time mask for intra-band contiguous CA 649 63A32 Transmit ONOFF time mask for intra-band non-contiguous CA 649 63A33",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_22",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 22,
+    "text": "Transmit ONOFF time mask for inter-band CA 649 63A331 General 649 63A332 Time mask for switching between two uplink carriers 650 63A333 Time mask for switching between two uplink carriers with two transmit antenna connectors 651 63A334 Time mask for switching between one uplink band with one transmit antenna connector and one uplink band with two transmit antenna connectors 652 63A335 Time mask for switching between two uplink bands with two transmit antenna connectors 654 63A336 Time mask for switching across up to four uplink bands 655 63A336a Additional requirements for three-band switching with dual TAG 659 63A34 Void 659 63A4 Power control for CA 659 63A41 Power control for intra-band contiguous CA 659 63A411 Absolute power tolerance 659 63A412 Relative power tolerance 659 63A413 Aggregate power control tolerance 660 63A42",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_23",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 23,
+    "text": "Power control for intra-band non-contiguous CA 660 63A421 Absolute power tolerance 660 63A4211 Minimum requirements 660 63A422 Relative power tolerance 660 63A4221 Minimum requirements 660 63A423 Aggregate power control tolerance 660 63A43 Power control for inter-band CA 660 63A44 Void 660 63B Output power dynamics for NR-DC 660 63C Output power dynamics for SUL 661 63C1 Void 661 63C2 Void 661 63C3 Transmit ONOFF time mask for SUL 661 63C30 General 661 63C31 Time mask for switching between two uplink carriers 661 63C32 Time mask for switching between two uplink carriers with two transmit antenna connectors 662 63C33 Time mask for switching between one uplink band with one transmit antenna connector and one uplink band with two transmit antenna connectors 663 63C34 Time mask for switching between two uplink bands with two transmit antenna connectors 665 63C35 Time mask for switching across up to four uplink bands 666 63C35a",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_24",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 24,
+    "text": "Additional requirements for three-band switching with dual TAG 670 63D Output power dynamics for UL MIMO 670 63D1 Minimum output power for UL MIMO 670 63D2 Transmit OFF power for UL MIMO 670 63D3 Transmit ONOFF time mask for UL MIMO 670 63D4 Power control for UL MIMO 670 63E Output power dynamics for V2X 671 63E1 Minimum output power for V2X 671 63E11 General 671 63E11A Minimum output power for sidelink CA 671 63E12 Minimum output power for V2X concurrent operation 671 63E1F Minimum output power for Sidelink Unlicensed 671 63E1F1 Minimum output power for SL-U concurrent operation 672 63E2 Transmit OFF power for V2X 672 63E21 General 672 63E21A Transmit OFF power for sidelink CA 672 63E22 Transmit OFF power for V2X concurrent operation 672 63E2F Transmit OFF power for Sidelink Unlicensed 672 63E2F1 Transmit OFF power for SL-U concurrent operation 673 63E3 Transmit ONOFF time mask for V2X 673 63E31 General 673 63E31A Transmit ONOFF time mask for sidelink CA 673 63E32",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_25",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 25,
+    "text": "General time mask 673 63E33 S-SSB time mask 673 63E34 Transmit ONOFF time mask for V2X concurrent operation 674 63E3F Transmit ONOFF time mask for Sidelink Unlicensed 675 63E3F1 General 675 63E3F2 General ONOFF time mask 675 63E3F3 S-SSB time mask 676 63E3F4 Transmit ONOFF time mask for NR SL-U concurrent operation 676 63E4 Power control for V2X 676 63E41 General 676 63E41A Power control for sidelink CA 676 63E42 Absolute power tolerance 676 63E43 Power control for V2X concurrent operation 677 63E4F Power control for Sidelink Unlicensed 677 63E4F1 General 677 63E4F2 Absolute power tolerance 677 63E4F3 Power control for SL-U concurrent operation 677 63F Output power dynamics for shared spectrum channel access 677 63F1 Minimum output power 677 63F2 Transmit OFF power 677 63F3 Transmit ONOFF time mask 677 63F31 General 677 63F32 General ONOFF time mask 677 63F3A General ONOFF mask for CA 678 63F3A1 General ONOFF mask for inter-band CA 678 63F4 Power control 678 63F41",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_26",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 26,
+    "text": "General 678 63F42 Absolute power tolerance 678 63F43 Relative power tolerance 678 63F44 Aggregate power tolerance 678 63F4A Power control for inter-band CA 678 63G Output power dynamics for Tx Diversity 679 63G1 Minimum output power for Tx Diversity 679 63G2 Transmit OFF power for Tx Diversity 679 63G3 Transmit ONOFF time mask for Tx Diversity 679 63G4 Power control for Tx Diversity 679 63H Output power dynamics for CA with UL MIMO 679 63H1 Output power dynamics for intra-band UL contiguous CA with UL MIMO 679 63H11 Minimum output power for intra-band UL contiguous CA with UL MIMO 679 63H12 Transmit OFF power for intra-band UL contiguous CA with UL MIMO 679 63H13 Transmit ONOFF time mask for intra-band UL contiguous CA with UL MIMO 679 63H14 Power control for intra-band UL contiguous CA with UL MIMO 680 63H3 Output power dynamics for inter-band UL CA with UL MIMO 680 63H31 Minimum output power for inter-band UL CA with UL MIMO 680 63H32",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_27",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 27,
+    "text": "Transmit OFF power for inter-band UL CA with UL MIMO 680 63H33 Transmit ONOFF time mask for inter-band UL CA with UL MIMO 680 63H34 Power control for inter-band UL CA with UL MIMO 680 63I Reserved 680 63J Output power dynamics for ATG 680 63J1 Minimum output power for ATG 680 63J2 Transmit OFF power for ATG 681 63J3 Transmit ONOFF time mask for ATG 681 63J4 Power control for ATG 681 63K Reserved 681 63L Output power dynamics for CA with Tx Diversity 681 63L1 Void 681 63L2 Void 681 63L3 Output power dynamics for inter-band UL CA with Tx Diversity 681 63L31 Minimum output power for inter-band UL CA with Tx Diversity 681 63L32 Transmit OFF power for inter-band UL CA with Tx Diversity 682 63L33 Transmit ONOFF time mask for inter-band UL CA with Tx Diversity 682 63L34 Power control for inter-band UL CA with Tx Diversity 682 64 Transmit signal quality 682 641 Frequency error 682 642 Transmit modulation quality 682 6420 General 682 6421 Error Vector Magnitude 682 6421a",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_28",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 28,
+    "text": "Error Vector Magnitude including symbols with transient period 683 6422 Carrier leakage 684 6423 In-band emissions 684 6424 EVM equalizer spectrum flatness 685 64241 Requirements for Pi2 BPSK modulation with powerBoosting-pi2BPSK capability 686 64242 Requirements for Pi2 BPSK and QPSK modulation with powerBoosting-pi2BPSK-QPSK-Modified-r18 capability 687 6425 Phase continuity requirements for DMRS bundling 688 64A Transmit signal quality for CA 689 64A1 Frequency error for CA 689 64A11 Frequency error for intra-band contiguous CA 689 64A12 Frequency error for intra-band non-contiguous CA 689 64A13 Frequency error for inter-band CA 689 64A14 Void 690 64A2 Transmit modulation quality for CA 690 64A21 Transmit modulation quality for intra-band contiguous CA 690 64A210 General 690 64A211 Error Vector Magnitude 690 64A212 In-band emissions 690 64A213 Carrier leakage 693 64A22",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_29",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 29,
+    "text": "Transmit modulation quality for intra-band non-contiguous CA 693 64A220 General 693 64A221 Error Vector Magnitude 693 64A222 In-band emissions 694 64A223 Carrier leakage 694 64A23 Transmit modulation quality for inter-band CA 694 64A24 Void 695 64B Transmit signal quality for NR-DC 695 64C Transmit signal quality for SUL 695 64D Transmit signal quality for UL MIMO 695 64D0 General 695 64D1 Frequency error for UL MIMO 695 64D2 Transmit modulation quality for UL MIMO 696 64D20 General 696 64D21 Error Vector Magnitude 696 64D22 Carrier leakage 696 64D23 In-band emissions 696 64D24 EVM equalizer spectrum flatness for UL MIMO 696 64D3 Time alignment error for UL MIMO 696 64D4 Requirements for coherent UL MIMO 697 64E Transmit signal quality for V2X 697 64E1 Frequency error for V2X 697 64E11 General 697 64E11A Frequency error for sidelink CA 698 64E12",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_30",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 30,
+    "text": "Frequency error for V2X concurrent operation 698 64E1F Frequency error for Sidelink Unlicensed 698 64E1F1 Frequency error for SL-U concurrent operation 698 64E2 Transmit modulation quality for V2X 698 64E21 General 698 64E22 Error Vector Magnitude for V2X 698 64E22A Error Vector Magnitude for sidelink CA 698 64E23 Carrier leakage for V2X 698 64E23A Carrier leakage for sidelink CA 699 64E24 In-band emissions for V2X 699 64E24A In-band emissions for sidelink CA 699 64E25 EVM equalizer spectrum flatness for V2X 699 64E26 Transmit modulation quality for V2X concurrent operation 699 64E2F Transmit modulation quality for Sidelink Unlicensed 699 64E2F0 General 699 64E2F1 Error Vector Magnitude 699 64E2F2 Carrier leakage 699 64E2F3 In-band emissions 700 64E2F4 EVM equalizer spectrum flatness 700 64E2F5 Transmit modulation quality for SL-U concurrent operation 700 64F",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_31",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 31,
+    "text": "Transmit signal quality for shared spectrum channel access 700 64F1 Frequency error 700 64F2 Transmit modulation quality 700 64F20 General 700 64F21 Error Vector Magnitude 700 64F22 Carrier leakage 700 64F23 In-band emissions 700 64F24 EVM equalizer spectrum flatness 701 64F2A Transmit modulation quality for CA 701 64F2A1 Transmit modulation quality for inter-band CA 701 64G Transmit signal quality for Tx Diversity 702 64G1 Frequency error for Tx Diversity 702 64G2 Transmit modulation quality for Tx Diversity 702 64G20 General 702 64H Transmit signal quality for CA with UL MIMO 703 64H1 Transmit signal quality for intra-band UL contiguous CA with UL MIMO 703 64H11 Frequency error for intra-band UL contiguous CA with UL MIMO 703 64H12",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_32",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 32,
+    "text": "Transmit modulation quality for intra-band UL contiguous CA with UL MIMO 703 64H120 General 703 64H121 Error Vector Magnitude 703 64H122 Carrier leakage 703 64H123 In-band emissions 703 64H13 Time alignment error for intra-band UL contiguous CA with UL MIMO 704 64H14 Coherent UL MIMO requirement for intra-band UL contiguous CA with UL MIMO 704 64H2 Void 704 64H3 Transmit signal quality for inter-band UL CA with UL MIMO 704 64H31 Frequency error for inter-band UL CA with UL MIMO 704 64H32 Transmit modulation quality for inter-band UL CA with UL MIMO 704 64I Reserved 704 64J Transmit signal quality for ATG 704 64J1 Frequency error for ATG 704 64J2 Transmit modulation quality for ATG 704 64K Reserved 705 64L Transmit signal quality for CA with Tx Diversity 705 64L1 Void 705 64L2 Void 705 64L3 Transmit signal quality for inter-band UL CA with Tx Diversity 705 64L31 Frequency error for inter-band UL CA with Tx Diversity 705 64L32",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_33",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 33,
+    "text": "Transmit modulation quality for inter-band UL CA with Tx Diversity 705 65 Output RF spectrum emissions 705 651 Occupied bandwidth 705 652 Out of band emission 705 6521 General 705 6522 Spectrum emission mask 706 6523 Additional spectrum emission mask 706 65231 Requirements for network signalling value NS_35 706 65232 Requirements for network signalling value NS_04 706 65233 Requirements for network signalling values NS_03 and NS_03U 707 65234 Requirements for network signalling value NS_06 or NS_07 708 65235 Void 708 65236 Void 708 65237 Void 708 65238 Requirements for network signalling value NS_27 708 65239 Requirements for network signalling value NS_21 709 6524 Adjacent channel leakage ratio 709 65241 NR ACLR 710 65242 UTRA ACLR 710 653 Spurious emissions 711 6530 General 711 6531 General spurious emissions 711 6532 Spurious emissions for UE co-existence 711 6533 Additional spurious emissions 719 65331 Requirement for network signalling value",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_34",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 34,
+    "text": "NS_04 720 65332 Requirement for network signalling value NS_17 720 65333 Requirement for network signalling value NS_18 720 65334 Requirement for network signalling values NS_05 and NS_05U 720 65335 Requirement for network signalling values NS_43 and NS_43U 721 65336 Requirement for network signalling value NS_37 721 65337 Requirement for network signalling value NS_38 721 65338 Requirement for network signalling value NS_39 721 65339 Requirement for network signalling value NS_40 722 653310 Requirement for network signalling value NS_41 722 653311 Requirement for network signalling value NS_42 722 653312 Requirement for network signalling value NS_21 723 653313 Requirement for network signalling value NS_24 723 653314 Requirement for network signalling value NS_27 723 653315 Requirement for network signalling value NS_47 723 653316 Requirement for network signalling value NS_50 724 653317 Requirement for network signalling value NS_12 724 653318 Requirement for network signalling value NS_13 724 653319 Requirement for network signalling value NS_14 725 653320 Requirement for network signalling value NS_15 725 653321 Requirement for network signalling value NS_45 725 653322 Requirement for network signalling values NS_48 and NS_51 726 653323 Requirement for network signalling value NS_49 726 653324 Requirement for network signalling value NS_44 726 653325 Requirement for network signalling value NS_46 727 653326 Requirement for network signalling value NS_07 727 653327 Requirement for network signalling value NS_56 727 653328 Requirement for network signalling value NS_62 728 654 Transmit intermodulation 728 65A Output RF spectrum emissions for CA 729 65A0 General 729 65A1 Occupied bandwidth for CA 729 65A11 Void 729 65A11a",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_35",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 35,
+    "text": "Occupied bandwidth for Intra-band contiguous CA 729 65A12 Occupied bandwidth for Intra-band non-contiguous CA 729 65A13 Occupied bandwidth for Inter-band CA 729 65A2 Out of band emission for CA 729 65A21 General 729 65A22 Spectrum emission mask 730 65A221 Spectrum emission mask for intra-band contiguous CA 730 65A222 Spectrum emission mask for intra-band non-contiguous CA 730 65A223 Spectrum emission mask for Inter-band CA 730 65A224 Void 731 65A23 Additional spectrum emission mask for CA 731 65A231 Additional spectrum emission mask for intra-band contiguous CA 731 65A232 Additional spectrum emission mask for Intra-band non-contiguous CA 732 65A233 Additional spectrum emission mask for Inter-band CA 732 65A24 Adjacent channel leakage ratio 732 65A241 NR ACLR 732 65A242 UTRA ACLR 734 65A3 Spurious emission for CA 734 65A31",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_36",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 36,
+    "text": "General spurious emissions 734 65A32 Spurious emissions for UE co-existence 735 65A320 General 735 65A321 Spurious emissions for UE co-existence for intra-band contiguous CA 735 65A322 Spurious emissions for UE co-existence for intra-band non-contiguous CA 737 65A323 Spurious emissions for UE co-existence for Inter-band CA 738 65A324 Void 744 65A325 Void 744 65A326 Void 744 65A33 Additional spurious emissions for CA 744 65A331 Additional spurious emissions for intra-band contiguous CA 744 65A332 Additional spurious emissions for intra-band non-contiguous CA 745 65A4 Transmit intermodulation for CA 746 65A421 Transmit intermodulation for intra-band contiguous CA 746 65A422 Void 746 65B Output RF spectrum emissions for NR-DC 746 65D Output RF spectrum emissions for UL MIMO 746 65D1 Occupied bandwidth for UL MIMO 746 65D2 Out of band emission for UL MIMO 747 65D3 Spurious emission for UL MIMO 747 65D4 Transmit intermodulation for UL MIMO 747 65E",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_37",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 37,
+    "text": "Output RF spectrum emissions for V2X 747 65E1 Occupied bandwidth for V2X 747 65E11 General 747 65E11A Occupied bandwidth for sidelink CA 748 65E12 Occupied bandwidth for V2X concurrent operation 748 65E1F Occupied bandwidth for Sidelink Unlicensed 748 65E1F1 Occupied bandwidth for SL-U concurrent operation 748 65E2 Out of band emission for V2X 748 65E21 General 748 65E22 Spectrum emission mask 748 65E221 General 748 65E221A Spectrum emission mask for sidelink CA 748 65E222 Spectrum emission mask for V2X concurrent operation 749 65E23 Additional Spectrum emission mask 749 65E231 Requirements for network signalling value NS_33 749 65E232 Requirements for network signalling value NS_52 749 65E233 Requirements for network signalling value NS_06 750 65E24",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_38",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 38,
+    "text": "Adjacent channel leakage ratio 750 65E241 General 750 65E241A ACLR for sidelink CA 750 65E242 ACLR for V2X concurrent operation 750 65E2F Out of band emission for Sidelink Unlicensed 750 65E2F1 General 750 65E2F2 Spectrum emission mask for operation with shared spectrum channel access 751 65E2F21 Spectrum emission mask for SL-U concurrent operation 751 65E2F3 Additional spectrum emission mask 751 65E2F4 Adjacent channel leakage ratio 751 65E2F41 Adjacent channel leakage ratio for SL-U concurrent operation 751 65E3 Spurious emissions for V2X 751 65E31 General spurious emissions 751 65E31A Spurious emissions for sidelink CA 751 65E32 Spurious emissions for UE co-existence 751 65E32A Spurious emissions band UE co-existence for sidelink CA 752 65E33 Spurious emissions for UE co-existence for V2X concurrent operation 752 65E34",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_39",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 39,
+    "text": "Additional spurious emissions requirements for V2X 753 65E341 General 753 65E342 Requirements for network signalling value NS_33 753 65E343 Void 753 65E3F Spurious emissions for Sidelink Unlicensed 753 65E3F0 General 753 65E3F1 General spurious emissions 754 65E3F2 Spurious emissions for UE co-existence 754 65E3F21 Spurious emissions for UE co-existence for SL-U concurrent operation 754 65E3F3 Additional spurious emissions 754 65E3F30 General 754 65E4 Transmit intermodulation 754 65E41 General 754 65E41A Transmit intermodulation for sidelink CA 754 65E42 Transmit intermodulation for V2X concurrent operation 754 65F Output RF spectrum emissions for shared spectrum channel access 755 65F1 Occupied bandwidth 755 65F2 Out of band emission 755 65F21 General 755 65F22 Spectrum emission mask for operation with shared spectrum channel access 755 65F220 General 755 65F221 Spectrum emission mask for non-transmitted channels 756 65F23 Additional spectrum emission mask 756 65F24",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_40",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 40,
+    "text": "Adjacent channel leakage ratio 756 65F240 General 756 65F241 Shared spectrum channel access ACLR 756 65F242 Additional requirement for network signalled value NS_29 756 65F2A Out of band emission for CA 757 65F2A1 Spectrum emission mask for CA 757 65F2A11 Spectrum emission mask for Inter-band CA 757 65F2A12 Spectrum emission mask for Intra-band contiguous CA 757 65F2A121 General 757 65F2A122 Intra-band contiguous CA spectrum emission mask for non-transmitted channels 758 65F2A2 Adjacent channel leakage ratio for CA 758 65F2A21 Adjacent channel leakage ratio for inter-band CA 758 65F2A22 Adjacent channel leakage ratio for intra-band contiguous CA 758 65F3 Spurious emissions 758 65F30 General 758 65F31 General spurious emissions 759 65F32 Spurious emissions for UE co-existence 759 65F33",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_41",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 41,
+    "text": "Additional spurious emissions 759 65F330 General 759 65F331 Requirement for network signalling value NS_28 759 65F332 Requirement for network signalling value NS_29 759 65F333 Requirement for network signalling value NS_30 761 65F334 Requirement for network signalling value NS_31 762 65F335 Requirements for network signalling value NS_53 or NS_54 or NS_60 or NS_66 or NS_67 or NS_71 763 65F336 Requirements for network signalling value NS_58 763 65F337 Requirements for network signalling value NS_61 763 65F338 Requirements for network signalling value NS_63 or NS_69 763 65F339 Requirements for network signalling value NS_64 764 65F3A Spurious emissions for CA 764 65F3A0 General 764 65F3A1 General spurious emissions 765 65F3A2 Spurious emissions for UE co-existence 765 65F3A3",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_42",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 42,
+    "text": "Additional spurious emissions 765 65F3A30 General 765 65F3A31 Requirements for network signalling value CA_NS_53 or CA_NS_54 765 65F4 Transmit intermodulation 765 65G Output RF spectrum emissions for Tx Diversity 765 65G1 Occupied bandwidth for Tx Diversity 765 65G2 Out of band emission for Tx Diversity 766 65G3 Spurious emission for Tx Diversity 766 65G4 Transmit intermodulation for Tx Diversity 766 65H Output RF spectrum emissions for CA with UL MIMO 766 65H1 Output RF spectrum emissions for intra-band UL contiguous CA with UL MIMO 766 65H11 Occupied bandwidth for intra-band UL contiguous CA with UL MIMO 766 65H12 Out of band emission for intra-band UL contiguous CA with UL MIMO 766 65H13 Spurious emission for intra-band UL contiguous CA with UL MIMO 766 65H14 Transmit intermodulation for intra-band UL contiguous CA with UL MIMO 767 65H2 Void 767 65H3 Output RF spectrum emissions for inter-band UL CA with UL MIMO 767 65H31",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_43",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 43,
+    "text": "Occupied bandwidth for inter-band UL CA with UL MIMO 767 65H32 Out of band emission for inter-band UL CA with UL MIMO 767 65H33 Spurious emission for inter-band UL CA with UL MIMO 767 65H34 Transmit intermodulation for inter-band UL CA with UL MIMO 767 65I Reserved 767 65J Output RF spectrum emissions for ATG 768 65J1 Occupied bandwidth for ATG 768 65J2 Out of band emission for ATG 768 65J21 General 768 65J22 Spectrum emission mask 768 65J23 Adjacent channel leakage ratio 768 65J3 Spurious emissions for ATG 768 65K Output RF spectrum emissions for Aerial UE 769 65K1 Occupied bandwidth for Aerial UE 769 65K2 Out of band emission for Aerial UE 769 65K3 Spurious emissions for Aerial UE 769 65K30 General 769 65K31 General spurious emissions 769 65K32 Spurious emissions for UE co-existence 769 65K33",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_44",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 44,
+    "text": "Additional spurious emissions 769 65K331 Requirement for network signalling value NS_UAV_44 769 65K332 Requirement for network signalling value NS_UAV_46 769 65K333 Requirement for network signalling value NS_UAV_70 770 65L Output RF spectrum emissions for CA with Tx Diversity 770 65L1 Void 770 65L2 Void 770 65L3 Output RF spectrum emissions for inter-band UL CA with Tx Diversity 770 65L31 Occupied bandwidth for inter-band UL CA with Tx Diversity 770 65L32 Out of band emission for inter-band UL CA with Tx Diversity 770 65L33 Spurious emission for inter-band UL CA with Tx Diversity 770 65L34 Transmit intermodulation for inter-band UL CA with Tx Diversity 770 66 Void 770 66E Time alignment error 771 7 Receiver characteristics 772 71 General 772 71A General 773 71F General 773 71G Reserved 773 71H Reserved 773 71I General 773 71J General for ATG 773 71K Reserved 773 71L Reserved 773 72 Diversity characteristics 773",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_45",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 45,
+    "text": "72J Diversity characteristics for ATG 774 73 Reference sensitivity 774 731 General 774 732 Reference sensitivity power level 774 733 ΔRIBc 784 73A Reference sensitivity for CA 784 73A1 General 784 73A2 Reference sensitivity power level for CA 785 73A21 Reference sensitivity power level for Intra-band contiguous CA 785 73A22 Reference sensitivity power level for Intra-band non-contiguous CA 786 73A23 Reference sensitivity power level for Inter-band CA 788 73A24 Void 788 73A3 ΔRIBc for CA 789 73A31 General 789 73A32 ΔRIBc for Inter-band CA 789 73A321 ΔRIBc for two bands 789 73A322 Void 791 73A323 ΔRIBc for three bands 792 73A324 ΔRIBc for four bands 796 73A325 ΔRIBc for five bands 799 73A326 ΔRIBc for six bands 800 73A33 ΔRIBc for Intra-band CA 800 73A4 Reference sensitivity exceptions due to harmonic interference for CA 800 73A5 Reference sensitivity exceptions due to intermodulation interference due to 2UL",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_46",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 46,
+    "text": "CA 813 73A6 Reference sensitivity exceptions due to cross band isolation for CA 859 73A7 Lower-MSD requirements for inter-band CA 864 73B Reference sensitivity for NR-DC 865 73C Reference sensitivity for SUL 865 73C1 General 865 73C2 Reference sensitivity power level for SUL 865 73C3 ΔRIBc for SUL 868 73C31 General 868 73C32 SUL band combination 869 73C321 ΔRIBc for two bands 869 73C322 ΔRIBc for three bands 869 73C323 ΔRIBc for four bands 870 73D Reference sensitivity for UL MIMO 870 73E Reference sensitivity for V2X 870 73E1 General 870 73E2 Minimum requirements 871 73E2A Minimum requirements for Sidelink CA 871 73E2A1 Reference sensitivity power level for Sidelink CA 871 73E2F Minimum requirements for Sidelink Unlicensed 872 73E2F1 General 872 73E2F2 Reference sensitivity power level 872 73E3 Reference sensitivity power level for V2X concurrent operation 873 73E31",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_47",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 47,
+    "text": "General 873 73E3F Minimum requirements for SL-U concurrent operation 874 73E3F1 Reference sensitivity power level for SL-U concurrent operation 874 73F Reference sensitivity for shared spectrum channel access 874 73F1 General 874 73F2 Reference sensitivity power level 874 73F3 Void 875 73F4 Void 875 73F4A Shared spectrum channel access CA 875 73F4A1 Intra-band contiguous shared spectrum channel access CA 875 73F5 Void 875 73F51 Void 875 73F52 Void 875 73F53 Void 875 73G Reference sensitivity for Tx Diversity 875 73G5 Void 876 73G50 Void 876 73H",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_48",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 48,
+    "text": "Reserved 876 73I Reference sensitivity for eRedCap 876 73I1 General 876 73I2 Reference sensitivity power level for RedCap 876 73I3 Reference sensitivity power level for eRedCap 880 73J Reference sensitivity for ATG 880 73J1 General 880 73J2 Reference sensitivity power level 881 73K Reserved 881 73L Reserved 881 74 Maximum input level 881 74A Maximum input level for CA 881 74A1 Maximum input level for Intra-band contiguous CA 881 74A2 Maximum input level for Intra-band non-contiguous CA 882 74A3 Maximum input level for Inter-band CA 882 74B Maximum input level for NR-DC 882 74D Maximum input level for UL MIMO 882 74E Maximum input level for V2X 883 74E1 General 883 74E1A Maximum input level for Sidelink CA 883 74E1F General requirement for Sidelink Unlicensed 883 74E2 Maximum input level for V2X concurrent operation 883 74E2F Maximum input level for SL-U concurrent operation 884 74F",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_49",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 49,
+    "text": "Reserved 884 74G Reserved 884 74H Reserved 884 74I Reserved 884 74J Maximum input level for ATG 884 74K Reserved 884 74L Reserved 884 75 Adjacent channel selectivity 884 75A Adjacent channel selectivity for CA 887 75A1 Adjacent channel selectivity for Intra-band contiguous CA 887 75A2 Adjacent channel selectivity Intra-band non-contiguous CA 889 75A3 Adjacent channel selectivity Inter-band CA 889 75B Adjacent channel selectivity for NR-DC 889 75D Adjacent channel selectivity for UL MIMO 889 75E Adjacent channel selectivity for V2X 890 75E1 General 890 75E1A Adjacent channel selectivity requirement for Sidelink CA 891 75E1F General requirement for Sidelink Unlicensed 892 75E2 Adjacent channel selectivity for V2X concurrent operation 892 75E2F Adjacent channel selectivity for SL-U concurrent operation 892 75F Adjacent channel selectivity for shared spectrum channel access 892 75F1 General 892 75F1A",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_50",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 50,
+    "text": "Adjacent channel selectivity for shared spectrum channel access CA 893 75F1A1 Intra-band contiguous shared spectrum channel access CA 893 75F2 Void 894 75G Reserved 894 75H Reserved 894 75I Reserved 894 75J Adjacent channel selectivity for ATG 894 75K Reserved 896 75L Reserved 896 76 Blocking characteristics 896 761 General 896 762 In-band blocking 896 763 Out-of-band blocking 899 764 Narrow band blocking 902 76A Blocking characteristics for CA 904 76A1 General 904 76A2 In-band blocking for CA 904 76A21 In-band blocking for Intra-band contiguous CA 904 76A22 In-band blocking for Intra-band non-contiguous CA 905 76A23 In-band blocking for Inter-band CA 905 76A3 Out-of-band blocking for CA 906 76A31 Out-of-band blocking for Intra-band contiguous CA 906 76A32 Out-of-band blocking for Intra-band non-contiguous CA 907 76A33 Out-of-band blocking for Inter-band CA 907 76A4 Narrow band blocking for CA 909 76A41 Narrow band blocking for Intra-band contiguous CA 909 76A42",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_51",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 51,
+    "text": "Narrow band blocking for Intra-band non-contiguous CA 909 76A43 Narrow band blocking for Inter-band CA 910 76B Blocking characteristics for NR-DC 910 76C Blocking characteristics for SUL 910 76C1 General 910 76C2 In-band blocking for SUL 910 76C3 Out-of-band blocking for SUL 910 76C4 Narrow band blocking for SUL 911 76D Blocking characteristics for UL MIMO 911 76E Blocking characteristics for V2X 911 76E1 General 911 76E2 In-band blocking 911 76E21 General 911 76E21A In-band blocking for Sidelink CA 912 76E22 In-band blocking for V2X concurrent operation 913 76E22F In-band blocking for SL-U concurrent operation 913 76E3 Out-of-band blocking 913 76E31",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_52",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 52,
+    "text": "General 913 76E31A Out-of-band blocking for Sidelink CA 914 76E32 Out-of-band blocking for V2X concurrent operation 915 76E32F Out-of-band blocking for SL-U concurrent operation 915 76E3F Out-of-band blocking for Sidelink Unlicensed 915 76F Blocking characteristics for shared spectrum channel access 915 76F1 General 915 76F2 In-band blocking 915 76F21 General 915 76F22 Void 916 76F2A In-band blocking for shared spectrum CA 916 76F2A1 Intra-band contiguous shared spectrum channel access CA 916 76F3 Out-of-band blocking 917 76F31 General 917 76F32 Void 918 76F3A Out-of-band blocking for shared spectrum CA 918 76F3A1 Intra-band contiguous shared spectrum channel access CA 918 76G Reserved 918 76H Reserved 918 76I Reserved 918 76J Blocking characteristics for ATG 919 76J1 General 919 76J2 In-band blocking for ATG 919 76J3 Out-of-band blocking for ATG 919 76K Reserved 919 76L Reserved 919 77 Spurious response 919 77A",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_53",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 53,
+    "text": "Spurious response for CA 920 77A1 Spurious response for Intra-band contiguous CA 920 77A2 Spurious response for Intra-band non-contiguous CA 920 77A3 Spurious response for Inter-band CA 921 77B Spurious response for NR-DC 921 77D Spurious response for UL MIMO 921 77E Spurious response for V2X 921 77E1 General 921 77E1A Spurious response requirements for Sidelink CA 922 77E1F General requirement for Sidelink Unlicensed 922 77E2 Spurious response for V2X concurrent operation 922 77E2F Spurious response for SL-U concurrent operation 922 77F Spurious response for shared spectrum channel access 922 77F1 General 922 77F1A Spurious response for shared spectrum channel access CA 923 77F1A1 Intra-band contiguous shared spectrum channel access CA 923 77F2 Void 923 77G Reserved 923 77H Reserved 923 77I Reserved 923 77J Spurious response for ATG 924 77K Reserved 924 77L",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_54",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 54,
+    "text": "Reserved 924 78 Intermodulation characteristics 924 781 General 924 782 Wide band Intermodulation 924 78A Intermodulation characteristics for CA 926 78A1 General 926 78A2 Wide band intermodulation for CA 926 78A21 Wide band intermodulation for Intra-band contiguous CA 926 78A22 Wide band intermodulation for Intra-band non-contiguous CA 927 78A23 Wide band intermodulation for Inter-band CA 927 78B Intermodulation characteristics for NR-DC 928 78D Intermodulation characteristics for UL MIMO 928 78E Intermodulation characteristics for V2X 928 78E1 General 928 78E2 Wide band Intermodulation 928 78E21 General 928 78E22 Wide band Intermodulation for V2X concurrent operation 929 78E22A Wide band intermodulation for Sidelink CA 929 78E22F Wide band Intermodulation for SL-U concurrent operation 929 78E2F Wide band Intermodulation for Sidelink Unlicensed 930 78F Intermodulation characteristics for shared spectrum channel access 930 78F1 General 930",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_55",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 55,
+    "text": "78F2 Wide band Intermodulation 930 78G Reserved 930 78H Reserved 930 78I Reserved 931 78J Intermodulation characteristics for ATG 931 78J1 General 931 78J2 Wide band intermodulation for ATG 931 78K Reserved 931 78L Reserved 931 79 Spurious emissions 931 79A Spurious emissions for CA 931 79A1 Void",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_56",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 56,
+    "text": "931 79A2 Void 931 79A3 Spurious emissions for Inter-band CA 931 79B Spurious emissions for NR-DC 932 79J Spurious emissions for ATG 932 710 Power imbalance 932 710A Power imbalance for CA 932 710A1 General 932 710A2 Minimum requirement 932 Annex A normative Measurement channels 934 A1 General 934 A2 UL reference measurement channels 934 A21 General 934 A22 Reference measurement channels 936 A221 DFT-s-OFDM Pi2-BPSK 936 A222 DFT-s-OFDM QPSK 938 A223 DFT-s-OFDM 16QAM 939 A224 DFT-s-OFDM 64QAM 940 A225 DFT-s-OFDM 256QAM 942 A226 CP-OFDM QPSK 943 A227 CP-OFDM 16QAM 945 A228 CP-OFDM 64QAM 947 A229 CP-OFDM 256QAM 949 A23 Reference measurement channels for TDD 952 A231 DFT-s-OFDM Pi2-BPSK 952 A232 DFT-s-OFDM QPSK 952 A233 DFT-s-OFDM 16QAM 952 A234 DFT-s-OFDM 64QAM 952 A235 DFT-s-OFDM 256QAM 953 A236 CP-OFDM QPSK 953 A237 CP-OFDM 16QAM 953 A238 CP-OFDM 64QAM 953 A239 CP-OFDM 256QAM 954 A3 DL reference measurement channels 954 A31 General 954 A32 DL reference measurement channels for FDD 957",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_57",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 57,
+    "text": "A321 General 957 A322 FRC for receiver requirements for QPSK 958 A323 FRC for maximum input level for 64QAM 961 A324 FRC for maximum input level for 256 QAM 964 A325 FRC for maximum input level for 1024 QAM 967 A33 DL reference measurement channels for TDD 970 A331 General 970 A332 FRC for receiver requirements for QPSK 971 A333 FRC for maximum input level for 64QAM 974 A334 FRC for maximum input level for 256 QAM 977 A335 FRC for maximum input level for 1024 QAM 980 A4 CSI reference measurement channels 983 A5 OFDMA Channel Noise Generator OCNG 983 A51 OCNG Patterns for FDD 983 A511 OCNG FDD pattern 1 Generic OCNG FDD Pattern for all unused REs 983 A52 OCNG Patterns for TDD 983 A521 OCNG TDD pattern 1 Generic OCNG TDD Pattern for all unused REs 983 A6 Void 984 A7 V2X reference measurement channels 984",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_58",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 58,
+    "text": "A71 General 984 A72 FRC for V2X receiver requirements for QPSK 984 A73 FRC for maximum input level for 64QAM 986 A74 FRC for maximum input level for 256QAM 987 Annex B informative Void 990 Annex C informative Downlink physical channels 991 C1 General 991 C2 Setup 991 C3 Connection 991 C31 Measurement of Receiver Characteristics 991 Annex D normative Characteristics of the interfering signal 992 D1 General 992 D2 Interference signals 992 Annex E normative Environmental conditions 994 E1 General 994 E2 Environmental 994 E21 Temperature 994 E22 Voltage 994 E23 Vibration 995 Annex F normative Transmit modulation 996 F0 General 996 F1 Measurement Point 996 F2 Basic Error Vector Magnitude measurement 996 F3 Basic in-band emissions measurement 997 F4 Modified signal under test 998 F5 Window length 1000 F51",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_59",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": 59,
+    "text": "Timing offset 1000 F52 Window length 1000 F53 Window length for normal CP 1000 F54 Window length for Extended CP 1001 F55 Window length for PRACH 1002 F6 Averaged EVM 1003 F7 Spectrum Flatness 1004 F8 EVM measurement for multiple Tx 1004 F9 Phase offset measurement for DMRS bundling 1004 F91 Measurement point 1004 F92 Symbols used 1004 F93 Modified test signal 1004 F94 Phase offset measurement 1005 F10 EVM for UL MIMO 1005 F101 General 1005 F102 MIMO Equalization 1006 F103 Layer processing 1007 Annex G normative Difference of relative phase and power errors 1008 G0 General 1008 G1 Measurement Point 1008 G2 Relative Phase Error Measurement 1008 G21 Symbols and subcarriers used 1008 G22 CFO carrier frequency offset correction 1009 G23 Steps of the measurement method 1009 Annex H informative Void 1010 Annex I informative Void 1011 Annex J informative Void 1012 Annex K informative Void 1013 Annex L normative ModifiedMPR-Behavior 1014 L1 Indication of modified MPR behavior 1014 Annex M normative Declared Supported Post Antenna Gain for UE 1017 M1 FRMCS operating bands 1017 Annex N informative Change history 1018",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  }
+]

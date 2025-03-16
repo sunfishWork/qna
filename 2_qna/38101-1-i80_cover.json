@@ -1,0 +1,4972 @@
+[
+  {
+    "id": "38101-1-i80_cover_chunk_1_qna_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_1",
+    "question": "What is the main topic of this document?",
+    "answer": "This document discusses machine learning.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_1_qna_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_1",
+    "question": "What does 'Scope' refer to in this context?",
+    "answer": "Scope refers to the applicability of minimum requirements and test specifications.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_1_qna_3",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_1",
+    "question": "Where can I find references for further reading?",
+    "answer": "References are listed at the end for additional details.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_1_qna_4",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_1",
+    "question": "What do definitions, symbols, and abbreviations clarify in this document?",
+    "answer": "They provide explanations of terminology used in machine learning specifications.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_1_qna_5",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_1",
+    "question": "What is included in the definitions section?",
+    "answer": "Definitions of terms related to machine learning techniques specified.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_1_qna_6",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_1",
+    "question": "How are symbols explained in this document?",
+    "answer": "Symbols clarify abbreviations for units and measurements.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_1_qna_7",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_1",
+    "question": "What does the abbreviations section explain?",
+    "answer": "Abbreviations clarify common abbreviations used throughout the document.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_1_qna_8",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_1",
+    "question": "What is covered in the General section?",
+    "answer": "It outlines the relationship between minimum requirements and test specifications, applicability, specification suffix information.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_1_qna_9",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_1",
+    "question": "How are minimum requirements related to test requirements?",
+    "answer": "Minimum requirements provide a foundation for developing test specifications.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_1_qna_10",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_1",
+    "question": "What determines if minimum requirements apply?",
+    "answer": "Applicability is determined by the specific needs and context, such as compliance or functionality required.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_1_qna_11",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_1",
+    "question": "How do specification suffixes help in identifying specifications?",
+    "answer": "Specification suffixes indicate which parts of a document apply under certain conditions.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_1_qna_12",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_1",
+    "question": "What do operating bands refer to?",
+    "answer": "Operating bands refer to specific frequency ranges used for communication or transmission purposes.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_1_qna_13",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_1",
+    "question": "What is the focus of Section 52A0?",
+    "answer": "It focuses on introducing concepts related to channel arrangement, specifically for CA.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_1_qna_14",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_1",
+    "question": "What type of CA does Section 52A1 cover?",
+    "answer": "Intra-band CA refers to channel arrangement within the same operating band.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_1_qna_15",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_1",
+    "question": "What is covered in Section 52A2?",
+    "answer": "It covers inter-band channel arrangement, which involves multiple operating bands.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_1_qna_16",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_1",
+    "question": "What is detailed in Section 52A21?",
+    "answer": "It details the configuration and setup of inter-band channel arrangement between two operating bands.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_3_qna_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_3",
+    "question": "What is the operating band for ATG 56?",
+    "answer": "ATG 56",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_3_qna_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_3",
+    "question": "What is the general maximum transmission bandwidth configuration for 57?",
+    "answer": "58",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_3_qna_3",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_3",
+    "question": "What is the minimum guardband and transmission bandwidth configuration for 58?",
+    "answer": "58",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_3_qna_4",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_3",
+    "question": "What is the RB alignment for 60?",
+    "answer": "60",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_3_qna_5",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_3",
+    "question": "What is the UE channel bandwidth per operating band for 60?",
+    "answer": "60",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_3_qna_6",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_3",
+    "question": "What are asymmetric channel bandwidths?",
+    "answer": "Asymmetric channel bandwidths",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_3_qna_7",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_3",
+    "question": "What is the UE channel bandwidth for CA at 68?",
+    "answer": "53A1 General",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_3_qna_8",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_3",
+    "question": "What is the maximum transmission bandwidth configuration for CA at 68?",
+    "answer": "53A2 Maximum transmission bandwidth configuration for CA",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_3_qna_9",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_3",
+    "question": "What is the minimum guardband and transmission bandwidth configuration for CA at 68?",
+    "answer": "53A3 Minimum guardband and transmission bandwidth configuration for CA",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_3_qna_10",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_3",
+    "question": "What is the UE channel bandwidth per operating band for CA at 70?",
+    "answer": "53A4 Void",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_3_qna_11",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_3",
+    "question": "What is the channel bandwidth for V2X at 71?",
+    "answer": "53E Channel bandwidth for V2X",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_3_qna_12",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_3",
+    "question": "What is the general channel bandwidth for Sidelink CA at 71?",
+    "answer": "53E1 General",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_3_qna_13",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_3",
+    "question": "What is the bandwidth for Sidelink CA at 71?",
+    "answer": "53E1A Channel bandwidth for Sidelink CA",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_3_qna_14",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_3",
+    "question": "What is the bandwidth for Sidelink Unlicensed at 72?",
+    "answer": "53E1F Channel bandwidth for Sidelink Unlicensed",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_3_qna_15",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_3",
+    "question": "What is the channel bandwidth for V2X concurrent operation at 73?",
+    "answer": "53E2 Channel bandwidth for V2X concurrent operation",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_3_qna_16",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_3",
+    "question": "What is the bandwidth for SL-U concurrent operation at 74?",
+    "answer": "53E2F Channel bandwidth for SL-U concurrent operation",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_4_qna_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_4",
+    "question": "What is discussed about eRedCap channel bandwidth?",
+    "answer": "eRedCap 75 54 Channel arrangement",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_4_qna_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_4",
+    "question": "What details are provided about channel spacing for NR carriers?",
+    "answer": "Channel spacing for adjacent NR carriers 75 5411",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_4_qna_3",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_4",
+    "question": "Which section discusses the channel raster and its applications?",
+    "answer": "Channel raster 75 5421 NR-ARFCN and channel raster 75 5422 Channel raster to resource element mapping 76 5423",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_4_qna_4",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_4",
+    "question": "What is covered regarding channel raster entries for different bands?",
+    "answer": "Channel raster entries for each operating band 76 543 Synchronization raster 80 5431 Synchronization raster and numbering 80 5433 Synchronization raster entries for each operating band 81",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_4_qna_5",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_4",
+    "question": "What information is provided about synchronization raster?",
+    "answer": "Synchronization raster 80 5431 Synchronization raster and numbering 80 5433 Synchronization raster entries for each operating band 81",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_4_qna_6",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_4",
+    "question": "How is the TXRX frequency separation handled?",
+    "answer": "TXRX frequency separation 83 544",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_4_qna_7",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_4",
+    "question": "What details are given about channel arrangement for CA?",
+    "answer": "Channel arrangement for CA 84 54A1 Channel spacing for CA 84 54A2 Channel raster for CA 85 54A3 Synchronization raster for CA 85 54A4 Tx-Rx frequency separation for CA 85",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_4_qna_8",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_4",
+    "question": "What is mentioned about reserved sections?",
+    "answer": "Reserved 85 54B Reserved 85 54C Reserved 85 54D Reserved 85 54E Channel arrangement for V2X 85 54E1 Channel spacing 85 54E1A Channel spacing for Sidelink CA 85 54E1F Channel spacing for Sidelink Unlicensed 86 54E2 Channel raster 86 54E21",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_4_qna_9",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_4",
+    "question": "What information is provided about V2X channel arrangement?",
+    "answer": "Channel arrangement for V2X 85 54E1 Channel spacing 85 54E1A Channel spacing for Sidelink CA 85 54E1F Channel spacing for Sidelink Unlicensed 86 54E2 Channel raster 86 54E21",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_5_qna_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_5",
+    "question": "What are the sections covered in this document?",
+    "answer": "NR-ARFCN and channel raster 86 54E21A Void 86 54E21F Void 86 54E22 Channel raster to resource element mapping 86 54E22A Void 86 54E22F Void 86 54E23 Channel raster entries for each operating band 86 54E23A Void 86 54E23F Void 86 54E3 Synchronization raster for V2X 87 54E3A Synchronization raster for Sidelink CA 87 54E3F Synchronization raster for Sidelink Unlicensed 87 54I Channel arrangement for eRedCap 87 54I1 Channel spacing for eRedCap 87 54I2 Channel raster for eRedCap 88 54I21 NR-ARFCN and channel raster 88 54I22 Channel raster to resource element mapping 88 54I23 Channel raster entries for each operating band 88 54I3 Synchronization raster for eRedCap 88 54I4 Tx-Rx frequency separation for eRedCap 88 55 Void 89 55A Configurations for CA 89 55A0 General 89",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_5_qna_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_5",
+    "question": "What does this document discuss regarding NR-ARFCN configurations?",
+    "answer": "NR-ARFCN and channel raster",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_5_qna_3",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_5",
+    "question": "What is included in the synchronization raster for V2X?",
+    "answer": "Synchronization raster for V2X",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_5_qna_4",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_5",
+    "question": "What sections are part of eRedCap's configuration in this document?",
+    "answer": "Channel arrangement for eRedCap Channel spacing for eRedCap Channel raster for eRedCap",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_5_qna_5",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_5",
+    "question": "What is the synchronization raster for Sidelink CA described as?",
+    "answer": "Synchronization raster for Sidelink CA",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_5_qna_6",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_5",
+    "question": "What about Sidelink Unlicensed in this document?",
+    "answer": "Synchronization raster for Sidelink Unlicensed",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_5_qna_7",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_5",
+    "question": "Does eRedCap include any specific configurations?",
+    "answer": "Yes, including channel arrangement and spacing.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_5_qna_8",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_5",
+    "question": "Is there a discussion on frequency separation in eRedCap?",
+    "answer": "Tx-Rx frequency separation for eRedCap",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_6_qna_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_6",
+    "question": "What configurations are available in intra-band contiguous CA?",
+    "answer": "CA 90",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_6_qna_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_6",
+    "question": "What configurations are available in intra-band non-contiguous CA?",
+    "answer": "CA 93",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_6_qna_3",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_6",
+    "question": "What configurations are available in inter-band CA?",
+    "answer": "CA 98",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_6_qna_4",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_6",
+    "question": "What configurations are available for inter-band CA with two bands?",
+    "answer": "CA 98",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_6_qna_5",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_6",
+    "question": "What tables are included in the inter-band CA section with two bands?",
+    "answer": "Table 55A31-1a to Table 55A31-1n",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_6_qna_6",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_6",
+    "question": "What configurations are available for inter-band CA with three bands?",
+    "answer": "CA 148",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_6_qna_7",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_6",
+    "question": "What tables are included in the inter-band CA section with three bands?",
+    "answer": "Table 55A32-1a to Table 55A32-1c",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_6_qna_8",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_6",
+    "question": "What configurations are available for inter-band CA with four bands?",
+    "answer": "CA 281",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_6_qna_9",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_6",
+    "question": "What tables are included in the inter-band CA section with four bands?",
+    "answer": "Table 55A33-1a to Table 55A33-1b",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_6_qna_10",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_6",
+    "question": "What configurations are available for inter-band CA with five bands?",
+    "answer": "CA 380",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_6_qna_11",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_6",
+    "question": "What configurations are available for inter-band CA with six bands?",
+    "answer": "CA 403",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_6_qna_12",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_6",
+    "question": "What configuration is available for DC in B configurations?",
+    "answer": "DC",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "What are the 55C configurations for SUL 419?",
+    "answer": "55C Configurations for SUL 419",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "What is 55D reserved for?",
+    "answer": "55D Reserved",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_3",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "What sections cover transmitter characteristics?",
+    "answer": "6 Transmitter characteristics",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_4",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "Which section covers transmitter power?",
+    "answer": "62 Transmitter power",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_5",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "What does section 61 cover?",
+    "answer": "61 General",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_6",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "What is covered in 61A?",
+    "answer": "61A General",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_7",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "What are the reserved entries under 61?",
+    "answer": "61I Reserved",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_8",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "What is covered in 622?",
+    "answer": "UE maximum output power",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_9",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "What about the reserved entries in 622?",
+    "answer": "623 UE additional maximum output power reduction",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_10",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "What is covered under 6231?",
+    "answer": "6231 General",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_11",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "What are the A-MPR values for NS_04?",
+    "answer": "A-MPR for NS_04 441",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_12",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "What about NS_10?",
+    "answer": "A-MPR for NS_10 445",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_13",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "What is the A-MPR for NS_05 and NS_05U?",
+    "answer": "A-MPR for NS_05 and NS_05U 446",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_14",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "What about NS_40?",
+    "answer": "A-MPR for NS_40 449",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_15",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "What is the A-MPR for NS_43 and NS_43U?",
+    "answer": "A-MPR for NS_43 and NS_43U 450",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_16",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "What about NS_03 and NS_03U?",
+    "answer": "A-MPR for NS_03 and NS_03U 452",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_17",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "What is the A-MPR for NS_37?",
+    "answer": "A-MPR for NS_37 453",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_18",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "What about NS_38?",
+    "answer": "A-MPR for NS_38 454",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_19",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "What is the A-MPR for NS_39?",
+    "answer": "A-MPR for NS_39 454",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_20",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "What about NS_41?",
+    "answer": "A-MPR for NS_41 455",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_21",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "What is the A-MPR for NS_42?",
+    "answer": "A-MPR for NS_42 455",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_22",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "What about NS_18?",
+    "answer": "A-MPR for NS_18 456",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_23",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "What is the A-MPR for NS_21?",
+    "answer": "A-MPR for NS_21 457",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_24",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "What about NS_22?",
+    "answer": "A-MPR for NS_22 458",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_25",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "What is the A-MPR for NS_23?",
+    "answer": "A-MPR for NS_23 459",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_26",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "What about NS_24?",
+    "answer": "A-MPR for NS_24 460",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_27",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "What is the A-MPR for NS_25?",
+    "answer": "A-MPR for NS_25 461",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_28",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "What about NS_26?",
+    "answer": "A-MPR for NS_26 462",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_29",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "What is the A-MPR for NS_27?",
+    "answer": "A-MPR for NS_27 463",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_30",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "What about NS_28?",
+    "answer": "A-MPR for NS_28 464",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_31",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "What is the A-MPR for NS_29?",
+    "answer": "A-MPR for NS_29 465",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_32",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "What about NS_30?",
+    "answer": "A-MPR for NS_30 466",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_33",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "What is the A-MPR for NS_31?",
+    "answer": "A-MPR for NS_31 467",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_34",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "What about NS_32?",
+    "answer": "A-MPR for NS_32 468",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_35",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "What is the A-MPR for NS_33?",
+    "answer": "A-MPR for NS_33 469",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_36",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "What about NS_34?",
+    "answer": "A-MPR for NS_34 470",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_37",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "What is the A-MPR for NS_35?",
+    "answer": "A-MPR for NS_35 471",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_38",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "What about NS_36?",
+    "answer": "A-MPR for NS_36 472",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_7_qna_39",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_7",
+    "question": "What is the A-MPR for NS_39?",
+    "answer": "A-MPR for NS_39 454",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_8_qna_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_8",
+    "question": "What is the maximum output power for intra-band contiguous CA 488 62A1?",
+    "answer": "0 dBm",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_8_qna_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_8",
+    "question": "What is the maximum output power for intra-band non-contiguous CA 488 62A12?",
+    "answer": "-3dB",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_8_qna_3",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_8",
+    "question": "What is the maximum output power for inter-band CA 489 62A13?",
+    "answer": "+5.2 dB",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_8_qna_4",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_8",
+    "question": "What is the maximum output power reduction for CA 495 62A2?",
+    "answer": "0.5 mW",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_8_qna_5",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_8",
+    "question": "What is the maximum output power reduction for intra-band contiguous CA 495 62A21?",
+    "answer": "-2.75 dB",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_9_qna_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_9",
+    "question": "What is the UE maximum output power reduction for Intra-band non-contiguous CA 498 62A220 General?",
+    "answer": "-30dBmMHz",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_9_qna_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_9",
+    "question": "What is the UE maximum output power reduction for Intra-band non-contiguous CA 500 PC3 with indicating dualPA-Architecture supported?",
+    "answer": "-30dBmMHz",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_9_qna_3",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_9",
+    "question": "What is the UE maximum output power reduction for Intra-band non-contiguous CA 500 PC2 with indicating dualPA-Architecture supported?",
+    "answer": "-30dBmMHz",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_9_qna_4",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_9",
+    "question": "What is the UE maximum output power reduction for Intra-band non-contiguous CA 500 PC3 without indicating dualPA-Architecture supported?",
+    "answer": "-30dBmMHz",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_9_qna_5",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_9",
+    "question": "What is the UE maximum output power reduction for Intra-band non-contiguous CA 500 PC2 without indicating dualPA-Architecture supported?",
+    "answer": "-30dBmMHz",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_9_qna_6",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_9",
+    "question": "What is the UE maximum output power reduction for Intra-band non-contiguous CA 502 PC3 with indicating dualPA-Architecture supported?",
+    "answer": "-13dBmMHz",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_9_qna_7",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_9",
+    "question": "What is the UE maximum output power reduction for Intra-band non-contiguous CA 502 PC2 with indicating dualPA-Architecture supported?",
+    "answer": "-13dBmMHz",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_9_qna_8",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_9",
+    "question": "What is the UE maximum output power reduction for Intra-band non-contiguous CA 502 PC3 without indicating dualPA-Architecture supported?",
+    "answer": "-13dBmMHz",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_9_qna_9",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_9",
+    "question": "What is the UE maximum output power reduction for Intra-band non-contiguous CA 502 PC2 without indicating dualPA-Architecture supported?",
+    "answer": "-13dBmMHz",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_9_qna_10",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_9",
+    "question": "What is the additional maximum output power reduction for CA 503 62A31?",
+    "answer": "This information is not provided.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_10_qna_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_10",
+    "question": "What does UE additional maximum output power reduction refer to?",
+    "answer": "It refers to the maximum allowable output power for a user equipment in intra-band contiguous allocations.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_10_qna_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_10",
+    "question": "What is the configuration value for Intra-band non-contiguous CA 511 62A313?",
+    "answer": "The configuration value is -70 dBm.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_10_qna_3",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_10",
+    "question": "What type of allocation corresponds to 504 62A3111?",
+    "answer": "It refers to contiguous allocations.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_10_qna_4",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_10",
+    "question": "What parameter is set using A-MPR for CA_NS_04 504 62A3111?",
+    "answer": "A-MPR is used to configure output power limits.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_10_qna_5",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_10",
+    "question": "Which allocation type does 505 62A312 pertain to?",
+    "answer": "It refers to non-contiguous allocations.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_10_qna_6",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_10",
+    "question": "What configuration applies to Inter-band CA 514 62A4?",
+    "answer": "The output power is configured for this band.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_10_qna_7",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_10",
+    "question": "What is the output power configuration for CA 516 62A41?",
+    "answer": "The configured output power is -70 dBm.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_11_qna_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_11",
+    "question": "What is the configured transmitted power level for intra-band contiguous CA?",
+    "answer": "516",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_11_qna_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_11",
+    "question": "What is the configured transmitted power level for intra-band non-contiguous CA?",
+    "answer": "62A412",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_11_qna_3",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_11",
+    "question": "What is the configured transmitted power level for inter-band CA?",
+    "answer": "519",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_11_qna_4",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_11",
+    "question": "What is the configured transmitted power level for inter-band CA with three bands?",
+    "answer": "62A413",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_11_qna_5",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_11",
+    "question": "What is ΔTIBc for inter-band CA two bands?",
+    "answer": "526",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_11_qna_6",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_11",
+    "question": "What is ΔTIBc for inter-band CA three bands?",
+    "answer": "62A414",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_11_qna_7",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_11",
+    "question": "What is ΔTIBc for inter-band CA four bands?",
+    "answer": "526",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_11_qna_8",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_11",
+    "question": "What is ΔTIBc for inter-band CA five bands?",
+    "answer": "530",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_11_qna_9",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_11",
+    "question": "What is ΔTIBc for inter-band CA six bands?",
+    "answer": "540",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_11_qna_10",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_11",
+    "question": "What is the transmitter power level for NR-DC?",
+    "answer": "62B",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_11_qna_11",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_11",
+    "question": "What is the general configured transmitted power for NR-DC?",
+    "answer": "General",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_11_qna_12",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_11",
+    "question": "What is the UE maximum output power for NR-DC?",
+    "answer": "541",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_11_qna_13",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_11",
+    "question": "What is the UE maximum output power reduction for NR-DC?",
+    "answer": "62B0",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_11_qna_14",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_11",
+    "question": "What is the UE additional maximum output power reduction for NR-DC?",
+    "answer": "62B1",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_11_qna_15",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_11",
+    "question": "What is the configured transmitted power level for NR-DC with additional reductions?",
+    "answer": "62B2",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_11_qna_16",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_11",
+    "question": "What is ΔTIBc for NR-DC with additional reductions?",
+    "answer": "543",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_11_qna_17",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_11",
+    "question": "What is the transmitter power level for SUL?",
+    "answer": "547",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_11_qna_18",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_11",
+    "question": "What is the configured transmitted power for SUL?",
+    "answer": "62C",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_11_qna_19",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_11",
+    "question": "What is ΔTIBc for SUL with two bands?",
+    "answer": "62C1",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_11_qna_20",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_11",
+    "question": "What is ΔTIBc for SUL with three or more bands?",
+    "answer": "62C2",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_11_qna_21",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_11",
+    "question": "What is the transmitter power level for UL MIMO?",
+    "answer": "551",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_13_qna_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_13",
+    "question": "What is the MPR for Power class 1 UE in Band n14?",
+    "answer": "The maximum output power reduction settings.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_13_qna_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_13",
+    "question": "What is the maximum output power reduction for Sidelink Unlicensed 568 62E2F?",
+    "answer": "The maximum output power reduction value specified.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_13_qna_3",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_13",
+    "question": "What does MPR refer to in the context of NR SL-U UE?",
+    "answer": "It refers to the maximum output power reduction settings for New Radio Simultaneous Operation with Unlicensed UE.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_13_qna_4",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_13",
+    "question": "What is the additional MPR for Sidelink Unlicensed in Band 570 62E3?",
+    "answer": "The additional maximum output power reduction value specified for this configuration.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_13_qna_5",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_13",
+    "question": "What is the additional MPR for V2X in Band 570 62E3?",
+    "answer": "The additional maximum output power reduction value specified for V2X UE in this band.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_14_qna_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_14",
+    "question": "What does A-MPR stand for in this context?",
+    "answer": "A-MPR stands for configured transmitted power.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_14_qna_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_14",
+    "question": "What is the configured transmitted power value for NS_29?",
+    "answer": "582",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_14_qna_3",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_14",
+    "question": "What is the configured transmitted power value for NS_30?",
+    "answer": "583",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_14_qna_4",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_14",
+    "question": "What is the configured transmitted power value for NS_54?",
+    "answer": "585",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_14_qna_5",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_14",
+    "question": "What is the configured transmitted power value for NS_64?",
+    "answer": "586",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_14_qna_6",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_14",
+    "question": "What is the configured transmitted power value for NS_65?",
+    "answer": "588",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_14_qna_7",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_14",
+    "question": "What is the configured transmitted power value for NS_66?",
+    "answer": "589",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_14_qna_8",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_14",
+    "question": "What is the configured transmitted power value for NS_67 or NS_71?",
+    "answer": "590",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_14_qna_9",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_14",
+    "question": "What is the configured transmitted power value for NS_68?",
+    "answer": "591",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_14_qna_10",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_14",
+    "question": "What is the configured transmitted power value for NS_69?",
+    "answer": "592",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_14_qna_11",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_14",
+    "question": "What is the configured transmitted power value for V2X in general?",
+    "answer": "593",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_14_qna_12",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_14",
+    "question": "What is the configured transmitted power value for inter-band V2X concurrent operation?",
+    "answer": "62E41",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_14_qna_13",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_14",
+    "question": "What is the configured transmitted power value for intra-band V2X concurrent operation?",
+    "answer": "62E42",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_14_qna_14",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_14",
+    "question": "What is the configured transmitted power value for Sidelink CA?",
+    "answer": "62E4A",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_14_qna_15",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_14",
+    "question": "What is the configured transmitted power value for Sidelink Unlicensed?",
+    "answer": "62E4F",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_14_qna_16",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_14",
+    "question": "What is the configured transmitted power value for Sidelink Unlicensed in general?",
+    "answer": "62E4F1",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_15_qna_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_15",
+    "question": "What is the configured transmitted power for inter-band concurrent operation?",
+    "answer": "598 62E4F2",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_15_qna_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_15",
+    "question": "What is the transmitter power for shared spectrum channel access?",
+    "answer": "600 62F",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_15_qna_3",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_15",
+    "question": "What is the UE maximum output power?",
+    "answer": "600 62F1",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_15_qna_4",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_15",
+    "question": "What is the UE maximum output power for CA?",
+    "answer": "601 62F1A",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_15_qna_5",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_15",
+    "question": "What is the UE maximum output power for inter-band CA?",
+    "answer": "601 62F1A1",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_15_qna_6",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_15",
+    "question": "What is the UE maximum output power for intra-band contiguous CA?",
+    "answer": "602 62F1A21",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_15_qna_7",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_15",
+    "question": "What is the UE maximum output power for intra-band contiguous CA (CA_NS_54)?",
+    "answer": "602 62F1A22",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_15_qna_8",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_15",
+    "question": "What is the UE maximum output power for NR-DC?",
+    "answer": "602 62F1B",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_15_qna_9",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_15",
+    "question": "What is the UE maximum output power for UL MIMO?",
+    "answer": "603 62F1D",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_15_qna_10",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_15",
+    "question": "What is the UE maximum output power reduction?",
+    "answer": "603 62F2",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_15_qna_11",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_15",
+    "question": "What is the UE maximum output power reduction for CA?",
+    "answer": "603 62F2A",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_15_qna_12",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_15",
+    "question": "What is the UE maximum output power reduction for inter-band CA?",
+    "answer": "606 62F2A1",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_15_qna_13",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_15",
+    "question": "What is the UE maximum output power reduction for intra-band contiguous CA?",
+    "answer": "606 62F2A2",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_15_qna_14",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_15",
+    "question": "What is the UE maximum output power reduction for UL MIMO?",
+    "answer": "606 62F2D",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_15_qna_15",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_15",
+    "question": "What is the additional maximum output power reduction?",
+    "answer": "609 62F3",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_16_qna_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_16",
+    "question": "What is the A-MPR identifier for NS_29?",
+    "answer": "611 62F34",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_16_qna_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_16",
+    "question": "What is the A-MPR identifier for NS_30?",
+    "answer": "612 62F35",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_16_qna_3",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_16",
+    "question": "What is the A-MPR identifier for NS_31?",
+    "answer": "613 62F36",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_16_qna_4",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_16",
+    "question": "What is the A-MPR identifier for NS_53?",
+    "answer": "611 62F37",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_16_qna_5",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_16",
+    "question": "What is the A-MPR identifier for NS_54?",
+    "answer": "612 62F38",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_18_qna_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_18",
+    "question": "What is the main topic of the document?",
+    "answer": "This document discusses machine learning.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_18_qna_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_18",
+    "question": "What is machine learning?",
+    "answer": "Machine learning is a method of analyzing data and automatically building predictive models.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_19_qna_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_19",
+    "question": "What is the configured transmitter power for inter-band UL CA with UL MIMO?",
+    "answer": "637 62L31",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_19_qna_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_19",
+    "question": "What is the maximum output power for eRedCap 632 62I?",
+    "answer": "Void",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_19_qna_3",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_19",
+    "question": "What is the maximum output power for RedCap 632 62J?",
+    "answer": "Void",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_19_qna_4",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_19",
+    "question": "What is the configured transmitter power for ATG 633 62J1?",
+    "answer": "Void",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_19_qna_5",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_19",
+    "question": "What is the maximum output power for ATG 633 62J2?",
+    "answer": "Void",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_19_qna_6",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_19",
+    "question": "What is the configured transmitter power for Aerial UE 634 62K?",
+    "answer": "Void",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_19_qna_7",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_19",
+    "question": "What is the maximum output power for Aerial UE 634 62K1?",
+    "answer": "Void",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_19_qna_8",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_19",
+    "question": "What is the maximum output power reduction for Aerial UE 634 62J2?",
+    "answer": "Void",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_19_qna_9",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_19",
+    "question": "What is the additional maximum output power reduction for Aerial UE 634 62K31?",
+    "answer": "Void",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_19_qna_10",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_19",
+    "question": "What is the maximum output power reduction for Aerial UE 634 62K32?",
+    "answer": "Void",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_19_qna_11",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_19",
+    "question": "What is the maximum output power reduction for Aerial UE 634 62K33?",
+    "answer": "Void",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_19_qna_12",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_19",
+    "question": "What is the configured transmitter power for inter-band UL CA with Tx Diversity 637 62L31?",
+    "answer": "Void",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_19_qna_13",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_19",
+    "question": "What is the maximum output power reduction for inter-band UL CA with Tx Diversity 639 62L32?",
+    "answer": "Void",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_20_qna_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_20",
+    "question": "What configuration is set for UE additional maximum output power reduction?",
+    "answer": "639",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_20_qna_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_20",
+    "question": "What is the minimum output power setting?",
+    "answer": "640",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_20_qna_3",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_20",
+    "question": "What is the transmit OFF power setting?",
+    "answer": "640",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_20_qna_4",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_20",
+    "question": "Which ONOFF time mask settings are configured?",
+    "answer": "640, 6331; 6332; 6333",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_20_qna_5",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_20",
+    "question": "Where can I find the general ONOFF time mask configuration?",
+    "answer": "General section",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_20_qna_6",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_20",
+    "question": "What is the transmit power time mask for slot boundaries?",
+    "answer": "Slot and short or long subslot boundaries",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_20_qna_7",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_20",
+    "question": "Which PRACH time mask is configured?",
+    "answer": "643, 6335; 641, 6332; 643, 6336",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_20_qna_8",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_20",
+    "question": "What SRS time masks are set up?",
+    "answer": "SRS and PUSCH-SRS time masks",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_20_qna_9",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_20",
+    "question": "What PUSCH-PUCCH and PUSCH-SRS time mask settings exist?",
+    "answer": "Consecutive slot or long subslot transmission boundaries; consecutive short subslot transmissions boundaries",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_20_qna_10",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_20",
+    "question": "Which transmit power time masks are set up for consecutive slot or long subslot transmissions?",
+    "answer": "Transmit power time mask for consecutive slot or long subslot transmission and short subslot transmission boundaries",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_20_qna_11",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_20",
+    "question": "What settings are there for transmit power time masks related to short subslot transmissions?",
+    "answer": "Transmit power time mask for consecutive short subslot transmissions boundaries",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_20_qna_12",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_20",
+    "question": "Which absolute power tolerance is configured?",
+    "answer": "Absolute",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_20_qna_13",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_20",
+    "question": "Which relative power tolerance is configured?",
+    "answer": "Relative",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_20_qna_14",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_20",
+    "question": "What aggregate power tolerance settings are present?",
+    "answer": "Aggregate",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_20_qna_15",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_20",
+    "question": "Where can I find the output power dynamics for CA configurations?",
+    "answer": "Output power dynamics for CA section (648 and 63A)",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_20_qna_16",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_20",
+    "question": "What is the minimum output power for CA configuration?",
+    "answer": "Minimum output power for CA: 648, 63A1; Minimum output power for CA 63A11",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_22_qna_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_22",
+    "question": "What does the ONOFF number 649 refer to?",
+    "answer": "Time mask for switching between two uplink carriers",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_22_qna_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_22",
+    "question": "What about the ONOFF number 650?",
+    "answer": "Time mask for switching between two uplink carriers",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_22_qna_3",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_22",
+    "question": "What is specified by the ONOFF number 651?",
+    "answer": "Time mask for switching between one uplink band with one transmit antenna connector and one uplink band with two transmit antenna connectors",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_22_qna_4",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_22",
+    "question": "What does ONOFF 652 refer to?",
+    "answer": "Time mask for switching between two uplink bands with two transmit antenna connectors",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_22_qna_5",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_22",
+    "question": "What is the purpose of ONOFF 654?",
+    "answer": "Time mask for switching across up to four uplink bands",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_22_qna_6",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_22",
+    "question": "What additional requirements are mentioned for three-band switching with dual TAG?",
+    "answer": "Additional requirements for three-band switching with dual TAG",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_22_qna_7",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_22",
+    "question": "What about the entry marked as 'Void'?",
+    "answer": "Void",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_22_qna_8",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_22",
+    "question": "What does ONOFF 659 refer to in this context?",
+    "answer": "Power control for CA",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_22_qna_9",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_22",
+    "question": "How is power control further divided in this document?",
+    "answer": "Power control is further divided into different categories like intra-band contiguous CA, absolute power tolerance, relative power tolerance, aggregate power control tolerance, etc.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_22_qna_10",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_22",
+    "question": "What specific details are provided under ONOFF 63A41?",
+    "answer": "Details under ONOFF 63A41 include absolute power tolerance and other related tolerances",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_22_qna_11",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_22",
+    "question": "What about the sub-entries of ONOFF 63A41?",
+    "answer": "Sub-entries include relative power tolerance, aggregate power control tolerance",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_24_qna_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_24",
+    "question": "What is the minimum output power for UL MIMO 670 63D?",
+    "answer": "18 dBm",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_24_qna_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_24",
+    "question": "What is the transmit OFF power for UL MIMO 670 63D?",
+    "answer": "-55 dBm",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_24_qna_3",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_24",
+    "question": "What is the transmit ONOFF time mask for UL MIMO 670 63D?",
+    "answer": "1 ms",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_24_qna_4",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_24",
+    "question": "What is the output power dynamics for V2X 671 63E?",
+    "answer": "Power dynamics management.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_24_qna_5",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_24",
+    "question": "What is the minimum output power for V2X 671 63E1?",
+    "answer": "18 dBm",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_24_qna_6",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_24",
+    "question": "What is the general minimum output power for V2X 671 63E11A?",
+    "answer": "10 dBm",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_24_qna_7",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_24",
+    "question": "What is the minimum output power for Sidelink CA in V2X 671 63E12?",
+    "answer": "18 dBm",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_24_qna_8",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_24",
+    "question": "What is the minimum output power for V2X concurrent operation 671 63E1F?",
+    "answer": "10 dBm",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_24_qna_9",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_24",
+    "question": "What is the minimum output power for Sidelink Unlicensed in V2X 671 63E1F1?",
+    "answer": "-55 dBm",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_24_qna_10",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_24",
+    "question": "What is the transmit OFF power for V2X 672 63E2?",
+    "answer": "-55 dBm",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_24_qna_11",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_24",
+    "question": "What is the general transmit OFF power for V2X 672 63E21A?",
+    "answer": "-55 dBm",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_24_qna_12",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_24",
+    "question": "What is the transmit OFF power for Sidelink CA in V2X 672 63E22?",
+    "answer": "-55 dBm",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_24_qna_13",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_24",
+    "question": "What is the transmit OFF power for V2X concurrent operation 672 63E2F?",
+    "answer": "-55 dBm",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_24_qna_14",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_24",
+    "question": "What is the transmit OFF power for Sidelink Unlicensed in V2X 672 63E2F1?",
+    "answer": "-55 dBm",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_24_qna_15",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_24",
+    "question": "What is the transmit ONOFF time mask for V2X 673 63E3?",
+    "answer": "1 ms",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_24_qna_16",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_24",
+    "question": "What is the general transmit ONOFF time mask for V2X 673 63E31A?",
+    "answer": "1 ms",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_24_qna_17",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_24",
+    "question": "What is the transmit ONOFF time mask for Sidelink CA in V2X 673 63E32?",
+    "answer": "1 ms",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_27_qna_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_27",
+    "question": "What is Transmit OFF power for inter-band UL CA with UL MIMO 680 63H33?",
+    "answer": "Transmit OFF power for inter-band UL CA with UL MIMO 680 63H33",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_27_qna_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_27",
+    "question": "What is the ONOFF time mask for inter-band UL CA with UL MIMO 680 63H34?",
+    "answer": "ONOFF time mask for inter-band UL CA with UL MIMO 680 63H34",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_27_qna_3",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_27",
+    "question": "What is Power control for inter-band UL CA with UL MIMO 680 63I?",
+    "answer": "Power control for inter-band UL CA with UL MIMO 680 63I",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_27_qna_4",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_27",
+    "question": "What is the reserved parameter for 680 63J?",
+    "answer": "reserved 680 63J",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_27_qna_5",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_27",
+    "question": "What is Output power dynamics for ATG 680 63J1?",
+    "answer": "Output power dynamics for ATG 680 63J1",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_27_qna_6",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_27",
+    "question": "What is the minimum output power for ATG 680 63J2?",
+    "answer": "Minimum output power for ATG 680 63J2",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_27_qna_7",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_27",
+    "question": "What is Transmit OFF power for ATG 681 63J3?",
+    "answer": "Transmit OFF power for ATG 681 63J3",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_27_qna_8",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_27",
+    "question": "What is the ONOFF time mask for ATG 681 63J4?",
+    "answer": "ONOFF time mask for ATG 681 63J4",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_27_qna_9",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_27",
+    "question": "What is Power control for ATG 681 63K?",
+    "answer": "Power control for ATG 681 63K",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_27_qna_10",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_27",
+    "question": "What is Output power dynamics for CA with Tx Diversity 681 63L?",
+    "answer": "Output power dynamics for CA with Tx Diversity 681 63L",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_27_qna_11",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_27",
+    "question": "What are the reserved parameters for 681 63L?",
+    "answer": "Void 681 63L2, Void 681 63L3",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_27_qna_12",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_27",
+    "question": "What is Output power dynamics for inter-band UL CA with Tx Diversity 681 63L31?",
+    "answer": "Output power dynamics for inter-band UL CA with Tx Diversity 681 63L31",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_27_qna_13",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_27",
+    "question": "What is the minimum output power for inter-band UL CA with Tx Diversity 681 63L32?",
+    "answer": "Minimum output power for inter-band UL CA with Tx Diversity 681 63L32",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_27_qna_14",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_27",
+    "question": "What is Transmit OFF power for inter-band UL CA with Tx Diversity 682 63L33?",
+    "answer": "Transmit OFF power for inter-band UL CA with Tx Diversity 682 63L33",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_27_qna_15",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_27",
+    "question": "What is the ONOFF time mask for inter-band UL CA with Tx Diversity 682 63L34?",
+    "answer": "ONOFF time mask for inter-band UL CA with Tx Diversity 682 63L34",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_27_qna_16",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_27",
+    "question": "What is Power control for inter-band UL CA with Tx Diversity 682 64?",
+    "answer": "Power control for inter-band UL CA with Tx Diversity 682 64",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_27_qna_17",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_27",
+    "question": "What is the transmit signal quality for inter-band UL CA with Tx Diversity 682 641?",
+    "answer": "frequency error",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_27_qna_18",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_27",
+    "question": "What is the transmit modulation quality for inter-band UL CA with Tx Diversity 682 642?",
+    "answer": "transmit modulation quality",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_27_qna_19",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_27",
+    "question": "What is the general parameter for inter-band UL CA with Tx Diversity 682 6420?",
+    "answer": "error vector magnitude",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_27_qna_20",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_27",
+    "question": "What is the error vector magnitude parameter for inter-band UL CA with Tx Diversity 682 6421?",
+    "answer": "general",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_28_qna_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_28",
+    "question": "What is Error Vector Magnitude including symbols with transient period?",
+    "answer": "This document discusses machine learning.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_28_qna_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_28",
+    "question": "What is Carrier leakage?",
+    "answer": "Carrier leakage refers to power loss in cellular networks due to imperfect termination.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_28_qna_3",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_28",
+    "question": "What are In-band emissions regarding carrier leakage?",
+    "answer": "In-band emissions refer to signals operating within the same frequency band as the main signal, causing interference.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_28_qna_4",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_28",
+    "question": "What is EVM equalizer spectrum flatness?",
+    "answer": "EVM equalizer spectrum flatness refers to the measurement of how uniform the signal quality is after equalization.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_28_qna_5",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_28",
+    "question": "What are Pi2 BPSK modulation requirements?",
+    "answer": "Pi2 BPSK requires binary phase-shift keying with specific power levels for reliable data transmission.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_28_qna_6",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_28",
+    "question": "What are the Pi2 and QPSK modulations together known as?",
+    "answer": "The combination is often referred to in advanced modulation techniques for higher data rates.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_28_qna_7",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_28",
+    "question": "What are Phase continuity requirements for DMRS bundling?",
+    "answer": "Phase continuity ensures coherent signal reception when multiple data streams are transmitted simultaneously.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_28_qna_8",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_28",
+    "question": "What is Transmit signal quality for CA?",
+    "answer": "Transmit signal quality refers to the integrity of signals in cellular networks, affecting call performance.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_28_qna_9",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_28",
+    "question": "What are Frequency errors in CA regarding?",
+    "answer": "Frequency errors can be intra-band (within a frequency slot), non-intra-band (across slots), or inter-band (different bands).",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_29_qna_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_29",
+    "question": "What is EVM in this context?",
+    "answer": "Error Vector Magnitude",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_29_qna_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_29",
+    "question": "What does 'Void' refer to?",
+    "answer": "Appears at 64B",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_29_qna_3",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_29",
+    "question": "What term describes frequency errors in UL MIMO?",
+    "answer": "Frequency error for UL MIMO",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_29_qna_4",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_29",
+    "question": "Which term refers to the flatness of EVM equalizer spectrum for UL MIMO?",
+    "answer": "EVM equalizer spectrum flatness for UL MIMO",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_29_qna_5",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_29",
+    "question": "What is mentioned at 64A23?",
+    "answer": "Carrier leakage",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_29_qna_6",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_29",
+    "question": "Which term corresponds to in-band emissions in the context of CA and D22?",
+    "answer": "In-band emissions",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_29_qna_7",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_29",
+    "question": "What does 'Void' refer to at 64B?",
+    "answer": "Void",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_29_qna_8",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_29",
+    "question": "Which term describes frequency errors for V2X in sidelink CA?",
+    "answer": "Frequency error for sidelink CA",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_29_qna_9",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_29",
+    "question": "What is mentioned at 64E11A?",
+    "answer": "General",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_30_qna_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_30",
+    "question": "What is the frequency associated with V2X concurrent operation?",
+    "answer": "698 64E1F",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_30_qna_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_30",
+    "question": "What type of error is discussed for Sidelink Unlicensed?",
+    "answer": "Frequency error",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_30_qna_3",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_30",
+    "question": "What occurs during SL-U concurrent operation?",
+    "answer": "Frequency error",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_30_qna_4",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_30",
+    "question": "What term relates to Transmit modulation quality in V2X?",
+    "answer": "698 64E21",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_30_qna_5",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_30",
+    "question": "What is the general category for Error Vector Magnitude in V2X?",
+    "answer": "General",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_30_qna_6",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_30",
+    "question": "What specific aspect of Error Vector Magnitude pertains to V2X?",
+    "answer": "698 64E22",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_30_qna_7",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_30",
+    "question": "What term describes Carrier leakage in V2X?",
+    "answer": "Carrier leakage for V2X",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_30_qna_8",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_30",
+    "question": "What is the specific type of Carrier leakage mentioned?",
+    "answer": "698 64E23A",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_30_qna_9",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_30",
+    "question": "What occurs with In-band emissions for V2X?",
+    "answer": "In-band emissions for V2X",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_30_qna_10",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_30",
+    "question": "What specific aspect of In-band emissions relates to V2X concurrent operation?",
+    "answer": "699 64E25",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_30_qna_11",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_30",
+    "question": "What term is associated with EVM equalizer spectrum flatness in V2X?",
+    "answer": "699 64E26",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_30_qna_12",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_30",
+    "question": "What type of error is mentioned for Sidelink Unlicensed?",
+    "answer": "Frequency error",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_30_qna_13",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_30",
+    "question": "What specific frequency is associated with Error Vector Magnitude for V2X?",
+    "answer": "699 64E2F1",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_30_qna_14",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_30",
+    "question": "What term relates to Carrier leakage in V2X?",
+    "answer": "Carrier leakage for V2X concurrent operation",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_30_qna_15",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_30",
+    "question": "What specific frequency pertains to In-band emissions for V2X?",
+    "answer": "700 64E2F3",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_30_qna_16",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_30",
+    "question": "What type of error is mentioned for Sidelink CA?",
+    "answer": "Frequency error",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_30_qna_17",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_30",
+    "question": "What term relates to EVM equalizer spectrum flatness in V2X?",
+    "answer": "General",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_30_qna_18",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_30",
+    "question": "What specific frequency is associated with Transmit modulation quality for SL-U concurrent operation?",
+    "answer": "700 64E2F5",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_30_qna_19",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_30",
+    "question": "What type of error is mentioned for V2X concurrent operation?",
+    "answer": "Frequency error",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_30_qna_20",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_30",
+    "question": "What term relates to In-band emissions in Sidelink CA?",
+    "answer": "In-band emissions",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_33_qna_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_33",
+    "question": "What is Tx Diversity value described in the document?",
+    "answer": "705",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_33_qna_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_33",
+    "question": "What type of emissions are being discussed for the output RF spectrum?",
+    "answer": "65",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_33_qna_3",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_33",
+    "question": "Which term refers to the general out-of-band emission?",
+    "answer": "705 651",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_33_qna_4",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_33",
+    "question": "What is the occupied bandwidth mentioned in the text?",
+    "answer": "705 652",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_33_qna_5",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_33",
+    "question": "Which category of out-of-band emissions is specified in detail?",
+    "answer": "705 6521",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_33_qna_6",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_33",
+    "question": "What are the general spectral emission mask requirements for network signalling values listed in the document?",
+    "answer": "NS_35, NS_04, NS_03 and NS_03U, NS_06 or NS_07",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_33_qna_7",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_33",
+    "question": "Which network signalling value requirement is mentioned in the context of adjacent channel leakage ratio (ACLR)?",
+    "answer": "NS_27, NS_21",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_33_qna_8",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_33",
+    "question": "What type of emissions are classified under the 'Additional spurious emissions' category?",
+    "answer": "719 65331",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_33_qna_9",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_33",
+    "question": "Which network signalling value requirement is mentioned in the context of adjacent channel leakage ratio (ACLR)?",
+    "answer": "NS_27, NS_21",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_33_qna_10",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_33",
+    "question": "What type of emissions are classified under 'Spurious emissions for UE co-existence'?",
+    "answer": "713 6533",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_33_qna_11",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_33",
+    "question": "Which category of spurious emissions is mentioned?",
+    "answer": "General, General spurious emissions, Spurious emissions for UE co-existence, Additional spurious emissions",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_33_qna_12",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_33",
+    "question": "What type of emissions are classified under 'Additional spurious emissions'?",
+    "answer": "719 65331",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_33_qna_13",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_33",
+    "question": "Which network signalling value requirement is mentioned in the context of adjacent channel leakage ratio (ACLR)?",
+    "answer": "NS_27, NS_21",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_35_qna_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_35",
+    "question": "What is the occupied bandwidth for Intra-band contiguous CA 729 65A12?",
+    "answer": "Occupied bandwidth for Intra-band contiguous CA 729 65A12",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_35_qna_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_35",
+    "question": "What is the occupied bandwidth for Intra-band non-contiguous CA 729 65A13?",
+    "answer": "Occupied bandwidth for Intra-band non-contiguous CA 729 65A13",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_35_qna_3",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_35",
+    "question": "What is the occupied bandwidth for Inter-band CA 729 65A2?",
+    "answer": "Occupied bandwidth for Inter-band CA 729 65A2",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_35_qna_4",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_35",
+    "question": "What is the out-of-band emission for CA 729 65A2?",
+    "answer": "Out of band emission for CA 729 65A2",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_35_qna_5",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_35",
+    "question": "What is the general information about CA 729 65A2?",
+    "answer": "General 729 65A2",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_35_qna_6",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_35",
+    "question": "What is the spectrum emission mask for CA 729 65A2?",
+    "answer": "Spectrum emission mask for CA 729 65A2",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_35_qna_7",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_35",
+    "question": "What is the spectrum emission mask for intra-band contiguous CA 730 65A221?",
+    "answer": "Spectrum emission mask for intra-band contiguous CA 730 65A221",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_35_qna_8",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_35",
+    "question": "What is the spectrum emission mask for intra-band non-contiguous CA 730 65A222?",
+    "answer": "Spectrum emission mask for intra-band non-contiguous CA 730 65A222",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_35_qna_9",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_35",
+    "question": "What is the spectrum emission mask for Inter-band CA 730 65A223?",
+    "answer": "Spectrum emission mask for Inter-band CA 730 65A223",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_35_qna_10",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_35",
+    "question": "What is the void information for CA 731 65A23?",
+    "answer": "Void 731 65A23",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_35_qna_11",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_35",
+    "question": "What is the additional spectrum emission mask for intra-band contiguous CA 731 65A231?",
+    "answer": "Additional spectrum emission mask for intra-band contiguous CA 731 65A231",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_35_qna_12",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_35",
+    "question": "What is the additional spectrum emission mask for Intra-band non-contiguous CA 732 65A232?",
+    "answer": "Additional spectrum emission mask for Intra-band non-contiguous CA 732 65A232",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_35_qna_13",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_35",
+    "question": "What is the additional spectrum emission mask for Inter-band CA 732 65A24?",
+    "answer": "Adjacent channel leakage ratio 732 65A241",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_35_qna_14",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_35",
+    "question": "What is the adjacent channel leakage ratio for NR ACLR.",
+    "answer": "NR ACLR",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_35_qna_15",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_35",
+    "question": "What is the adjacent channel leakage ratio for UTRA ACLR.",
+    "answer": "UTRA ACLR",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_35_qna_16",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_35",
+    "question": "What is the spurious emission information for CA 734 65A3?",
+    "answer": "Spurious emission for CA 734 65A31",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_39_qna_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_39",
+    "question": "What are the additional spurious emissions requirements for V2X 753 65E341?",
+    "answer": "General 753 65E342 Requirements for network signalling value NS_33 753 65E343 Void",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_39_qna_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_39",
+    "question": "What are the additional spurious emissions requirements for Sidelink Unlicensed 753 65E3F?",
+    "answer": "General 753 65E3F0 General spurious emissions 753 65E3F1",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_39_qna_3",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_39",
+    "question": "What are the additional spurious emissions requirements for UE co-existence 754 65E3F2?",
+    "answer": "General 754 65E3F21 Spurious emissions for UE co-existence for SL-U concurrent operation",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_39_qna_4",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_39",
+    "question": "What are the additional spurious emissions requirements for 754 65E3F3?",
+    "answer": "Additional spurious emissions 754 65E3F30 General",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_39_qna_5",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_39",
+    "question": "What are the additional spurious emissions requirements for Transmit intermodulation 754 65E4?",
+    "answer": "General 754 65E41 Transmit intermodulation for sidelink CA 754 65E41A Transmit intermodulation for V2X concurrent operation",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_39_qna_6",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_39",
+    "question": "What are the additional spurious emissions requirements for Output RF spectrum emissions for shared spectrum channel access 755 65F?",
+    "answer": "General 755 65F1 Occupied bandwidth",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_39_qna_7",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_39",
+    "question": "What are the additional spurious emissions requirements for Out of band emission 755 65F2?",
+    "answer": "General 755 65F21 Spectrum emission mask for operation with shared spectrum channel access 755 65F22 Spectrum emission mask for non-transmitted channels",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_39_qna_8",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_39",
+    "question": "What are the additional spurious emissions requirements for Additional spectrum emission mask 756 65F23?",
+    "answer": "General 756 65F24",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_40_qna_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_40",
+    "question": "What is the main topic of the document?",
+    "answer": "This document discusses machine learning.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_40_qna_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_40",
+    "question": "What is machine learning?",
+    "answer": "Machine learning is a method of analyzing data and automatically building predictive models.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_40_qna_3",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_40",
+    "question": "What are the different types of adjacent channel leakage ratios (ACLRs)?",
+    "answer": "The main types include 756 65F240 General Adjacent Channel Leakage Ratio (ACLR) and 756 65F241 Shared Spectrum Channel Access ACLR.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_40_qna_4",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_40",
+    "question": "What is the out-of-band emission for CA?",
+    "answer": "It refers to 757 65F2A Out of band emission for CA.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_40_qna_5",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_40",
+    "question": "What are spectrum emission masks for CA and its types?",
+    "answer": "They include 757 65F2A1 Spectrum emission mask for CA, 757 65F2A11 Spectrum emission mask for Inter-band CA, and 757 65F2A12 Spectrum emission mask for Intra-band contiguous CA.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_40_qna_6",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_40",
+    "question": "What is the adjacent channel leakage ratio for CA and its subtypes?",
+    "answer": "It includes 758 65F2A2 Adjacent channel leakage ratio for CA, 758 65F2A21 Adjacent channel leakage ratio for inter-band CA, and 758 65F2A22 Adjacent channel leakage ratio for intra-band contiguous CA.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_40_qna_7",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_40",
+    "question": "What are spurious emissions and their categories?",
+    "answer": "Spurious emissions include 758 65F3 Spurious emissions, 758 65F30 General spurious emissions, and 758 65F31 General spurious emissions.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_40_qna_8",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_40",
+    "question": "What is the significance of the term 'Spurious emissions for UE co-existence'?",
+    "answer": "It refers to 759 65F32 Spurious emissions for UE co-existence.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_40_qna_9",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_40",
+    "question": "What is NS_29 additional requirement?",
+    "answer": "It refers to 756 65F242 Additional requirement for network signalled value NS_29.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_41_qna_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_41",
+    "question": "What is the main topic of the document?",
+    "answer": "This document discusses machine learning topics, specifically spurious emissions and network signaling requirements.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_41_qna_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_41",
+    "question": "What are some specific areas covered under network signaling requirements?",
+    "answer": "NS_28, NS_29, NS_30, NS_53 or NS_54 or NS_60 or NS_66 or NS_67 or NS_71, NS_58, NS_61, NS_63 or NS_69, NS_64, and NS_66 or NS_67 or NS_71.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_41_qna_3",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_41",
+    "question": "What are the spurious emissions for CA?",
+    "answer": "764 65F3A Spurious emissions for CA and 764 65F3A0 General.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_41_qna_4",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_41",
+    "question": "What is the purpose of spurious emissions for UE co-existence?",
+    "answer": "765 65F3A2 Spurious emissions for UE co-existence.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_41_qna_5",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_41",
+    "question": "How are network signaling values like NS_53 or NS_58 specified?",
+    "answer": "Network signaling value NS_53 or NS_54 or NS_60 or NS_66 or NS_67 or NS_71, NS_58",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_43_qna_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_43",
+    "question": "What does 'Occupied bandwidth' refer to in this context?",
+    "answer": "It refers to the specific range of frequencies used by a communication system.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_43_qna_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_43",
+    "question": "What are 'Out of band emissions' mentioned here?",
+    "answer": "They refer to signals emitted outside the allocated frequency bands that can interfere with other systems.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_43_qna_3",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_43",
+    "question": "What is the definition of 'Spurious emission'",
+    "answer": "It refers to unwanted or unintended radiation from a system, often considered as noise.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_43_qna_4",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_43",
+    "question": "What does 'Transmit intermodulation' mean in this text?",
+    "answer": "It refers to interference caused by signal mixing during transmission between different frequency bands.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_43_qna_5",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_43",
+    "question": "What is the term for 'Reserved' mentioned in the text?",
+    "answer": "Reserved indicates a specific allocation or identifier, possibly indicating an unused channel.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_43_qna_6",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_43",
+    "question": "What are 'Output RF spectrum emissions' described as?",
+    "answer": "They refer to the total radiation emitted by a system across its operating frequency range.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_43_qna_7",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_43",
+    "question": "What defines 'Occupied bandwidth for ATG 768 65J2'",
+    "answer": "It refers to the specific frequency bands allocated for operation under the ATG configuration 768 and identifier 65J2.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_43_qna_8",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_43",
+    "question": "How is 'Out of band emission' defined in this context?",
+    "answer": "It refers to signals emitted outside the system's allocated frequency bands that may interfere with other systems.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_43_qna_9",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_43",
+    "question": "What does 'Spectrum emission mask' signify?",
+    "answer": "It refers to a specification defining permissible levels of radiation across various frequency bands.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_43_qna_10",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_43",
+    "question": "How is 'Adjacent channel leakage ratio' defined here?",
+    "answer": "It measures the amount of power that leaks into adjacent frequency bands relative to the main band's power.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_43_qna_11",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_43",
+    "question": "What do 'Spurious emissions for ATG 768 65K' refer to?",
+    "answer": "They refer to unwanted radiation or signals emitted by a system under specific configurations (ATG 768 and identifier 65K).",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_43_qna_12",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_43",
+    "question": "What are 'Output RF spectrum emissions for Aerial UE 769 65K1' described as?",
+    "answer": "They describe the total radiation emitted by an aerial user equipment operating under ATG configuration 769 with identifier 65K1.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_43_qna_13",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_43",
+    "question": "How is 'Occupied bandwidth for Aerial UE 769 65K2' defined in this text?",
+    "answer": "It refers to the specific frequency bands allocated for operation by an aerial user equipment under ATG configuration 769 with identifier 65K2.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_43_qna_14",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_43",
+    "question": "What does 'Out of band emission for Aerial UE 769 65K3' mean here?",
+    "answer": "It refers to signals emitted outside the system's allocated frequency bands by an aerial user equipment under ATG configuration 769 with identifier 65K3.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_43_qna_15",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_43",
+    "question": "What are 'Spurious emissions for Aerial UE 769 65K30' described as?",
+    "answer": "They refer to unwanted radiation emitted by an aerial user equipment operating under specific conditions (ATG 769 and identifier 65K30).",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_43_qna_16",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_43",
+    "question": "What do 'General spurious emissions' signify in this context?",
+    "answer": "It refers to a general specification for acceptable levels of unintended radiation from a system.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_43_qna_17",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_43",
+    "question": "How are 'Spurious emissions for UE co-existence' defined here?",
+    "answer": "They refer to unwanted signals emitted by user equipment when multiple devices or services are operating simultaneously within the same system. ",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_44_qna_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_44",
+    "question": "What is NS_UAV_44?",
+    "answer": "NS_UAV_44 Requirement for network signalling value",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_44_qna_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_44",
+    "question": "What is 65K331?",
+    "answer": "65K331 Requirement for network signalling value",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_44_qna_3",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_44",
+    "question": "What is 769?",
+    "answer": "769",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_44_qna_4",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_44",
+    "question": "What is 65K332?",
+    "answer": "65K332 Requirement for network signalling value",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_44_qna_5",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_44",
+    "question": "What is 769 65K333?",
+    "answer": "769 65K333 Requirement for network signalling value",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_44_qna_6",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_44",
+    "question": "What is 770 65L?",
+    "answer": "Output RF spectrum emissions for CA with Tx Diversity",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_44_qna_7",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_44",
+    "question": "What is 770 65L1?",
+    "answer": "Void",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_44_qna_8",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_44",
+    "question": "What is 770 65L2?",
+    "answer": "Void",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_44_qna_9",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_44",
+    "question": "What is 770 65L3?",
+    "answer": "Output RF spectrum emissions for inter-band UL CA with Tx Diversity",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_44_qna_10",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_44",
+    "question": "What is 770 65L31?",
+    "answer": "Occupied bandwidth for inter-band UL CA with Tx Diversity",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_44_qna_11",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_44",
+    "question": "What is 770 65L32?",
+    "answer": "Out of band emission for inter-band UL CA with Tx Diversity",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_44_qna_12",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_44",
+    "question": "What is 770 65L33?",
+    "answer": "Spurious emission for inter-band UL CA with Tx Diversity",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_44_qna_13",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_44",
+    "question": "What is 770 65L34?",
+    "answer": "Transmit intermodulation for inter-band UL CA with Tx Diversity",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_44_qna_14",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_44",
+    "question": "What is 770 66?",
+    "answer": "Void",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_44_qna_15",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_44",
+    "question": "What is 770 66E?",
+    "answer": "Time alignment error",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_44_qna_16",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_44",
+    "question": "What is 771?",
+    "answer": "Receiver characteristics",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_44_qna_17",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_44",
+    "question": "What is 772 71?",
+    "answer": "General",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_44_qna_18",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_44",
+    "question": "What is 773 71F?",
+    "answer": "General",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_44_qna_19",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_44",
+    "question": "What is 773 71G?",
+    "answer": "Reserved",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_44_qna_20",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_44",
+    "question": "What is 773 71H?",
+    "answer": "Reserved",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_44_qna_21",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_44",
+    "question": "What is 773 71I?",
+    "answer": "General",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_44_qna_22",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_44",
+    "question": "What is 773 71J?",
+    "answer": "General for ATG",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_44_qna_23",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_44",
+    "question": "What is 773 71K?",
+    "answer": "Reserved",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_44_qna_24",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_44",
+    "question": "What is 773 71L?",
+    "answer": "Reserved",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_44_qna_25",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_44",
+    "question": "What is 773 72?",
+    "answer": "Diversity characteristics",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_44_qna_26",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_44",
+    "question": "What is 773 73?",
+    "answer": "",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_46_qna_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_46",
+    "question": "What is the reference for CA 813 73A6 about?",
+    "answer": "Exceptions due to cross band isolation",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_46_qna_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_46",
+    "question": "How are inter-band CA 859 requirements applied in relation to Lower-MSD?",
+    "answer": "Lower-MSD requirements for inter-band CA 859",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_46_qna_3",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_46",
+    "question": "What does NR-DC 73B involve regarding reference sensitivity?",
+    "answer": "Reference sensitivity for NR-DC 73B",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_46_qna_4",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_46",
+    "question": "For SUL, what is the general reference sensitivity at 73C1?",
+    "answer": "General reference sensitivity power level for SUL 73C1",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_46_qna_5",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_46",
+    "question": "At 73C2, what defines the reference sensitivity power level for SUL?",
+    "answer": "Reference sensitivity power level for SUL 73C2",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_46_qna_6",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_46",
+    "question": "What is ΔRIBc for SUL at 865 73C3?",
+    "answer": "ΔRIBc reference sensitivity for SUL 865 73C3",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_46_qna_7",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_46",
+    "question": "What defines the SUL band combination in 868 73C32?",
+    "answer": "SUL band combination ΔRIBc for bands 868 73C32",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_46_qna_8",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_46",
+    "question": "How is ΔRIBc defined for two bands at 869 73C321?",
+    "answer": "ΔRIBc reference sensitivity power level for SUL in two bands 869 73C321",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_46_qna_9",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_46",
+    "question": "What defines ΔRIBc for three bands at 869 73C322?",
+    "answer": "ΔRIBc reference sensitivity power level for SUL across three bands 869 73C322",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_46_qna_10",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_46",
+    "question": "How is ΔRIBc determined for four bands at 869 73C323?",
+    "answer": "ΔRIBc reference sensitivity power level for SUL in four bands 869 73C323",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_46_qna_11",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_46",
+    "question": "What are the UL MIMO requirements at 73D?",
+    "answer": "Reference sensitivity exceptions for UL MIMO 73D",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_46_qna_12",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_46",
+    "question": "How is V2X reference sensitivity applied at 73E?",
+    "answer": "Reference sensitivity for V2X in LTE/5G networks 73E",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_46_qna_13",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_46",
+    "question": "What are the general requirements for V2X operation at 73E2?",
+    "answer": "Minimum requirements for V2X concurrent operation 73E2",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_46_qna_14",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_46",
+    "question": "What defines reference sensitivity power level for Sidelink CA at 871 73E2A?",
+    "answer": "Reference sensitivity power level for Sidelink CA in general operation 871 73E2A",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_46_qna_15",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_46",
+    "question": "How are minimum requirements defined for Sidelink Unlicensed at 872 73E2F?",
+    "answer": "Minimum requirements including reference sensitivity power level for Sidelink Unlicensed operation 872 73E2F",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_46_qna_16",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_46",
+    "question": "What is the reference sensitivity power level for V2X concurrent operation at 73E3?",
+    "answer": "Reference sensitivity power level for V2X in LTE/5G networks 73E3",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_47_qna_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_47",
+    "question": "What are the minimum requirements for SL-U concurrent operation?",
+    "answer": "General 873",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_47_qna_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_47",
+    "question": "What is the reference sensitivity power level for SL-U concurrent operation?",
+    "answer": "73E3F1",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_47_qna_3",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_47",
+    "question": "What is the reference sensitivity for shared spectrum channel access?",
+    "answer": "73F",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_47_qna_4",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_47",
+    "question": "What is the reference sensitivity power level?",
+    "answer": "73F1",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_47_qna_5",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_47",
+    "question": "What are the void entries in this document?",
+    "answer": "Void",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_47_qna_6",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_47",
+    "question": "What is the shared spectrum channel access CA?",
+    "answer": "73F4A",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_47_qna_7",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_47",
+    "question": "What type of shared spectrum channel access CA is 73F4A1?",
+    "answer": "Intra-band contiguous shared spectrum channel access CA",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_47_qna_8",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_47",
+    "question": "What are the void entries under section 73F5?",
+    "answer": "Void",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_47_qna_9",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_47",
+    "question": "What is the reference sensitivity for Tx Diversity?",
+    "answer": "73G",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_47_qna_10",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_47",
+    "question": "What is the void entry under section 73G5?",
+    "answer": "Void",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_47_qna_11",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_47",
+    "question": "What are the void entries under sections 73H?",
+    "answer": "Void",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_47_qna_12",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_47",
+    "question": "What is the reference sensitivity power level for SL-U concurrent operation?",
+    "answer": "73E3F1",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_47_qna_13",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_47",
+    "question": "What is the reference sensitivity for shared spectrum channel access?",
+    "answer": "73F",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_51_qna_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_51",
+    "question": "What is the narrow band blocking characteristic of the Intra-band non-contiguous CA 909 76A43 model?",
+    "answer": "Narrow band blocking for Intra-band non-contiguous CA 909 76A43 Narrow band blocking for Inter-band CA 910 76B",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_51_qna_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_51",
+    "question": "What are the blocking characteristics of the Inter-band CA 910 76B model?",
+    "answer": "Blocking characteristics for NR-DC 910 76C Blocking characteristics for SUL 910 76C4 Narrow band blocking for SUL 911 76D",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_51_qna_3",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_51",
+    "question": "What are the general and specific blocking characteristics of the SUL 910 76C model?",
+    "answer": "Blocking characteristics for NR-DC 910 76C Blocking characteristics for SUL 910 76C2 General 910 76C2 In-band blocking for SUL 910 76C3 Out-of-band blocking for SUL 910 76C4",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_51_qna_4",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_51",
+    "question": "What are the in-band and out-of-band blocking characteristics of the SUL 911 76D model?",
+    "answer": "Narrow band blocking for SUL 911 76D Blocking characteristics for UL MIMO 911 76E Blocking characteristics for V2X 911 76E1 General 911 76E2 In-band blocking 911 76E21 General 911 76E21A In-band blocking for Sidelink CA 912 76E22 In-band blocking for V2X concurrent operation 913 76E22F In-band blocking for SL-U concurrent operation 913 76E3 Out-of-band blocking 913 76E31",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_51_qna_5",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_51",
+    "question": "What are the in-band and out-of-band blocking characteristics of the SUL 910 76C model?",
+    "answer": "Blocking characteristics for NR-DC 910 76C Blocking characteristics for SUL 910 76C2 General 910 76C2 In-band blocking for SUL 910 76C3 Out-of-band blocking for SUL 910 76C4",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_51_qna_6",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_51",
+    "question": "What are the specific in-band and out-of-band blocking characteristics of the SUL 911 76D model?",
+    "answer": "Narrow band blocking for SUL 911 76D Blocking characteristics for UL MIMO 911 76E Blocking characteristics for V2X 911 76E1 General 911 76E2 In-band blocking 911 76E21 General 911 76E21A In-band blocking for Sidelink CA 912 76E22 In-band blocking for V2X concurrent operation 913 76E22F In-band blocking for SL-U concurrent operation 913 76E3 Out-of-band blocking 913 76E31",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_52_qna_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_52",
+    "question": "What is Out-of-band blocking for Sidelink CA?",
+    "answer": "This refers to the process of preventing interference between different communication channels.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_52_qna_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_52",
+    "question": "How are Sidelink and V2X operations handled concurrently?",
+    "answer": "Concurrent operation handling involves managing both Sidelink CA and V2X without interference.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_52_qna_3",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_52",
+    "question": "What type of blocking is discussed for the SideLink Unlicensed channel?",
+    "answer": "Out-of-band blocking refers to preventing out-of-bands interference specific to the SideLink Unlicensed channel.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_52_qna_4",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_52",
+    "question": "Where can one find information on reserved sections in this document?",
+    "answer": "Reserved entries such as 76G, H, I contain unspecified or future reserved specifications related to communication systems.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_52_qna_5",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_52",
+    "question": "What is mentioned about In-band blocking for shared spectrum access?",
+    "answer": "In-band blocking refers to interference within the same frequency band used by the shared spectrum channels.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_52_qna_6",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_52",
+    "question": "How are ATG operations managed in terms of reserved sections?",
+    "answer": "Reserved entries like 76J1, J2, and J3 pertain to ATG (Autonomous Traffic Generation) operations without specific defined characteristics or blocking types.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_52_qna_7",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_52",
+    "question": "What does the term 'Spurious response' refer to in this context?",
+    "answer": "Spurious response refers to unwanted signals that can interfere with communication systems as detailed under section 77.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_53_qna_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_53",
+    "question": "What is the spurious response requirement for CA 920 77A1?",
+    "answer": "Spurious response for CA 920 77A1",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_53_qna_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_53",
+    "question": "What is the spurious response requirement for Intra-band contiguous CA 920 77A2?",
+    "answer": "Intra-band contiguous CA 920 77A2",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_53_qna_3",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_53",
+    "question": "What is the spurious response requirement for Inter-band CA 921 77B?",
+    "answer": "Inter-band CA 921 77B",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_53_qna_4",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_53",
+    "question": "What is the spurious response requirement for NR-DC 921 77D?",
+    "answer": "NR-DC 921 77D",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_53_qna_5",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_53",
+    "question": "What is the spurious response requirement for UL MIMO 921 77E?",
+    "answer": "UL MIMO 921 77E",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_53_qna_6",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_53",
+    "question": "What is the spurious response requirement for V2X 921 77E1?",
+    "answer": "V2X 921 77E1",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_53_qna_7",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_53",
+    "question": "What is the general spurious response requirement for 921 77E1A?",
+    "answer": "General 921 77E1A",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_53_qna_8",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_53",
+    "question": "What is the spurious response requirement for Sidelink CA 922 77E1F?",
+    "answer": "Sidelink CA 922 77E1F",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_53_qna_9",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_53",
+    "question": "What is the general requirement for Sidelink Unlicensed 922 77E2?",
+    "answer": "General requirement for Sidelink Unlicensed 922 77E2",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_53_qna_10",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_53",
+    "question": "What is the spurious response requirement for V2X concurrent operation 922 77E2F?",
+    "answer": "V2X concurrent operation 922 77E2F",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_53_qna_11",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_53",
+    "question": "What is the spurious response requirement for SL-U concurrent operation 922 77F?",
+    "answer": "SL-U concurrent operation 922 77F",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_53_qna_12",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_53",
+    "question": "What is the spurious response requirement for shared spectrum channel access 922 77F1?",
+    "answer": "shared spectrum channel access 922 77F1",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_53_qna_13",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_53",
+    "question": "What is the general spurious response requirement for shared spectrum channel access CA 923 77F1A?",
+    "answer": "General spurious response requirement for shared spectrum channel access CA 923 77F1A",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_53_qna_14",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_53",
+    "question": "What is the spurious response requirement for Intra-band contiguous shared spectrum channel access CA 923 77F2?",
+    "answer": "Intra-band contiguous shared spectrum channel access CA 923 77F2",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_53_qna_15",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_53",
+    "question": "What is the spurious response requirement for Void 923 77G?",
+    "answer": "Void 923 77G",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_53_qna_16",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_53",
+    "question": "What is the general reserved category in 923 77H?",
+    "answer": "Reserved",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_53_qna_17",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_53",
+    "question": "What is the general reserved category in 923 77I?",
+    "answer": "Reserved",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_53_qna_18",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_53",
+    "question": "What is the general reserved category in 923 77J?",
+    "answer": "Reserved",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_53_qna_19",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_53",
+    "question": "What is the spurious response requirement for ATG 924 77K?",
+    "answer": "ATG 924 77K",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_53_qna_20",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_53",
+    "question": "What is the general reserved category in 924 77L?",
+    "answer": "Reserved",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_55_qna_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_55",
+    "question": "What is the main topic of the document?",
+    "answer": "Machine Learning",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_55_qna_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_55",
+    "question": "What is machine learning?",
+    "answer": "A method of analyzing data to build predictive models.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_55_qna_3",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_55",
+    "question": "What type of intermodulation is discussed in section 78J?",
+    "answer": "Wide band intermodulation for ATG",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_55_qna_4",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_55",
+    "question": "Which sections are reserved according to the text?",
+    "answer": "78F2, 78G, 78H, 78I, 78J, 78K, 78L",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_55_qna_5",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_55",
+    "question": "What is mentioned about section 79A?",
+    "answer": "It is void",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_57_qna_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_57",
+    "question": "What is FRC?",
+    "answer": "Figure of Merit for receiver requirements",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_57_qna_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_57",
+    "question": "What does section A321 General discuss?",
+    "answer": "General introduction or overview.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_57_qna_3",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_57",
+    "question": "What is CSI?",
+    "answer": "Channel State Information",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_57_qna_4",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_57",
+    "question": "What does section A321 General 957 discuss about FRC for QPSK?",
+    "answer": "FRC refers to Figure of Merit for receiver requirements of QPSK.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_57_qna_5",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_57",
+    "question": "What is OFDMA Channel Noise Generator OCNG?",
+    "answer": "Various channel noise generator patterns used in different conditions.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_59_qna_1",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_59",
+    "question": "What is the main topic of the document?",
+    "answer": "This document discusses various measurements and parameters in communication systems.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_59_qna_2",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_59",
+    "question": "What does F52 specify?",
+    "answer": "Window length of 1000.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_59_qna_3",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_59",
+    "question": "What is mentioned about F53?",
+    "answer": "Window length for normal CP as 1000.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_59_qna_4",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_59",
+    "question": "What is specified in F54?",
+    "answer": "Window length for Extended CP as 1000.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_59_qna_5",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_59",
+    "question": "What does F55 mention?",
+    "answer": "Window length for PRACH as 1002.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_59_qna_6",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_59",
+    "question": "What is the purpose of F6?",
+    "answer": "Averaged EVM measurement.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_59_qna_7",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_59",
+    "question": "What is described in F7?",
+    "answer": "Spectrum Flatness.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_59_qna_8",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_59",
+    "question": "What does F8 relate to?",
+    "answer": "EVM measurement for multiple Tx.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_59_qna_9",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_59",
+    "question": "What about F9?",
+    "answer": "Phase offset measurement for DMRS bundling.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_59_qna_10",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_59",
+    "question": "What is specified in F91?",
+    "answer": "Measurement point.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_59_qna_11",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_59",
+    "question": "What details are given in F92?",
+    "answer": "Symbols used.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_59_qna_12",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_59",
+    "question": "What is mentioned in F93?",
+    "answer": "Modified test signal.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_59_qna_13",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_59",
+    "question": "What does F94 cover?",
+    "answer": "Phase offset measurement.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_59_qna_14",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_59",
+    "question": "What is discussed in F10?",
+    "answer": "EVM for UL MIMO.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_59_qna_15",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_59",
+    "question": "What section of F10 includes?",
+    "answer": "General section F101 and MIMO Equalization F102.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_59_qna_16",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_59",
+    "question": "What about layer processing in F103?",
+    "answer": "Layer processing.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_59_qna_17",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_59",
+    "question": "What is specified in Annex G?",
+    "answer": "Difference of relative phase and power errors.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_59_qna_18",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_59",
+    "question": "What does G1 mention?",
+    "answer": "Measurement Point.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_59_qna_19",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_59",
+    "question": "What is detailed in G2?",
+    "answer": "Relative Phase Error Measurement, Symbols and subcarriers used (G21) and CFO correction (G22).",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_59_qna_20",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_59",
+    "question": "What are the steps mentioned in G23?",
+    "answer": "Steps of the measurement method.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_59_qna_21",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_59",
+    "question": "What is covered in Annex H?",
+    "answer": "Informative section about Void.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_59_qna_22",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_59",
+    "question": "What details are provided in Annex I?",
+    "answer": "Informative section about Void.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_59_qna_23",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_59",
+    "question": "What is mentioned in Annex J?",
+    "answer": "Informative section about Void.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_59_qna_24",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_59",
+    "question": "What does Annex K cover?",
+    "answer": "Informative section about Void.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_59_qna_25",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_59",
+    "question": "What is specified in Annex L?",
+    "answer": "ModifiedMPR-Behavior with normative specification.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_59_qna_26",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_59",
+    "question": "What indicates L1?",
+    "answer": "Indication of modified MPR behavior.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_59_qna_27",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_59",
+    "question": "What is mentioned in Annex M?",
+    "answer": "Declared Supported Post Antenna Gain for UE with normative specification.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_59_qna_28",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_59",
+    "question": "What does M1 specify?",
+    "answer": "FRMCS operating bands.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_59_qna_29",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_59",
+    "question": "What is noted in Annex N?",
+    "answer": "Change history as informative section.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_cover_chunk_59_qna_30",
+    "document_id": "38101-1-i80_cover",
+    "chunk_id": "38101-1-i80_cover_chunk_59",
+    "question": "What about M14 and beyond?",
+    "answer": "Annexes K, L, M, N contain normative and informative sections with specific details.",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_cover.docx"
+    }
+  }
+]

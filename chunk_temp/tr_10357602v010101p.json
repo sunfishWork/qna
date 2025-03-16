@@ -1,0 +1,578 @@
+[
+  {
+    "id": "tr_10357602v010101p_chunk_1",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 1,
+    "text": "ETSI TR 103 576-2 V111 2020-02 Intelligent Transport Systems ITS Pre-standardization study on ITS architecture Part 2 Interoperability among heterogeneous ITS systems and backward compatibility TECHNICAL REPORT ETSI ETSI TR 103 576-2 V111 2020-02 2 Reference DTRITS-00276-2 Keywords architecture ITS ETSI 650 Route des Lucioles F-06921 Sophia Antipolis Cedex - FRANCE Tel 33 4 92 94 42 00 Fax 33 4 93 65 47 16 Siret N 348 623 562 00017 - NAF 742 C Association à but non lucratif enregistrée à la Sous-Préfecture de Grasse 06 N 780388 Important notice The present document can be downloaded from The present document may be made available in electronic versions andor in print The content of any electronic andor print versions of the present document shall not be modified without the prior written authorization of ETSI",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_2",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 2,
+    "text": "In case of any existing or perceived difference in contents between such versions andor in print the prevailing version of an ETSI deliverable is the one made publicly available in PDF format at wwwetsiorgdeliver Users of the present document should be aware that the document may be subject to revision or change of status Information on the current status of this and other ETSI documents is available at If you find errors in the present document please send your comment to one of the following services Copyright Notification No part may be reproduced or utilized in any form or by any means electronic or mechanical including photocopying and microfilm except as authorized by written permission of ETSI The content of the PDF version shall not be modified without the written authorization of ETSI The copyright and the foregoing restriction extend to reproduction in all media ETSI 2020 All rights reserved DECT",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_3",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 3,
+    "text": "PLUGTESTS UMTS and the ETSI logo are trademarks of ETSI registered for the benefit of its Members 3GPP and LTE are trademarks of ETSI registered for the benefit of its Members and of the 3GPP Organizational Partners oneM2M logo is a trademark of ETSI registered for the benefit of its Members and of the oneM2M Partners GSM and the GSM logo are trademarks registered and owned by the GSM Association ETSI ETSI",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_4",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 4,
+    "text": "TR 103 576-2 V111 2020-02 3 Contents Intellectual Property Rights 5 Foreword 5 Modal verbs terminology 5 Introduction 5 1 Scope 6 2 References 6 21 Normative references 6 22 Informative references 6 3 Definition of terms symbols and abbreviations 8 31 Terms 8 32 Symbols 8 33 Abbreviations 8 4 Challenges in a heterogeneous ITS environment 8 5 Regulatory environment 9 6 Interoperability 9 61 Context 9 62 Definition 9 7 Backward Compatibility 10 71 Context 10 72 Definition 10 8 Implementation options 10 81 Context 10 82 Background of 59 GHz ITS band 11 83 Evaluation criteria 11 84 Baseline options 12 841 Single radio technology in 59 GHz ITS band Base1 12 8411 Description of the option 12 8412 Observation and analysis of the option 12 842 Single radio technology with its future iterations in 59 GHz ITS band Base1b 13 8421 Description of the option 13 8422 Observation and analysis of the option 13 843 Different radio technologies in distinct ITS-Ss Base2 14 8431 Description of the option 14 8432 Observation and analysis of the option 14 85 Interoperability options 15 851 Multiple technologies for all ITS-Ss MTA 15 8511 Description of the option 15 8512 Observation and analysis of the option 16 852 Duplicated transmission via cellular interface DTC 17 8521 Description of the option 17 8522 Observation and analysis of the option 18 86 Interoperability and Backward compatibility options 18 861 General 18 862 Multiple technologies for later deployed ITS-Ss MTL 19 8621 Description of the option 19 8622 Observation and analysis of the option 19 863 Multiple technologies and duplicated transmission for later deployed ITS-Ss MTL-DT 20 8631 Description of the option 20 8632 Observation and analysis of the option 21 864 Infrastructure Based Conversion IBC 21 8641 Description of the option 21 ETSI ETSI",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_5",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 5,
+    "text": "TR 103 576-2 V111 2020-02 4 8642 Observation and analysis of the option 24 9 Analysis and Conclusion 25 91 Summary of analysis 25 92 Conclusion 27 History 28 ETSI ETSI TR 103 576-2 V111 2020-02 5 Intellectual Property Rights Essential patents IPRs essential or potentially essential to normative deliverables may have been declared to ETSI The information pertaining to these essential IPRs if any is publicly available for ETSI members and non-members and can be found in ETSI SR 000 314 Intellectual Property Rights IPRs Essential or potentially Essential IPRs notified to ETSI in respect of ETSI standards which is available from the ETSI Secretariat Latest updates are available on the ETSI Web server Pursuant to the ETSI IPR Policy no investigation including IPR searches has been carried out by ETSI",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_6",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 6,
+    "text": "No guarantee can be given as to the existence of other IPRs not referenced in ETSI SR 000 314 or the updates on the ETSI Web server which are or may be or may become essential to the present document Trademarks The present document may include trademarks andor tradenames which are asserted andor registered by their owners ETSI claims no ownership of these except for any which are indicated as being the property of ETSI and conveys no right to use or reproduce any trademark andor tradename Mention of those trademarks in the present document does not constitute an endorsement by ETSI of products services or organizations associated with those trademarks Foreword This Technical Report TR has been produced by ETSI Technical Committee Intelligent Transport Systems",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_7",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 7,
+    "text": "ITS The present document is part 2 of a multi-part deliverable covering the Intelligent Transport Systems ITS Pre-standardization study on ITS architecture as identified below Part 1 Architecture for communications among ITS stations with multiple access layer technologies Part 2 Interoperability among heterogeneous ITS systems and backward compatibility Modal verbs terminology In the present document should should not may need not will will not can and cannot are to be interpreted as described in clause 32 of the ETSI Drafting Rules Verbal forms for the expression of provisions must and must not are NOT allowed in ETSI deliverables except when used in direct citation Introduction There are a number of candidate wireless communications technologies to address ITS requirements including ITS-G5 IEEE 80211bdTM i24 LTE-V2X PC5 NR-V2X mmWave mobile cellular systems Uu-Interface etc The available band such as the 59 GHz ITS band could be occupied by several distinct ITS technologies and those technologies are likely to operate simultaneous at the same time and location",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_8",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 8,
+    "text": "It is thus needed to clarify the inherent challenges in this situation and discover possible solutions to overcome the challenges ETSI ETSI TR 103 576-2 V111 2020-02 6 1 Scope The present document presents the results of the investigation for achieving interoperability and backward compatibility two principles of ITS Directive i2 when implementing the ITS architecture with multiple communication interfaces according to the existing ETSI",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_9",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 9,
+    "text": "ITS specifications The present document elaborates the definitions of interoperability and backward compatibility The requirements for functional safety according to ISO 26262 i12 and IEC 61508 i13 as well as privacy and security requirements are not addressed in detail in the present document 2 References 21 Normative references Normative references are not applicable in the present document 22 Informative references References are either specific identified by date of publication andor edition number or version number or non-specific For specific references only the cited version applies For non-specific references the latest version of the referenced document including any amendments applies NOTE",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_10",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 10,
+    "text": "While any hyperlinks included in this clause were valid at the time of publication ETSI cannot guarantee their long term validity The following referenced documents are not necessary for the application of the present document but they assist the user with regard to a particular subject area i1 M453 6th October 2009 Standardication Mandate addressed to CEN CENELEC and ETSI in the field of information and communication technologies to support the interoperability of co-operative systems for intelligent transport in the European Community i2 Directive 201040EU of the European Parliament and of the Council of 7 July 2010 on the framework for the deployment of Intelligent Transport Systems in the field of road transport and for interfaces with other modes of transport i3 Commission Decision 2008671EC of 5 August 2008 on the harmonised use of radio spectrum in the 5875 - 5905 MHz frequency band for safety-related applications of Intelligent Transport Systems ITS notified under document number C2008 4145 i4 CEPTECC Decision 0801 The harmonised use of the 5875-5925 MHz frequency band for Intelligent Transport Systems ITS approved 14 March 2008",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_11",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 11,
+    "text": "Amended 3 July 2015 i5 ETSI TS 136 300 LTE Evolved Universal Terrestrial Radio Access E-UTRA and Evolved Universal Terrestrial Radio Access Network E-UTRAN Overall description Stage 2 3GPP TS 36300 i6 ETSI EN 302 663 Intelligent Transport Systems ITS ITS-G5 Access layer specification for Intelligent Transport Systems operating in the 5 GHz frequency band i7 ETSI TR 102 962 Intelligent Transport Systems ITS Framework for Public Mobile Networks in Cooperative ITS C-ITS i8 ETSI TS 103 613 Intelligent Transport Systems ITS Access layer specification for Intelligent Transport Systems using LTE Vehicle to everything communication in the 59 GHz frequency band ETSI ETSI TR 103 576-2 V111 2020-02 7 i9 ETSI TS 123 401 V1050 LTE General Packet Radio Service GPRS enhancements for Evolved Universal Terrestrial Radio Access Network E-UTRAN access 3GPP TS 23401 version 1050",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_12",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 12,
+    "text": "Release 10 i10 ETSI TS 125 300 Universal Mobile Telecommunications System UMTS Universal Terrestrial Radio Access Network UTRAN General description Stage 2 3GPP TS 25300 i11 ETSI TS 138 300 5G NR Overall description Stage-2 3GPP TS 38300 i12 ISO 26262 Road vehicles -- Functional safety i13 IEC 61508 Functional safety of electricalelectronicprogrammable electronic safety-related systems i14 ETSI EN 302 665 Intelligent Transport Systems ITS Communications Architecture i15 EC COM2016 766 final 30th November 2016",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_13",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 13,
+    "text": "Communication from the Commission to the European Parliament the Council the European economic and social committee and the committee of the regions -- A European strategy on Cooperative Intelligent Transport Systems a milestone towards cooperative connected and automated mobility i16 European Commission C-ITS Platform reports I January 2016 NOTE Available at january-2016pdf i17 European Commission C-ITS Platform reports II September 2017 NOTE Available at i18 ETSI TS 101 539-1 V111 Intelligent Transport Systems ITS V2X Applications Part 1 Road Hazard Signalling RHS application requirements specification i19 ETSI TS 101 539-2 V111 Intelligent Transport Systems ITS V2X",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_14",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 14,
+    "text": "Applications Part 2 Intersection Collision Risk Warning ICRW application requirements specification i20 ETSI TS 101 539-3 V111 Intelligent Transport Systems ITS V2X Applications Part 3 Longitudinal Collision Risk Warning LCRW application requirements specification i21 Bijlsma Tjerk Hendriks T Vissers J Elshof L Jansen T Krosse B 2016 In-Vehicle Architectures for Truck Platooning The Challenges to reach SAE Automation Level 3 i22 Directive 201453EU of the European Parliament and of the Council of 16 April 2014 on the harmonisation of the laws of the Member States relating to the making available on the market of radio equipment and repealing Directive 19995EC i23 Directive EU 20181972 of the European Parliament and of the Council of 11 December 2018 establishing the European Electronic Communications Code i24 Description of IEEE 80211bdTM C2C Journal page 21ff NOTE Available at CC_Oct_2019_webpdf i25 IEEE 80211TM-2016 IEEE Standard for Information technology - Telecommunications and information exchange between systems - Local and metropolitan area networks-Specific requirements - Part 11 Wireless LAN Medium Access Control MAC and Physical Layer PHY",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_15",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 15,
+    "text": "Specifications ETSI ETSI TR 103 576-2 V111 2020-02 8 3 Definition of terms symbols and abbreviations 31 Terms For the purposes of the present document the terms given in ETSI EN 302 665 i14 ETSI EN 302 663 i6 and ETSI TS 103 613 i8 apply 32 Symbols Void 33 Abbreviations For the purposes of the present document the following abbreviations apply 3GPP 3rd Generation Partnership Project 5G 5th generation of cellular mobile communications CEN Comité Européen de Normalisation European Committee for Standardization CENELEC Comité Européen de Normalisation Électrotechnique European Committee for Electrotechnical Standardization DTC Duplicated transmission via cellular interface GW GateWay IBC Infrastructure Based Conversion ITS Intelligent Transportation System ITS-G5 Access layer technology NOTE As defined in ETSI EN 302 663 i6 ITS-S ITS Station LTE Long Term Evolution LTE-V2X Long Term Evolution based Vehicle-to-Everything NOTE",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_16",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 16,
+    "text": "As defined in ETSI TS 103 613 i8 MAC Media Access Control MEC Multi-access Edge Computing MTA Multiple technologies for all ITS-Ss MTL Multiple technologies for later deployed ITS-Ss MTL-DT Multiple technologies and duplicated transmission for later deployed ITS-Ss NGV Next Generation V2X NR New Radio PC5 Proximity-based Communication Interface 5 V2N Vehicle-to-Network V2X Vehicle-to-Everything 4 Challenges in a heterogeneous ITS environment There are a number of candidate wireless communications technologies to address ITS requirements including in particular 3GPP LTE-V2X Releases 14 and 15 specified in ETSI TS 103 613 i8 ITS-G5 specified in ETSI EN 302 663 i6 and 3GPP cellular technologies specified in ETSI TS 125 300 i10 ETSI TS 136 300 i5 ETSI TS 138 300 i11 and ETSI TR 102 962 i7 for short and long-range communications",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_17",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 17,
+    "text": "Furthermore it is expected that communication standards evolve for example 3GPP has a work item on an evolution of the existing LTE-V2X solution towards 5G New Radio NR technology which aims to comprise a new system design including a new access layer and aims to support interoperability and backward compatibility on system level with the existing LTE-V2X systems Also IEEE is developing IEEE 80211bd i24 which aims to provide a next generation V2X access layer that aims to be interoperable and backward compatible with the existing ITS-G5 IEEE 80211p i25 - based access layer on system level and radio access technology level ETSI ETSI",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_18",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 18,
+    "text": "TR 103 576-2 V111 2020-02 9 Since it is possible that distinct short-range access layer technologies may be operated in the 59 GHz ITS band at the same time and location interoperability and backward compatibility are addressed in the present document Other challenges eg coexistence of different short-range communication technologies and potential architecture enhancement for ITS-Ss with multiple access layer technologies are addressed by other work within ETSI 5 Regulatory environment To guide the investigation of interoperability and backward compatibility on utilizing multiple access layer technologies for Cooperative ITS the related regulatory environments are summarized in this clause The ITS Directive 201040EU i2 is the umbrella legislation for ITS services M453 i1 was subsequently adopted to ensure that the addressed standardization bodies are taking their role in developing the standards Those standards provide a basis for the effective provision of Cooperative ITS priority services The interoperability and backward compatibility aspects for heterogeneous communication systems are considered based on the definitions of interoperability and backward compatibility in the ITS Directive 201040EU i2 With regards to the regulatory framework at least the following additional regulations and reports exist COM2016 766 i15 European Commission C-ITS Platform reports I i16 and II i17 European spectrum regulation EC Decision 2008671EC i3 Directive 201453EU i22 and Directive EU 20181972 i23 6 Interoperability 61 Context Multiple",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_19",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 19,
+    "text": "ITS access layer technologies have been developed independently of each other or are currently in development eg ITS-G5 specified in ETSI EN 302 663 i6 LTE-V2X specified in ETSI TS 103 613 i8 and cellular technologies specified in ETSI TS 125 300 i10 for 3G ETSI TS 136 300 i5 for 4G and ETSI TS 138 300 i11 for 5G Some access layer technologies for ITS services are fundamentally different and thus not interoperable at the physical and MAC layers For example an LTE-V2X PC5 radio is not able to process ITS-G5 signals nor vice versa However interoperability of C-ITS services between devices using different access layer technologies might be supported via other means such as those described in subsequent clauses of the present document NOTE",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_20",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 20,
+    "text": "Some other access layer technologies in development aim to be interoperable and backward compatible with each other for example IEEE 80211p i25 access technology and its evolvement IEEE 80211bd i24 62 Definition The Article 4 in the Directive 201040EU i2 defines interoperability as follows interoperability capacity of systems and the underlying business processes to exchange data and to share information and knowledge The Annex II in the Directive 201040EU i2 provides a related principle and definition as follows deliver interoperability ensure that systems and the underlying business processes have the capacity to exchange data and to share information and knowledge to enable effective ITS service delivery ETSI ETSI",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_21",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 21,
+    "text": "TR 103 576-2 V111 2020-02 10 7 Backward Compatibility 71 Context As various short-range ITS access technologies designed to operate in the 59 GHz ITS band as well as long-range cellular technologies supporting ITS applications have been developed and are continuing to evolve it is important to consider how a new iteration of a technology can operate with previous iterations of that technology",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_22",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 22,
+    "text": "In practice this often leads to the following approach that earlier generation features are maintained by later generation equipment however later generation equipment include additional innovations services and features NOTE Where updates of existing equipment are needed to obtain backward compatibility it should be noted that updates in the field when possible might imply recalls for ITS equipment where a 100 update rate would be unrealistic to guarantee 72 Definition The article 4 in the Directive 201040EU i2 defines compatibility as follows compatibility general ability of a device or system to work with another device or system without modification The Annex II in the Directive 201040EU i2 defines the support of backward compatibility as follows support backward compatibility ensure where appropriate the capability for ITS systems to work with existing systems that share a common purpose without hindering the development of new technologies NOTE Incumbent technologies are not considered here and are treated according to frequency regulation 8 Implementation options 81 Context The context and terminology explanation for the interoperability and backward compatibility have been introduced in previous clauses The objective of clause 8 is to introduce candidate solutions which allow vehicular wireless communications equipment of distinct short-range communication technologies interact with each other The background of 59 GHz ITS band is described in clause 82",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_23",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 23,
+    "text": "the evaluation criteria used to evaluate implementation options are listed in clause 83 and the baseline implementation options which do not take into account the interoperability and backward compatibility are described in clause 84 for the purpose of comparison The implementation options supporting interoperability are described in clause 85 and those supporting interoperability and backward compatibility are described in clause 86 NOTE 1 For technologies which support interoperability and backward compatibility via their access layer design the implementation options providing interoperability and backward compatibility via higher layer design described in clauses 85 and 86 are not needed Coexistence of access layer technologies is out of scope of the present document Co-channel and adjacent channel coexistence between the two existing C-ITS technologies are covered by other work in ETSI For the scope of the present document it is assumed that different technologies use separate channels but coexistence studies may overcome this assumption NOTE 2",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_24",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 24,
+    "text": "It is essential to know how long products equipped with ITS-Ss will be supported For vehicles it is typical for 10 years after end of production For a typical vehicle model typical development time is 3-5 years production time is 5-8 years and lifetime is more than 10 years with guaranteed support In contrast the typical lifetime of consumer communication equipment is 2-3 years ETSI ETSI TR 103 576-2 V111 2020-02 11 82 Background of 59 GHz ITS band Figure 1 European 59 GHz channel layout According to Commission Decision 2008671EC i3 and ECC Decision 0801 i4 the 59 GHz ITS band in Europe consists of three 10 MHz frequency channels for safety-related ITS applications as shown in Figure 1 83 Evaluation criteria",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_25",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 25,
+    "text": "The following criteria are considered in the present document to support applications for the road safety and traffic efficiency and are used to evaluate the implementation options described in clauses 84 to 86 1 Interoperability as defined in clause 62 2 Backward compatibility as defined in clause 72 3 Latency time it takes to transfer a given piece of information from a transmitting ITS-S to a receiving ITS-S at the facilities layer more specifically time from the moment that a given piece of information is passed to the facilities layer at the transmitting ITS-S to the moment that the given piece of information is passed from the facilities layer to its upper layer of the receiving ITS-S NOTE 1 Implementation options with higher latencies above C-ITS safety services requirements are not suitable Latency requirements for several C-ITS services are found in ETSI TS 101 539-1 i18 ETSI TS 101 539-2 i19 ETSI TS 101 539-3 i20 and i21 4 Efficiency of spectrum usage the efficiency of spectrum usage is defined in the present document as the effective and efficient spectrum usage The efficiency of spectrum usage is considered as high when duplicated message transmission is not needed regardless of the radio technology and as low when duplicated message transmission is needed to transmit a same ITS message 5 Radio access impartiality the radio access impartiality is defined in the present document that the system design neither imposes nor discriminates in favour of the use of a particular type of radio access technology 6 Technology evolution acceptability the technology evolution acceptability is defined in the present document as not hindering the development of new technologies 7 Implementation complexity required hardware and software costs package volume in vehicles 8 Infrastructure required whether or not an implementation option properly works only in an infrastructure coverage NOTE 2",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_26",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 26,
+    "text": "The goal of the criteria 3 to 8 is to evaluate the qualitative cost that each implementation option needs for supporting the interoperability and backward compatibility compared to other options ETSI ETSI TR 103 576-2 V111 2020-02 12 84 Baseline options 841 Single radio technology in 59 GHz ITS band Base1 8411 Description of the option This option is defined with the following assumptions Only a single iteration of a single radio technology is used in the 59 GHz ITS band All ITS-Ss are equipped with the single iteration of that radio technology All ITS-Ss transmit and receive ITS messages via the single radio technology Figure 2 illustrates an example of the solution described above NOTE ITS-Ss can be vehicle or roadside ITS-Ss Figure 2 Example architecture for Base1 8412 Observation and analysis of the option",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_27",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 27,
+    "text": "Interoperability The interoperability between ITS-Ss equipped with distinct radio technologies is not addressed in this option because only a same iteration of one single radio technology is considered The interoperability among all ITS-Ss in this option is supported the highest among all options since all ITS-Ss are equipped with a same iteration of the same radio technology Backward compatibility Not applicable because only a single iteration of a single radio technology is considered Latency Lowest among all options NOTE 1 The latency of this option is considered the lowest no matter which radio technology is used since this option does not need additional latency for supporting interoperability andor backward compatibility The latency of this option can be referred when evaluating the latency of other options Efficiency of spectrum usage Highest among all options NOTE 2",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_28",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 28,
+    "text": "The spectrum usage of this option is considered the highest no matter which radio technology is used since this option does not need additional spectrum usage for supporting interoperability andor backward compatibility The spectrum usage of this option can be referred when evaluating the spectrum usage of other options Radio access impartiality Not applicable by the definition of this option because only a single iteration of a single radio technology is considered ETSI ETSI TR 103 576-2 V111 2020-02 13 Technology evolution acceptability Not applicable by the definition of this option because only a single iteration of a single radio technology is considered Implementation complexity Lowest among all options NOTE 3",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_29",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 29,
+    "text": "The implementation complexity of this option is considered the lowest no matter which radio technology is used since this option does not need additional implementation complexity for supporting interoperability andor backward compatibility The implementation complexity of this option can be referred when evaluating the implementation complexity of other options Infrastructure required No 842 Single radio technology with its future iterations in 59 GHz ITS band Base1b 8421 Description of the option This option is defined with the following assumptions Multiple iterations of a single radio technology which are interoperable and backward compatible with each other at the physical and MAC layers are used in the 59 GHz ITS band No distinct channels are needed and all iterations can work in the same channel All later iterations can receive and interpret messages from earlier iterations All ITS-Ss are equipped only with one of the technology iterations All ITS-Ss transmit and receive ITS messages via a single radio technology Neither for transmission nor for reception multiple radios are necessary Figure 3 illustrates an example of the solution described above NOTE ITS-Ss can be vehicle or roadside ITS-Ss Figure 3 Example architecture for Base1b 8422 Observation and analysis of the option",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_30",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 30,
+    "text": "Interoperability The interoperability between ITS-Ss equipped with distinct radio technologies is not addressed in this option However the interoperability among all ITS-Ss in this option is supported because all ITS-Ss can communicate with others within the same or older iteration of the same radio technology Backward compatibility Supported Latency Same as that of Base1 ie lowest among all options Efficiency of spectrum usage Same as that of Base1 ie highest among all options Radio access impartiality Not applicable by the definition of this option because only iterations of a single radio technology are considered",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_31",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 31,
+    "text": "ETSI ETSI TR 103 576-2 V111 2020-02 14 Technology evolution acceptability Limited as only one technologys backward compatible iterations are considered Implementation complexity On a system level similar to that of Base1 For a given ITS Station the iterations of technology might increase complexity but should be lower than multi-radio technology implementations Infrastructure required No 843 Different radio technologies in distinct ITS-Ss Base2 8431 Description of the option This option is defined with the following assumptions Multiple different radio technologies are not interoperable with each other at the physical and MAC layers It is assumed for simplicity of the present document that the different radio technologies use distinct 10 MHz channels of the 59 GHz ITS band It is assumed that the number of distinct radio technologies is equal or less than the number of available 10 MHz channels NOTE Practical deployments may use different channels for different services using one radio technology Each ITS-S is equipped with a single radio technology among the multiple radio technologies Each ITS-S transmits and receives ITS messages via the equipped radio technology and does not communicate with the ITS-Ss equipped with the other radio technology Figure 4 illustrates an example of the solution described above NOTE ITS-Ss can be vehicle or roadside ITS-Ss",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_32",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 32,
+    "text": "It is assumed that different radio resources are used by the different technologies Figure 4 Example architecture for Base2 8432 Observation and analysis of the option Interoperability Not supported because ITS-Ss equipped with distinct radio technologies cannot communicate with each other Backward compatibility Not supported because ITS-Ss equipped with distinct radio technologies cannot communicate with each other Latency Same as that of Base1 ie lowest among all options Efficiency of spectrum usage Same as that of Base1 ie highest among all options because no message is duplicated compared to Base1 ETSI ETSI",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_33",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 33,
+    "text": "TR 103 576-2 V111 2020-02 15 NOTE Even though the spectrum usage of this option is same as that of Base1 all options including this option assuming multiple radio technologies are used in distinct channels need additional channel assignment compared to the Base1 and it reduces the number of channels available for other use cases In case of high channel utilization and uneven distribution of technology deployment it prevents load balancing over multiple channels a channel is blocked even by a limited number of users of the minority technology Radio access impartiality Initially supported but limited by the number of available channels since each technology is using a distinct channel Later deployed technologies have a smaller number or no channel available Technology evolution acceptability Supported but limited by the number of available channels since each technology uses a distinct channel Later deployed technologies have a smaller number or no channel available Implementation complexity Same as that of Base1 ie lowest among all options Infrastructure required No 85 Interoperability options 851 Multiple technologies for all ITS-Ss MTA 8511 Description of the option An ITS message is transmitted via one of multiple radio technologies in the 59 GHz ITS band which cannot directly communicate with each other at the radio level To ensure that ITS messages can be received and processed by ITS applications at the receiving ITS-Ss regardless of the radio technology used for the transmission this option is defined with the following assumptions Multiple different radio technologies are not interoperable with each other at the physical and MAC layers It is assumed for simplicity of the present document that the different radio technologies use distinct 10 MHz channels of the 59 GHz ITS band It is assumed that the number of distinct radio technologies is equal or less than the number of available 10 MHz channels NOTE Practical deployments may use different channels for different services using one radio technology Each ITS-S is equipped with all the multiple radio technologies and implements the identical and standardized ETSI",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_34",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 34,
+    "text": "ITS upper layer protocol stack In this option each ITS-S is assumed to be updatable so that each ITS-S will be equipped with all the multiple radio technologies including any new technologies Each ITS-S transmits and receives ITS messages via any single radio technology of the equipped multiple radio technologies and can communicate with any other ITS-Ss Multiple radio technologies are equally considered in this solution ITS-Ss have the freedom to select the transmitting technology Figure 5 illustrates an example of the solution described above ETSI ETSI TR 103 576-2 V111 2020-02 16 NOTE ITS-Ss can be vehicle or roadside ITS-Ss Figure 5 Example architecture for MTA 8512 Observation and analysis of the option Interoperability Supported because each ITS-S can communicate with any other ITS-Ss Backward compatibility Not supported since an earlier deployed ITS-S needs a modification to be equipped with additional radio technology NOTE 1",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_35",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 35,
+    "text": "Lack of backward compatibility might influence the interoperability eg interoperability with earlier deployed equipment only supporting one technology is not supported Latency Same as that of Base1 ie lowest among all options Efficiency of spectrum usage Same as that of Base1 ie highest among all options Radio access impartiality Initially supported but limited by the number of available channels since each technology is using a distinct channel Later deployed technologies have a smaller number or no channel available NOTE 2",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_36",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 36,
+    "text": "This option does not discriminate in favour of the use of a particular type of technology but does impose requirements to be able to receive messages via all technologies Technology evolution acceptability Supported but limited by the number of available channels since each technology uses a distinct channel Later deployed technologies have a smaller number or no channel available Implementation complexity Higher than that of Base1 to support more than one radio technology and might need update in the field Infrastructure required No ETSI ETSI",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_37",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 37,
+    "text": "TR 103 576-2 V111 2020-02 17 852 Duplicated transmission via cellular interface DTC 8521 Description of the option Transmission of data packets on the cellular interface can be a way to enable the interoperability between the ITS-Ss which cannot directly communicate with each other at the radio level This option is defined with the following assumptions Multiple different radio technologies are not interoperable with each other at the physical and MAC layers It is assumed for simplicity of the present document that the different radio technologies use distinct 10 MHz channels of the 59 GHz ITS band It is assumed that the number of distinct radio technologies is equal or less than the number of available 10 MHz channels NOTE Practical deployments may use different channels for different services using one radio technology Each ITS-S is equipped with a single short-range radio technology among the multiple radio technologies All ITS-Ss are also equipped with a cellular radio technology eg LTE-V2N Uu with a valid subscription to be able to participate in this scenario Each ITS-S transmits and receives ITS message via the equipped single short-range radio technology and simultaneously via the cellular radio technology Cellular base stations or roadside ITS-Ss with a cellular communication technology re-transmit the received ITS messages to all ITS-Ss under their coverage via the cellular downlink For reduced end-to-end latency the edge computing technologies such as MEC can be employed The maximum retention periods of the data collectedprocessed by infrastructure eg cellular LTE base stations roadside ITS-Ss and the other related parties are clearly and strictly constrained in order to avoid privacy risks Figure 6 illustrates an example of the solution described above NOTE ITS-Ss can be vehicle or roadside ITS-Ss Figure 6 Example architecture for DTC ETSI ETSI",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_38",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 38,
+    "text": "TR 103 576-2 V111 2020-02 18 8522 Observation and analysis of the option Interoperability Supported with cellular communication because each ITS-S can communicate with any other ITS-Ss via a cellular radio technology Limited if communication uses MEC which may require that ITS-S are connected to the same cellular network under the same service provider Backward compatibility Not supported since an earlier deployed ITS-S needs a modification to be equipped with an additional radio technology NOTE 1",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_39",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 39,
+    "text": "It is assumed that the ITS-Ss follow the so-called hybrid communication approach and include both short-range and long-range communication eg cellular Latency Higher than that of Base1 due to the retransmission via a cellular radio technology NOTE 2 Latency is the key issue for the transmission of safety related packets via LTE-V2N Uu especially as cross-network communication among mobile operators would be required This might be addressed by the deployment of edge computing eg MEC although more studies might be needed to further evaluate the performance of such deployment especially under congestion",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_40",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 40,
+    "text": "The MEC is localizeddistributed close to the source of messages in order to reduce latency Therefore the messages are transmittedreceived at a local level avoiding any messages to be sent to a centralized data base or data centre which helps to protect the privacy Moreover the retention periods of the data in infrastructure are strictly limited in this solution Therefore the privacy can be managed The MEC depends on latency reduction solutions in network a Local-GW deployed close to the RAN could be one solution to improve Network Latency as specified in ETSI TS 123 401 i9 Efficiency of spectrum usage Lower than that of Base1 due to the duplicated transmission of packets on the LTE-V2N Uu interface in addition to an equipped direct short-range communication technology Radio access impartiality Not supported since the use of a cellular access technology is imposed However it supports the radio access impartiality between the short-range access technologies NOTE 3 Communication via MEC may require that ITS-S are connected to the same cellular network under the same service provider Technology evolution acceptability Supported but limited by the number of available channels since each technology uses a distinct channel Later deployed technologies have a smaller number or no channel available Implementation complexity Higher than that of Base1 to support a cellular radio technology Infrastructure required Yes Cellular coverage is needed NOTE 4",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_41",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 41,
+    "text": "In addition to the coverage limitation interoperable MEC with different service providers needs to be investigated further for practical deployment 86 Interoperability and Backward compatibility options 861 General Backward compatibility will have to be achieved for any new release of a given technology and will be an issue in the future Backward compatibility of NR-V2X with LTE-V2Xfalls under the responsibility of 3GPP for lower layers and ETSI for higher layers Similarly backward compatibility of NGV with ITS-G5 is the responsibility of IEEE for lower layers and ETSI for higher layers Any new release of a given technology will have to be interoperable with older releases of another technology For example NR-V2X will have to be interoperable with ITS-G5 This could be achieved at higher layers or with system level mechanisms ETSI ETSI",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_42",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 42,
+    "text": "TR 103 576-2 V111 2020-02 19 In the clauses below interoperability and backward compatibility options are described with earlier deployed radio technologies and later deployed radio technologies Examples of earlier deployed radio technologies are ITS-G5 and LTE-V2X Later deployed radio technologies will be future iterations of ITS-G5 and LTE-V2X eg NR-V2X and NGV or completely new radio technologies 862 Multiple technologies for later deployed ITS-Ss MTL 8621 Description of the option This option proposes two distinct types of ITS-Ss ie a less complex type supporting only the earlier deployed radio technology and a more complex type supporting both the earlier deployed and the later deployed radio technologies Regarding the road safety effect this option allows all ITS-Ss to support basic safety features provided over the earlier deployed radio technology New enhanced safety features are supported by ITS-Ss vehicles that also can use the later deployed radio technology This option is defined with the following assumptions Multiple radio technologies including earlier deployed and later deployed radio technologies which are not interoperable with each other at the physical and MAC layers are used in distinct 10 MHz channels of the 59 GHz ITS band It is assumed that the number of distinct radio technologies is equal or less than the number of available 10 MHz channels NOTE Practical deployments may use different channels for different services using one radio technology Each ITS-S is equipped with either an earlier deployed radio technology only or both earlier deployed and later deployed technologies All ITS-Ss transmit and receive ITS messages for basic safety features via the earlier deployed radio technology ITS-Ss equipped with the later deployed radio technology transmits and receives ITS messages for enhanced safety features via later deployed radio technology Figure 7 illustrates an example of the solution described above NOTE ITS-Ss can be vehicle or roadside ITS-Ss Figure 7 Example architecture for MTL 8622 Observation and analysis of the option Interoperability Supported because all ITS-Ss can communicate with each other via either the earlier deployed radio technology or the later deployed technology for basic safety features but not for enhanced safety features Backward compatibility Supported because earlier deployed ITS-Ss can communicate with any other ITS-Ss without modification ETSI ETSI",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_43",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 43,
+    "text": "TR 103 576-2 V111 2020-02 20 Latency Same as that of Base1 ie lowest among all options Efficiency of spectrum usage Same as that of Base1 ie highest among all options Radio access impartiality Limitedly supported because a later deployed radio technology is allowed but the additional implementation complexity is imposed only on the ITS-Ss equipped with the later deployed radio technology Technology evolution acceptability Limitedly supported because the additional implementation complexity is imposed only on the ITS-Ss equipped with a later deployed radio technology and it can hinder the development of new technologies Implementation complexity Same as that of Base1 for earlier deployed ITS-Ss but higher than that of Base1 to support more than one radio technologies for later deployed ITS-Ss Infrastructure required No 863 Multiple technologies and duplicated transmission for later deployed ITS-Ss MTL-DT 8631 Description of the option This option proposes two distinct types of ITS-Ss ie a less complex type supporting only the earlier deployed radio technology and a more complex type supporting both the earlier deployed and the later deployed radio technologies like the implementation option MTL described in clause 862 Unlike the MTL option however this option proposes duplicated message transmission via all the equipped radio technologies without feature-based technology selection NOTE 1",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_44",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 44,
+    "text": "The purpose of duplicated transmission is the support of interoperability It could be accompanied with a sunset scheme for using the older technology to free up spectrum Since the typical economical lifetime of vehicles is 15 years this advantage may be slow to attain This option is defined with the following assumptions Multiple radio technologies including earlier deployed and later deployed radio technologies which are not interoperable with each other at the physical and MAC layers are used in distinct 10 MHz channels of the 59 GHz ITS band It is assumed that the number of distinct radio technologies is equal or less than the number of available 10 MHz channels NOTE 2 Practical deployments may use different channels for different services using one radio technology Each ITS-S is equipped with either an earlier deployed radio technology only or both earlier deployed and later deployed radio technologies All ITS-Ss transmit and receive ITS messages via all the equipped radio technologies ie either the earlier deployed radio technology only or both earlier deployed and later deployed radio technologies",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_45",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 45,
+    "text": "Figure 8 illustrates an example of the solution described above ETSI ETSI",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_46",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 46,
+    "text": "TR 103 576-2 V111 2020-02 21 NOTE ITS-Ss can be vehicle or roadside ITS-Ss Figure 8 Example architecture for MTL-DT 8632 Observation and analysis of the option Interoperability Supported because all ITS-Ss can communicate with each other via either the earlier deployed radio technology or the later deployed technology Backward compatibility Supported because earlier deployed ITS-Ss can communicate with any other ITS-Ss without modification Latency Same as that of Base1 ie lowest among all options Efficiency of spectrum usage Same as that of Base1 for message transmission of earlier deployed ITS-Ss but lower than that of Base1 due to the duplicated message transmission of later deployed ITS-Ss Radio access impartiality Limitedly supported because a later deployed radio technology is allowed but the additional implementation complexity is imposed only on the ITS-Ss equipped with the later deployed radio technology Technology evolution acceptability Limitedly supported because the additional implementation complexity is imposed only on the ITS-Ss equipped with a later deployed radio technology and it can hinder the development of new technologies Implementation complexity Same as that of Base1 for earlier deployed ITS-Ss but higher than that of Base1 to support more than one radio technologies for later deployed ITS-Ss Infrastructure required No 864 Infrastructure Based Conversion IBC 8641 Description of the option V2X data packets may be received and processed by infrastructure equipment deployed in the proximity of the transmission source for example through deployment of roadside ITS-Ss or in cellular base stations as depicted in Figure 9",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_47",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 47,
+    "text": "It is proposed to add a conversion feature to suitable infrastructure equipment in order to translate sidelink or short-range data packets of a first radio access technology eg LTE-V2X PC5 to a second radio access technology eg ITS-G5 and vice versa This option is defined with the following assumptions Multiple radio technologies including earlier deployed and later deployed radio technologies which are not interoperable with each other at the physical and MAC layers are used in distinct 10 MHz channels of the 59 GHz ITS band It is assumed that the number of distinct radio technologies is equal or less than the number of available 10 MHz channels NOTE Practical deployments may use different channels for different services using one radio technology ETSI ETSI",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_48",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 48,
+    "text": "TR 103 576-2 V111 2020-02 22 Each vehicle ITS-S is equipped with a single radio technology among the multiple radio technologies Each vehicle ITS-S transmits and receives ITS messages via the equipped single radio technology Roadside ITS-Ss or cellular base stations are equipped with all the multiple radio technologies and conversion functionality",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_49",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 49,
+    "text": "The roadside ITS-Ss or cellular base stations receive data packets of a radio technology convert them to the data packets for another radio technology and transmit them for the ITS-Ss equipped with the latter radio technology The successful implementation of the proposed framework requires that the original transmission occurs in proximity to infrastructure equipment with conversion capability and the latency introduced by the conversion and retransmission meets overall latency budget requirements Figure 9 illustrates an example of the solution described above Figure 9 Example architecture for IBC The processing through the different protocol layers of the ITS-S architecture which is included in the converter depends on different requirements for the conversion operations One basic assumption is that ITS-Ss employ the same higher layer protocols such as networking transport and facility layer as well as their supporting security and management protocols In Figure 10 the simplest conversion architecture is depicted with a radio access layer-only processing In this case the complexity in the converter is minimal and the additional latency due to the conversion operation is expected to be low Address conversion among different technologies need to be taken into account especially if access layer addresses are used or referenced outside the protocol headers Furthermore protocols might rely on control messages that have no equivalent in the other technology",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_50",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 50,
+    "text": "ETSI ETSI",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_51",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 51,
+    "text": "TR 103 576-2 V111 2020-02 23 Access Layer Technology 1 Access Layer Technology 2 Network and Transport Layer Facilities Layer Applications Layer M anagem ent Security Figure 10 Converter reference architecture with radio access layer-only processing In Figure 11 another converter architecture with radio access network and transport layer processing is represented Depending on an associated functionality that may be added to the converter some intelligence can be included when processing the data packets in the network and transport layer For example GeoNetworking functionalities can be associated to the converter or the time-stamp of the packets can be verified to analyse if a message is still worth to be transcoded to the other technology or it has already become irrelevant A slightly higher level of complexity has to be added to the converter compared to the radio access-only converter Data elements which are electronically signed by the sender are an obstacle for transcoding on higher layers since the original signature of the sender may get lost after transcoding so that the receiver cannot assess the validity of the original message Access Layer Technology 1 Access Layer Technology 2 Network and Transport Layer Facilities Layer Applications",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_52",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 52,
+    "text": "Layer M anagem ent Security Figure 11 Conversion with radio access network and transport layers processing In Figure 12 a converter architecture with radio access network transport and facilities layer processing is shown Here further functionalities associated to the facilities layers can be added to the converter For example the authenticity of the messages can be verified before the conversion is performed to avoid the multiplication of misbehaviour A higher complexity as well as a higher latency are expected in this option Data elements which are electronically signed by the sender are an obstacle for transcoding on higher layers since the original signature of the sender may get lost after transcoding so that the receiver cannot assess the validity of the original message ETSI ETSI",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_53",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 53,
+    "text": "TR 103 576-2 V111 2020-02 24 Access Layer Technology 1 Access Layer Technology 2 Network and Transport Layer Facilities Layer Applications Layer M anagem ent Security Figure 12 Conversion including radio access networking transport and facilities layers processing The requirements of functional safety according to ISO 26262 i12 and IEC 61508 i13 as well as privacy and security requirements need to be addressed 8642 Observation and analysis of the option Interoperability Supported because each ITS-S can communicate with any other ITS-Ss directly or via conversion Backward compatibility Supported for vehicle ITS-Ss Not supported for roadside ITS-Ss since earlier deployed roadside ITS-Ss may communicate with one technology only Latency Higher than that of Base1 due to the conversion and retransmission Efficiency of spectrum usage Lower than that of Base1 due to the duplicated transmission Radio access impartiality Supported for vehicle ITS stations For infrastructure initially supported but introduction of additional new technology will face a backward compatibility issue or require an infrastructure upgrade Technology evolution acceptability Supported NOTE 1",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_54",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 54,
+    "text": "This approach will facilitate a transition from one technology to another and thus prepares for future evolutions of the respective technologies Implementation complexity Same as that of Base1 for vehicle ITS-Ss which do not provide the conversion feature Higher for roadside ITS-Ss to support more than one radio technology and provide the conversion feature Infrastructure required Yes NOTE 2 The service availability is limited to coverage areas of roadside ITS-Ss andor base stations In one example a roadside ITS-S may have a coverage range of 300 meters In such a case the roadside ITS-Ss need to be deployed approximately every 600 meters Additional installation of the infrastructure or update of the currently installed infrastructure will be needed The feasibility of providing a reasonable coverage to bridge the incompatibility gap through this approach should be investigated in further study ETSI ETSI",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_55",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 55,
+    "text": "TR 103 576-2 V111 2020-02 25 9 Analysis and Conclusion 91 Summary of analysis The implementation options introduced in the present document are as follows Base1 Baseline option1 Single radio technology described in clause 841 Base1b Baseline option1b Single radio technology with its future iterations described in clause 842 Base2 Baseline option2 Multiple radio technologies described in clause 843 MTA Interoperability option1 Multiple technologies for all ITS-Ss described in clause 851 DTC Interoperability option2 Duplicated transmission via cellular interface described in clause 852 MTL Interoperability and backward compatibility option1 Multiple technologies for later deployed ITS-Ss described in clause 862 MTL-DT Interoperability and backward compatibility option2 Multiple technologies and duplicated transmission for later deployed ITS-Ss described in clause 863 IBC Interoperability and backward compatibility option3 Infrastructure based conversion described in clause 864",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_56",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 56,
+    "text": "The observation and analysis of all the implementation options described in clause 8 are summarized in Table 1 High Medium and Low in Table 1 only indicate the relative level among the listed options Table 1 Summarized evaluation of the implementation options Evaluation Criteria Implementation Options Baseline Options Interoperability Options Interoperability Backward Compatibility Options Base1 Base1b Base2 MTA DTC MTL MTL-DT IBC Interoperability Yes note 1 Yes note 2 No Yes Yes note 7 indirect Limited note 12 Yes Yes note 7 indirect Backward compatibility NA Yes No No No note 8 Yes Yes Limited note 18 Latency Low Low Low Low High Low Low High Efficiency of spectrum usage High High High High Low High Medium note 16 Low Radio access impartiality NA NA Limited note 5 Limited note 5 Limited note 9 Limited note 13 Limited note 13 Limited note 19 Tech evolution acceptability NA Limited note 3 Limited note 6 Limited note 6 Limited note 6 Limited note 14 Limited note",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_57",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 57,
+    "text": "14 Yes Implementation complexity Low Low note 4 Low High Medium note 10 Medium note 15 Medium note 17 Medium note 20 Infrastructure required No No No No Yes note 11 No No Yes note 21 ETSI ETSI TR 103 576-2 V111 2020-02 26 Evaluation Criteria Implementation Options Baseline Options Interoperability Options Interoperability Backward Compatibility Options Base1 Base1b Base2 MTA DTC MTL MTL-DT IBC NOTE 0 For safety applications latency needs to be low enough to fulfil application requirements For spectrum efficiency it is generally a goal to have a high spectrum efficiency NOTE 1 The interoperability between ITS-Ss equipped with distinct radio technologies is not addressed in this option because only a same iteration of a same radio technology is considered However the interoperability among all ITS-Ss in this option is supported because all ITS-Ss are equipped with a same iteration of a same radio technology NOTE 2",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_58",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 58,
+    "text": "The interoperability between ITS-Ss equipped with distinct radio technologies is not addressed in this option However the interoperability among all ITS-Ss in this option is supported because all ITS-Ss can communicate with others with an iteration of a same radio technology NOTE 3 Limited as only a single technologys backward compatible iterations are considered NOTE 4 On a system level similar to Base1 For a given ITS Station the iterations of technology might increase complexity but should be lower than multi-radio technology implementations NOTE 5 Initially supported but limited by the number of available channels since each technology is using a distinct channel Later deployed technologies have a smaller number or no channel available NOTE 6 Supported but limited by the number of available channels since each technology uses a distinct channel Later deployed technologies have a smaller number or no channel available NOTE 7",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_59",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 59,
+    "text": "Interoperability can be provided by direct communication between entities or indirect communication This option provides the interoperability by indirect communication Indirect interoperability is given if an intermediary entity is needed to enable interoperability Where such an entity provides a function so that dissimilar protocols can exchange information the term interworking is used NOTE 8 It is assumed that the ITS-Ss follow the so-called hybrid communication approach and include both short- range and long-range communication eg cellular See clause 8522 NOTE 9 Not supported since the use of a cellular access technology is imposed However it supports the radio access impartiality between the short-range access technologies NOTE 10 Additional implementation needed for all ITS-Ss and infrastructure but already widely implemented See clause 8522 NOTE 11",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_60",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 60,
+    "text": "In addition to the coverage limitation interoperable MEC with different service provider needs to be investigated further for practical deployment NOTE 12 Supported because all ITS-Ss can communicate with each other via either the earlier deployed radio technology or the later deployed technology for basic safety features but not for enhanced safety features NOTE 13 A later deployed radio technology is allowed but the burden of interoperability is only on the later deployed technology side See clauses 8622 and 8632 NOTE 14",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_61",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 61,
+    "text": "A later deployed radio technology is allowed but additional implementation complexity is imposed only on the ITS-Ss equipped with a later deployed radio technology It can hinder the development of new technologies See clauses 8622 and 8632 NOTE 15 Additional implementation needed for later deployed ITS-Ss only See clauses 8622 and 8632 NOTE 16 Duplicated transmission is needed but it is needed for later deployed ITS-Ss not for earlier deployed ITS-Ss See clause 8632 NOTE 17 Same as that of Base1 for earlier deployed ITS-Ss but higher than that of Base1 to support more than one radio technologies for later deployed ITS-Ss NOTE 18 Supported for vehicle ITS-Ss Not supported for roadside ITS-Ss since earlier deployed roadside ITS-Ss may communicate with one technology only NOTE 19",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_62",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 62,
+    "text": "Supported for vehicle ITS stations For infrastructure initially supported but introduction of additional new technology will face a backward compatibility issue or require an infrastructure upgrade NOTE 20 Additional implementation needed for infrastructure only See clause 8642 NOTE 21 The service availability is limited to coverage areas of roadside ITS-Ss andor base stations In one example a roadside ITS-S may have a coverage range of 300 meters In such a case the roadside ITS-Ss need to be deployed approximately every 600 meters Additional installation of the infrastructure or update of the currently installed infrastructure will be needed The feasibility of providing a reasonable coverage to bridge the incompatibility gap through this approach should be investigated in further study ETSI ETSI",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_63",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 63,
+    "text": "TR 103 576-2 V111 2020-02 27 92 Conclusion The present document has compared system level design options that can be a way to resolve the current challenges in a heterogeneous ITS environment Various implementation options supporting the interoperability and backward compatibility of C-ITS services between ITS-Ss using distinct access layer technologies which are not interoperable with each other at the physical and MAC layers have been introduced and compared The options studied offer interoperability with different kinds of limitations while incurring varying types of cost They rely on appropriate higher and lower layer system design The present document has not analysed the aspects of securityprivacy implications and the requirements of functional safety according to ISO 26262 i12 and IEC 61508 i13 which need to be fulfilled with respect to specific use casesservices have not been addressed Further study might be needed before realization of the proposed implementation options such as architecture details with considerations of functional safety impacts By its nature as a pre-standardization study the present document does not claim to be consistent with EU transport policy spectrum policy and respective regulatory deliverables ETSI ETSI",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  },
+  {
+    "id": "tr_10357602v010101p_chunk_64",
+    "document_id": "tr_10357602v010101p",
+    "chunk_id": 64,
+    "text": "TR 103 576-2 V111 2020-02 28 History Document history V111 February 2020 Publication",
+    "metadata": {
+      "source": "0_spec/tr_10357602v010101p.pdf"
+    }
+  }
+]

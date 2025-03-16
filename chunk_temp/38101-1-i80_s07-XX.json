@@ -1,0 +1,1253 @@
+[
+  {
+    "id": "38101-1-i80_s07-XX_chunk_1",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 1,
+    "text": "7 Receiver characteristics 71 General Unless otherwise stated the receiver characteristics are specified at the antenna connectors of the UE For UEs with an integral antenna only a reference antennas with a gain of 0 dBi is assumed for each antenna ports UE with an integral antennas may be taken into account by converting these power levels into field strength requirements assuming a 0 dBi gain antenna For UEs with more than one receiver antenna connector identical interfering signals shall be applied to each receiver antenna port if more than one of these is used diversity The levels of the test signal applied to each of the antenna connectors shall be as defined in the respective clauses below The applicability of receiver requirements for Band n90 is in accordance with that for Band n41 a UE supporting Band n90 shall meet the minimum requirements for Band n41 With the exception of clause 73",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_2",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 2,
+    "text": "the requirements shall be verified with the network signalling value NS_01 configured Table 623-1 All the parameters in clause 7 are defined using the UL reference measurement channels specified in Annex A22 the DL reference measurement channels specified in Annex A32 and using the set-up specified in Annex C31",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_3",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 3,
+    "text": "The minium requirements specified in clauses 75 76 77 and 78 for NR band n48 refer to the minimum requirements for NR bands 27 GHz For the additional requirements for intra-band non-contiguous carrier aggregation of two or more sub-blocks an in-gap test refers to the case when the interfering signal is located at a negative offset with respect to the assigned lowest channel frequency of the highest sub-block and located at a positive offset with respect to the assigned highest channel frequency of the lowest sub-block For the additional requirements for intra-band non-contiguous carrier aggregation of two or more sub-blocks an out-of-gap test refers to the case when the interfering signals is are located at a positive offset with respect to the assigned channel frequency of the highest carrier frequency or located at a negative offset with respect to the assigned channel frequency of the lowest carrier frequency For the additional requirements for intra-band non-contiguous carrier aggregation of two or more sub-blocks with channel bandwidth larger than or equal to 5 MHz the existing adjacent channel selectivity requirements in-band blocking requirements for each case and narrow band blocking requirements apply for in-gap tests only if the corresponding interferer frequency offsets with respect to the two measured carriers satisfy the following condition in relation to the sub-block gap size Wgap for at least one of these carriers j 12 so that the interferer frequency position does not change the nature of the core requirement tested Wgap 2FInterferer offsetj BWChannelj where FInterferer offsetj for a sub-block with a single component carrier is the interferer frequency offset with respect to carrier j as specified in clause 75 clause 762 and clause 764 for the respective requirement and BWChannelj the channel bandwidth of carrier j",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_4",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 4,
+    "text": "FInterferer offsetj for a sub-block with two or more contiguous component carriers is the interference frequency offset with respect to the carrier adjacent to the gap is specified in clause 75A 76A2 and 76A3",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_5",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 5,
+    "text": "The interferer frequency offsets for adjacent channel selectivity each in-band blocking case and narrow- band blocking shall be tested separately with a single in-gap interferer at a time For the additional requirements for operation with shared spectrum channel access the receiver requirements apply under the assumption that all 20 MHz sub-bands and all RBs of each sub-band within the downlink channel are allocated with intra-cell guard bands configured to zero Unless otherwise stated the receiver requirements of inter-band UL CA are applicable to UE with one Tx antenna connector in each of the two bands or UE with one Tx antenna connector in one band and two Tx antenna connectors in the other band Unless otherwise stated the receiver requirements of single carrier or CA operation are applicable to UE with one Tx antenna connector or multiple Tx antenna connectors with UL MIMO or Tx diversity operation in the UL bands 71A General",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_6",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 6,
+    "text": "The minimum requirements for band combinations including Band n41 also apply for the corresponding band combinations with Band n90 replacing Band n41 but with otherwise identical parameters For brevity the said band combinations with Band n90 are not listed in the tables below but are covered by this specification The minium requirements specified in clauses 75A 76A 77A and 78A for NR band n48 refer to the minimum requirements for NR bands 27 GHz 71F General For wideband operations the minimum requirements for the receiver characteristics are specified when zero width intra-cell guardbands are configured and with all RB sets within the channel scheduled and with all RB sets available for DL transmissions according to the channel access procedures in 14",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_7",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 7,
+    "text": "Unless stated otherwise when a clause is not present for shared spectrum channel access the general requirements and the additional clause requirements suffices ABD in clause 7 apply 71G Reserved 71H Reserved 71I General For a eRedcap UE the requirements in Section 7 shall be verified with the channel bandwidth up to 20MHz and REFSENS specified in clause 73I 71J General for ATG Unless otherwise stated the receiver characteristics are specified at the antenna connectors of the ATG UE with one or multiple omni-directional antennas or at the transceiver array boundary TAB connectors of the ATG UE with the antenna array The definition about transceiver array boundary TAB is specified in clause 432 of TS 38104 16",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_8",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 8,
+    "text": "For ATG UE with multiple omni-directional antennas not indicating the capability antennaArrayType-r18 the receiver RF requirements are defined on top of each antenna connector For ATG UE with antenna array indicating the capability antennaArrayType-r18 the receiver RF requirements are defined on top of each TAB connector 71K Reserved 71L Reserved 72 Diversity characteristics The UE is required to be equipped with a minimum of two Rx antenna ports in all operating bands except for the bands n7 n38 n41 n48 n77 n78 n79 n104 where the UE is required to be equipped with a minimum of four Rx antenna ports This requirement applies when the band is used as a standalone band or as part of a band combination Unless otherwise stated the following applicability rules apply -",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_9",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 9,
+    "text": "For the single carrier REFSENS requirements in Clause 7 the UE shall be verified with two Rx antenna ports in all supported frequency bands additional requirements for four Rx ports shall be verified in operating bands where the UE is equipped with four Rx antenna ports and additional requirements for four and eight Rx ports shall be verified in operating bands where the UE is equipped with eight Rx antenna ports - For Rx requirements other than single carrier REFSENS in Clause 7 the UE shall be verified with four Rx antenna ports and skip two Rx antenna ports requirements in operating bands where the UE is equipped with four Rx antenna ports the UE shall be verified with eight Rx antenna ports and skip both two and four Rx antenna ports requirements in operating bands where the UE is equipped with eight Rx antenna ports unless the UE does not support eight Rx ports for bands in a band combination in which case those bands shall be verified with four Rx antenna ports otherwise the UE shall be verified with two Rx antenna ports - The above rules apply for all clauses except for clause 79 A eRedcap UE is required to be equipped with a minimum of single Rx antenna port and maximum of two Rx antenna ports Clause 7 requirements for four Rx antenna ports do not apply to a eRedCap UE",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_10",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 10,
+    "text": "If aUE indicates intraBandNR-CA-non-collocated-r18 both Rx power imbalance requirements as specified in clause 710A and Rx requirements in clauses 73 79 shall be verified 72J Diversity characteristics for ATG The ATG UE is required to be equipped with a minimum of two Rx antenna ports in all operating bands ATG UE is required optionally to be equipped with four Rx antenna ports 73 Reference sensitivity 731 General",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_11",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 11,
+    "text": "The reference sensitivity power level REFSENS is the minimum mean power applied to each one of the UE antenna ports for all UE categories at which the throughput shall meet or exceed the requirements for the specified reference measurement channel In later clauses of Clause 7 where the value of REFSENS is used as a reference to set the corresponding requirement - when the UE is verified with 2 Rx antenna ports it shall be verified against those requirements by applying the REFSENS value in Table 732-1a Table 732-1b and Table 732-1c or Table 732-1d with 2 Rx antenna ports tested - when the UE is verified with 4 Rx antenna ports it shall be verified against those requirements by applying the resulting REFSENS value derived from the requirement in Table 732-2 with 4 Rx antenna ports tested - when the UE is verified with 8 Rx antenna ports it shall be verified against those requirements by applying the resulting REFSENS value derived from the requirement in Table 732-2a with 8 Rx antenna ports tested 732 Reference sensitivity power level",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_12",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 12,
+    "text": "The throughput shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A222 A32 and A33 with one sided dynamic OCNG Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 with parameters specified in Table 732-1a Table 732-1b Table 732-1c Table 732-1d Table 732-2 and Table 732-2a Table 732-1a Two antenna port reference sensitivity QPSK PREFSENS for",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_13",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 13,
+    "text": "FDD bands Table 732-1b Two antenna port reference sensitivity QPSK PREFSENS for TDD SDL and FDD with variable duplex operation bands For power class 2 UEs certain degradation of the reference sensitivity in Table 732-1a is allowed The maximum amount of degradation is specified in Table 732-1c and in Table 732-1d for a UE that indicates txDiversity-r16 or txDiversity2Tx-r18 15 Table 732-1c Reference Sensitivity Degradation from PC3 to PC2 for FDD bands for UE not supporting Tx Diversity Table 732-1d Reference Sensitivity Degradation from PC3 to PC2 for FDD bands for UE supporting Tx Diversity For UEs equipped with 4 Rx antenna ports reference sensitivity for 2Rx antenna ports in Table 732-1a and in Table 732-1b shall be modified by the amount given in ΔRIB4R in Table 732-2 for the applicable operating bands For operating band frequency range 1 GHz the 4Rx operation is primarily for FWA form factor and when 4Rx operation is supported by handheld UE RIB4R as indicated in Table 732-2 NOTE 2 is applied Table 732-2 Four antenna port reference sensitivity allowance ΔRIB4R",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_14",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 14,
+    "text": "For UEs equipped with 8 Rx antenna ports reference sensitivity for 2Rx antenna ports in Table 732-1a and in Table 732-1b shall be modified by the amount given in ΔRIB8R in Table 732-2a for the applicable operating bands Table 732-2a Eight antenna port reference sensitivity allowance ΔRIB8R For two Rx antenna port XR UEs indicating UE capability supportOf2RxXR-r18 reference sensitivity for two Rx antenna ports in Table 732-1a and in Table 732-1b shall be modified by the amount given in ΔRXR2R in Table 732-2b for the applicable operating bands Table 732-2b Two antenna port XR UE reference sensitivity allowance ΔRXR2R",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_15",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 15,
+    "text": "The reference receive sensitivity REFSENS requirement specified in Table 732-1a Table 732-1b Table 732-1c Table 732-1d Table 732-2 Table 732-2a and Table 732-2b shall be met with uplink transmission bandwidth less than or equal to that specified in Table 732-3 Table 732-3 Uplink configuration for reference sensitivity Unless given by Table 732-4 the minimum requirements specified in Tables 732-1a Tables 732-1b Tables 732-1c Tables 732-1d and 732-2 shall be verified with the network signalling value NS_01 Table 623-1 configured Table 732-4 Network signaling value for reference sensitivity 733 ΔRIBc For a UE supporting CA SUL or DC band combination the minimum requirement for reference sensitivity in Table 732-1a and Table 732-1b shall be increased by the amount given by ΔRIBc defined in clause 73A 73B 73C in this specification and 73A 73B in TS 38101-3 3 for the applicable operating bands",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_16",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 16,
+    "text": "In case the UE supports more than one of band combinations for CA SUL or DC and an operating band belongs to more than one band combinations then - When the operating band frequency range is 1 GHz the applicable additional ΔRIBc shall be the average value for all band combinations defined in clause 73A 73B 73C in this specification and 73A 73B in TS 38101-3 3 truncated to one decimal place that apply for that operating band among the supported band combinations In case there is a harmonic relation between low band UL and high band DL then the maximum ΔRIBc among the different supported band combinations involving such band shall be applied -",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_17",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 17,
+    "text": "When the operating band frequency range is 1 GHz the applicable additional ΔRIBc shall be the maximum value for all band combinations defined in clause 73A 73B 73C in this specification and 73A 73B in TS 38101-3 3 for the applicable operating bands 73A Reference sensitivity for CA 73A1 General The reference sensitivity power level REFSENS is the minimum mean power applied to each one of the UE antenna ports for all UE categories at which the throughput shall meet or exceed the requirements for the specified reference measurement channel For operations with 4 Rx or 8 Rx antenna ports the MSD in the applicable bands shall be increased by the absolute value of ΔRIB4R in Table 732-2 or ΔRIB8R in Table 732-2a when MSD 0",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_18",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 18,
+    "text": "For reference sensitivity exception test points where the specified carrier frequency does not correspond to a valid NR-ARFCN the closest NR-ARFCN as specified in clause 542 applies For reference sensitivity level tests or reference sensitivity exception tests specified in clause 73A SCS15kHz based UL test configuration can be replaced by SCS30kHz based UL test configuration The equivalent substitution relationship between different SCS UL test configuration is shown in Table 73A1-1 for the operating bands above 22GHz Table 73A1-1 Equivalent substitution relationship between different SCS UL test configuration When UE supports higher power class than default power class for a CA configuration with a single UL CC with DL CA and applicability note for the supported power class is not present for this configuration in clause 55A - if the corresponding higher power class MSD is not specified reference sensitivity and exceptions for reference sensitivity of default power class shall be verified with output power limited to default power class - otherwise the higher power class reference sensitivity and exceptions for reference sensitivity shall be verified with the power class of CA configuration supported by the UE 73A2 Reference sensitivity power level for CA 73A21 Reference sensitivity power level for Intra-band contiguous CA For intra-band contiguous carrier aggregation the throughput of each component carrier shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A222 A32 and A33 with one sided dynamic OCNG",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_19",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 19,
+    "text": "Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 with parameters specified in Table 732-1a Table 732-1b Table 732-2 Table 732-2a and Table 732-3 For UEs supporting one uplink carrier the uplink configuration of the PCC shall be in accordance with Table 732-3 and the downlink PCC carrier center frequency shall be configured closer to uplink operating band than any of the downlink SCC center frequency For power class 3 the reference sensitivity power level is increased by ΔRIBC for specific uplink and downlink test points which are specified in Table 73A21-1a For aggregation of two or more downlink FDD carriers with two uplink carriers the reference sensitivity is defined only for the specific uplink and downlink test points which are specified in Table 73A21-1 and the power class 3 reference sensitivity power level increased by ΔRIBC",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_20",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 20,
+    "text": "The requirements apply with all downlink carriers active Unless given by Table 732-4 the reference sensitivity requirements shall be verified with the network signaling value NS_01 Table 6231-1 configured Table 73A21-1 Power class 3 intra-band contiguous CA reference sensitivity with two uplink carriers Table 73A21-1a Power class 3 intra-band contiguous CA reference sensitivity with one uplink carrier Table 73A21-2 Void For power class 2 the reference sensitivity power level is increased by ΔRIBC for specific uplink and downlink test points which are specified in Table 73A21-3 The requirements apply with all downlink carriers active Unless given by Table 732-4 the reference sensitivity requirements shall be verified with the network signalling value NS_01 Table 6231-1 configured Table 73A21-3 Power class 2 intra-band contiguous CA reference sensitivity with two uplink carriers 73A22",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_21",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 21,
+    "text": "Reference sensitivity power level for Intra-band non-contiguous CA For intra-band non-contiguous carrier aggregation with one uplink carrier and two or more downlink sub-blocks throughput of each downlink component carrier shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A22 and A32 with one sided dynamic OCNG Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 and parameters specified in Table 732-1a Table 732-1b Table 732-2 Table 732-2a and Table 73A22-1 For aggregation of two or more downlink FDD carriers with one uplink carrier the power class 3 reference sensitivity is increased by ΔRIBNC only for the specific uplink and downlink test points which are specified in Table 73A22-1 For power class 2 the reference sensitivity power level is increased by ΔRIBNC for specific uplink and downlink test points which are specified in Table 73A22-1a",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_22",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 22,
+    "text": "The requirements apply with all downlink carriers active Unless given by Table 732-4 the reference sensitivity requirements shall be verified with the network signaling value NS_01 Table 6231-1 configured Table 73A22-1 Power class 3 intra-band non-contiguous CA reference sensitivity with one uplink Table 73A22-1a Power class 2 intra-band non-contiguous CA reference sensitivity with one uplink carrier For intra-band non-contiguous carrier aggregation with two uplink carriers and two or more downlink sub-blocks throughput of each downlink component carrier shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A22 and A32 with one sided dynamic OCNG",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_23",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 23,
+    "text": "Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 and parameters specified in Table 732-1a Table 732-1b Table 732-2 Table 732-2a and Table 73A22-2 with the power class 3 reference sensitivity power level increased by ΔRIBNC only for the specific uplink and downlink test points which are specified in Table 73A22-2The requirements apply with all downlink carriers and two uplink carriers active The reference sensitivity requirements shall be verified with the network signaling value NS_01 Table 6231-1 configured Table 73A22-2 Power class 3 intra-band non-contiguous CA reference sensitivity with two uplink carriers 73A23 Reference sensitivity power level for Inter-band CA For inter-band carrier aggregation with one component carrier per operating band and the uplink assigned to one NR band the throughput shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A222 A32 and A33 with one sided dynamic OCNG",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_24",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 24,
+    "text": "Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 with parameters specified in Table 732-1a Table 732-1b Table 732-2 Table 732-2a Table 732-3 and in Table 73F2-1 Table 73F2-2 Table 73F2-3 for inter-band CA with one shared spectrum channel access band modified in accordance with clause 73A32 The reference sensitivity is defined to be met with all downlink component carriers active and one of the uplink carriers active Exceptions to reference sensitivity are allowed in accordance with clause 73A4 73A5 and 73A6 For the combination of intra-band and inter-band carrier aggregation the intra-band CA relaxation ΔRIBC and ΔRIBNC are also applied according to the clause 73A21 and 73A22",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_25",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 25,
+    "text": "The reference sensitivity exceptions due to harmonic harmonic mixing cross band isolation and power class 2 or power class 3 CA intermodulation interferences are applicable to the UL aggressor band configured with either one Tx antenna connector or two Tx antenna connectors with UL MIMO or Tx diversity operation 73A24 Void 73A3 ΔRIBc for CA 73A31 General For a UE supporting a CA configuration the ΔRIBc applies for both SC and CA operation 73A32 ΔRIBc for Inter-band CA For the UE which supports inter-band carrier aggregation the minimum requirement for reference sensitivity in clause 73A2 shall be increased by the amount given by ΔRIBc defined in clause 73A32 for the applicable operating bands Unless otherwise stated ΔRIBc is set to zero",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_26",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 26,
+    "text": "In case the UE supports more than one of band combinations for CA SUL or DC and an operating band belongs to more than one band combinations then - When the operating band frequency range is 1 GHz the applicable additional ΔRIBc shall be the average value for all band combinations defined in clause 73A 73B 73C in this specification and 73A 73B in TS 38101-3 3 truncated to one decimal place that apply for that operating band among the supported band combinations In case there is a harmonic relation between low band UL and high band DL then the maximum ΔRIBc among the different supported band combinations involving such band shall be applied -",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_27",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 27,
+    "text": "When the operating band frequency range is 1 GHz the applicable additional ΔRIBc shall be the maximum value for all band combinations defined in clause 73A 73B 73C in this specification and 73A 73B in TS 38101-3 3 for the applicable operating bands 73A321 ΔRIBc for two bands Table 73A321-1 ΔRIBc due to CA two bands Table 73A321-2 void 73A322 Void 73A323 ΔRIBc for three bands Table 73A323-1 ΔRIBc due to CA three bands 73A324 ΔRIBc for four bands Table 73A324-1 ΔRIBc due to CA four bands 73A325 ΔRIBc for five bands Table 73A325-1 ΔRIBc due to CA five bands 73A326 ΔRIBc for six bands Table 73A326-1 ΔRIBc due to CA six bands 73A33 ΔRIBc for Intra-band CA Table 73A33-1 ΔRIBc due to Intra-band contiguous CA Table 73A33-2 ΔRIBc due to Intra-band non-contiguous CA 73A4 Reference sensitivity exceptions due to harmonic interference for CA Sensitivity degradation is allowed for different combinations of UL configurations and DL channel bandwidths if a band in frequency range 1 is impacted by UL harmonic interference from another band which belongs to NR band in frequency range 1 of the same downlink CA configuration Reference sensitivity exceptions and uplinkdownlink configurations due to UL harmonic from a PC3 aggressor NR UL band for either single band uplink or PC3 or PC2 CA are specified in Table 73A4-1 For these exceptions only the listed test points in Table 73A4-1 are needed to be tested Table 73A4-1 Reference sensitivity exceptions and uplinkdownlink configurations due to UL harmonic from a PC3 aggressor NR UL band for NR DL CA FR1 The reference sensitivity for the shared access band does not apply when there is at least one individual RE within the shared access downlink transmission bandwidth which falls into the reference sensitivity exclusion region as specified in Table 73A4-1a Table 73A4-1a NR-U reference sensitivity measurement exclusion region in MHz Table 73A4-2 Void For a PC2 aggressor NR UL band for NR DL CA FR1 the maximum amount of REFSENS degradation is specified in Table 73A4-2a Table 73A4-2a Reference sensitivity exceptions and uplinkdownlink configurations due to UL harmonic from a PC2 aggressor NR UL band for NR DL CA FR1 Table 73A4-2b Void Table 73A4-3 Void Table 73A4-3a Void Sensitivity degradation is allowed for different combinations of UL configurations and DL channel bandwidths if a band is impacted by receiver harmonic mixing due to another band part which belongs to PC3 NR band or PC2 NR band of the same CA configuration Reference sensitivity exceptions and uplinkdownlink configurations due to harmonic mixing from a PC3 aggressor NR UL band for either PC3 or PC2 CA are specified in Table 73A4-4 and from a PC2 aggressor NR UL band for PC2 CA are specified in Table 73A4-4aFor these exceptions only the listed test points in Table 73A4-4 Table 73A4-4a and Table 73A4-4b are needed to be tested Sensitivity degradation is not required for receiver even order harmonic mixing with aggressor 3rd order and above harmonic interference Table 73A4-4 Reference sensitivity exceptions and uplinkdownlink configurations due to harmonic mixing from a PC3 aggressor NR UL band for DL NR CA FR1 Table 73A4-4a-1 Reference sensitivity exceptions and uplinkdownlink configurations due to harmonic mixing from a PC2 aggressor NR UL band for NR DL CA FR1 Table 73A4-4a-2 Void Table 73A4-4b Reference sensitivity exceptions and uplinkdownlink configurations due to harmonic mixing from a PC15 aggressor NR UL band for NR DL CA FR1 The reference sensitivity for the shared access band does not apply when there is at least one individual RE within the shared access downlink transmission bandwidth which falls into the reference sensitivity exclusion region as specified in Table 73A4-1c Table 73A4-4c NR-U reference sensitivity measurement exclusion region in MHz Table 73A4-4d Reference sensitivity exceptions and uplinkdownlink configurations due to harmonic mixing from a power class 5 aggressor NR UL band for NR DL CA FR1 Table 73A4-5 Void 73A5 Reference sensitivity exceptions due to intermodulation interference due to 2UL CA For inter-band carrier aggregation with uplink assigned to two NR bands given in Table 73A5-1 Table 73A5-1a Table 73A5-2 and Table 73A5-2a the reference sensitivity is defined only for the specific uplink and downlink test points specified in Table 73A5-1 Table 73A5-1a Table 73A5-2 and Table 73A5-2a For these test points the reference sensitivity requirement specified in Table 732-1a Table 732-1b Table 732-2 and Table 732-2a are relaxed by the amount of the corresponding parameter MSD given in Table 73A5-1 Table 73A5-1a Table 73A5-2 and Table 73A5-2a Table 73A5-1 2DL2UL inter-band Reference sensitivity QPSK PREFSENS and uplinkdownlink configurations for PC3 CA Table 73A5-1a 2DL2UL inter-band Reference sensitivity QPSK PREFSENS and uplinkdownlink configurations for PC2 CA Table 73A5-1b 2DL2UL inter-band Reference sensitivity QPSK PREFSENS and uplinkdownlink configurations for PC15 CA Table 73A5-2 3DL2UL interband Reference sensitivity QPSK PREFSENS and uplinkdownlink configurations Table 73A5-2a 3DL2UL interband Reference sensitivity QPSK PREFSENS and uplinkdownlink configurations for PC2 CA 73A6 Reference sensitivity exceptions due to cross band isolation for CA Sensitivity degradation is allowed for a band if it is impacted by UL of another band part which belongs to NR band of the same NR CA configuration due to cross band isolation issues The reference sensitivity degradation for the victim band due to cross band isolation is specified only for the specific uplink and downlink test points specified in Table 73A6-1 for either PC3 and PC2 NR CA from a PC3 aggressor NR UL band and for PC2 NR CA in Table 73A6-1afrom a PC2 aggressor NR UL band and in Table 73A6-1b from a PC15 aggressor NR single band uplink and in Table 73A6-3 when a DL band 1 GHz is victim of two simultaneous PC3 aggressor NR UL bands In Tables 73A6-1 73A6-1a and 73A6-1b the following terminology is used to define the source of cross-band isolation interference - ACLR1 indicates that the first adjacent channel of the aggressor UL band falls into the Rx channel of victim band - ACLR2 indicates that the second adjacent channel of the aggressor UL band falls into the Rx channel of victim band - ACLR2 indicates that neither the first nor the second adjacent channel of the aggressor UL band falls into the Rx channel of victim band In Table 73A6-3 only two DL two UL 1 GHz bands cases where one DL is simulateneously victim of UL channel ACLR1 of one band and UL channel ACLR1 or 2 of the other band are specified Table 73A6-1 Reference sensitivity exceptions MSD and uplinkdownlink configurations due to cross band isolation from a PC3 aggressor NR UL band for NR CA FR1 Table 73A6-1a-1 Reference sensitivity exceptions MSD and uplinkdownlink configurations due to cross band isolation from a PC2 aggressor NR UL band for NR CA FR1 Table 73A6-1a-2 Void Table 73A6-1b Reference sensitivity exceptions MSD and uplinkdownlink configurations due to cross band isolation from a PC15 aggressor NR single UL band for DL NR CA FR1 Table 73A6-1c Reference sensitivity exceptions MSD and uplinkdownlink configurations due to cross band isolation from a power class 5 aggressor NR single UL band for DL NR CA FR1 Table 73A6-2 Void Table 73A6-3 Reference sensitivity exceptions MSD and uplinkdownlink configurations due to cross band isolation from two simulataneous PC3 aggressor NR UL bands for NR CA FR1 73A7 Lower-MSD requirements for inter-band CA A UE can report better MSD performance than the minimum requirements as specified in clause 73A4 73A5 and 73A6 by lowerMSD-r18 capability except that the reporting for MSD caused by IMD with order higher than 5 IMD of UL intra-band CA or triple-beat is not supported in this release of the specification The MSD performance after improvement is categorized into different lower-MSD capability classes which are defined in Table 73A7-1 Table 73A7-1 Lower-MSD capability classes The reported lower-MSD capability classes are subject to the same uplinkdownlink configurations as defined for the minimum MSD requirements in clause 73A4 73A5 and 73A6 If a UE can support more than one test points for a given REFSENS exception case the reported lower-MSD capability class is applicable for the test point having the largest specified MSD value",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_28",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 28,
+    "text": "Otherwise its only applicable for the test point which can be supported by the UE If one or multiple power classes are requested by the network the UE can if supported report lowerMSD-r18 capability for the requested power classes otherwise the UE shall report lowerMSD-r18 capability for the highest supported power class for the given CA configuration The UE shall meet one of the following conditions in order to report lowerMSD-r18 capability for a given REFSENS exception case - If the specified minimum requirement is tightly bounded by the range of a lower-MSD capability class ie Thresholdi-1 MSD Thresholdi where i and i-1 are two adjacent lower-MSD capability classes the actual MSD shall be at least one-level lower ie actual MSD Thresholdi-1 or - If the specified minimum requirement is larger than the maximum threshold corresponding to lower-MSD capability class VIII the actual MSD shall be no more than the maximum threshold",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_29",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 29,
+    "text": "Otherwise the UE shall not report lowerMSD-r18 capability for this REFSENS exception case If the special MSD type ALL is indicated in the lowerMSD-r18 capability the reporting conditions as specified above shall be met for each MSD type that has been specified in this release for the given CA configuration NOTE 1",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_30",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 30,
+    "text": "The lowerMSD-r18 capability is verified by reusing the MSD test point parameters and only replacing the minimum MSD requirement value by the threshold of the reported lower-MSD capability class UE supporting lower MSD shall indicate the lower MSD capability for the requested power class if supported If no power class is explicitly requested the UE supporting lower MSD shall indicate the lower MSD capability for the highest supported power class of the band combination including victim band and aggressor bands And similar to the specified MSD minimum requirements only the highest supported power class or the power class required by the certificationregulation body per UL configuration is verified NOTE 2 If the UE is equipped with four or eight Rx antenna ports for the victim band of the BC the lowerMSD-r18 capability is verified with four or eight Rx antenna ports according to clause 72 under the condition mentioned above but with the increased MSD values by the absolute value of ΔRIB4R or ΔRIB8R applied for the requirement based on the description in clause 73A1 73B Reference sensitivity for NR-DC For inter-band NR-DC configurations the reference sensitivity for the corresponding inter-band CA configuration as specified in clause 73A applies 73C Reference sensitivity for SUL 73C1 General",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_31",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 31,
+    "text": "The reference sensitivity power level REFSENS is the minimum mean power applied to each one of the UE antenna ports for all UE categories at which the throughput shall meet or exceed the requirements for the specified reference measurement channel For operations with 4 Rx or 8 Rx antenna ports the MSD in the applicable bands shall be increased by the absolute value of ΔRIB4R in Table 732-2 or ΔRIB8R in Table 732-2a when MSD 0",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_32",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 32,
+    "text": "For reference sensitivity exception test points where the specified carrier frequency does not correspond to a valid NR-ARFCN the closest NR-ARFCN as specified in clause 542 applies For reference sensitivity level tests or reference sensitivity exception tests specified in clause 73C SCS15kHz based UL test configuration can be replaced by SCS30kHz based UL test configuration The equivalent substitution relationship between different SCS UL test configuration is shown in Table 73A1-1 for the operating bands above 22GHz 73C2 Reference sensitivity power level for SUL For SUL operation the reference receive sensitivity REFSENS requirement for downlink bands specified in Table 732-1a Table 732-1b Table 732-2 and Table 732-2a shall be met for an uplink transmission bandwidth less than or equal to that specified in Table 732-3 or supplementary uplink transmission bandwidth less than or equal to that specified in Table 73C2-1 with reference measurement channels as specified in Annexes A222 A32 and A33 with one sided dynamic OCNG",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_33",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 33,
+    "text": "Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 unless sensitivity degradation is allowed in this clause of this specification These exceptions also apply to any higher order CA or DC combination containing one of the exception combinations in this clause as subset For SUL operation with downlink CA the reference receive sensitivity REFSENS requirement for downlink bands specified in clause 73A2 shall be met for an uplink transmission bandwidth less than or equal to that specified in Table 732-3 or supplementary uplink transmission bandwidth less than or equal to that specified in Table 73C2-1 with reference measurement channels as specified in Annexes A222 A32 and A33 with one sided dynamic OCNG",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_34",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 34,
+    "text": "Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 unless sensitivity degradation is allowed in this clause of this specification These exceptions also apply to any higher order CA or DC combination containing one of the exception combinations in this clause as subset Table 73C2-1 Supplementary uplink configuration for reference sensitivity For the UE that supports any of the SUL operation given in Table 73C2-2 exceptions to the requirements specified in Table 732-1a and Table 732-1b are allowed for different combinations of UL configurations and DL channel bandwidths when the uplink is active in a lower frequency band and is within a specified frequency range such that transmitter harmonics fall within the downlink transmission bandwidth assigned in a higher band as noted in Table 73C2-2 For these exceptions only the listed test points in Table 73C2-2 are needed to be tested Table 73C2-2 Reference sensitivity and uplinkdownlink configurations for SUL operation exceptions due to uplink harmonic issue Table 73C2-3 Void For the UE that supports any of the SUL operation given in Table 73C2-4 reference sensitivity degradation is allowed for different combinations of UL configurations and DL channel bandwidths when a DL band is impacted by UL band due to cross band isolation issues For these exceptions only the listed test points in Table 73C2-4 are needed to be tested Table 73C2-4 Reference sensitivity and uplinkdownlink configurations for SUL operation exceptions due to cross band isolation Table 73C2-5 Void 73C3 ΔRIBc for SUL 73C31 General For a UE supporting a SUL configuration the ΔRIBc applies for both SC and SUL operation 73C32 SUL band combination For the UE which supports SUL band combiantion the minimum requirement for reference sensitivity in clause 73C2 shall be increased by the amount given in ΔRIBc defined in clause 73C32 for the applicable operating bands Unless otherwise stated ΔRIBc is set to zero",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_35",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 35,
+    "text": "In case the UE supports more than one of band combinations for CA SUL or DC and an operating band belongs to more than one band combinations then - When the operating band frequency range is 1 GHz the applicable additional ΔRIBc shall be the average value for all band combinations defined in clause 73A 73B 73C in this specification and 73A 73B in TS 38101-3 3 truncated to one decimal place that apply for that operating band among the supported band combinations In case there is a harmonic relation between low band UL and high band DL then the maximum ΔRIBc among the different supported band combinations involving such band shall be applied -",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_36",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 36,
+    "text": "When the operating band frequency range is 1 GHz the applicable additional ΔRIBc shall be the maximum value for all band combinations defined in clause 73A 73B 73C in this specification and 73A 73B in TS 38101-3 3 for the applicable operating bands 73C321 ΔRIBc for two bands Table 73C321-1 ΔRIBc due to SUL two bands 73C322 ΔRIBc for three bands Table 73C322-1 ΔRIBc due to SUL three bands 73C323 ΔRIBc for four bands Table 73C323-1 ΔRIBc due to SUL four bands 73D Reference sensitivity for UL MIMO For UE with two or four transmitter antenna connectors in closed-loop spatial multiplexing scheme the minimum requirements specified in clause 73 shall be met with the UL MIMO configurations described in clause 62D1 and clause 62F1D for shared spectrum access operation and the reference measurement channels as specified in Annex A22 for CP-OFDM waveforms shall apply For UL MIMO the parameter PUMAX is the total transmitter power over all transmit antenna connectors 73E Reference sensitivity for V2X 73E1 General",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_37",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 37,
+    "text": "The reference sensitivity power level PREFSENS_V2X is the minimum mean power applied to each one of the UE antenna port for V2X UE at which the throughput shall meet or exceed the requirements for the specified reference measurement channel 73E2 Minimum requirements When UE is configured for NR V2X reception non-concurrent with NR uplink transmissions for NR V2X operating bands specified in Table 52E1-1 the throughput shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A72 with parameters specified in Table 73E2-1 Table 73E2-1 Reference sensitivity of NR V2X Bands PC5 Table 73E2-2 Sidelink TX configuration for reference sensitivity of NR V2X Bands PC5 73E2A Minimum requirements for Sidelink CA",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_38",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 38,
+    "text": "The reference sensitivity power level REFSENS is the minimum mean power applied to each one of the UE antenna ports at which the throughput shall meet or exceed the requirements for the specified reference measurement channel 73E2A1 Reference sensitivity power level for Sidelink CA For intra-band contiguous NR SL CA operation the reference sensitivity requirement specified in Table 73E2-1 shall apply for each component carrier with all carriers active The requirement is applied for each carrier reception when 2 carrier transmissions are activated at the same time 73E2F Minimum requirements for Sidelink Unlicensed 73E2F1 General",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_39",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 39,
+    "text": "The reference sensitivity power level REFSENS is the minimum mean power applied to each one of the UE antenna ports at which the throughput shall meet or exceed the requirements for the specified reference measurement channel In later clauses of Clause 7 where the value of REFSENS is used as a reference to set the corresponding requirement the UE shall be verified against those requirements by applying the REFSENS value in Table 73E2F2-1 with 2 Rx antenna ports tested 73E2F2 Reference sensitivity power level The throughput shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A72 with parameters specified in Table 73E2F2-1 Table 73E2F2-2 and Table 73E2F2-3 Table 73E2F2-1 Two antenna port reference sensitivity QPSK PREFSENS",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_40",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 40,
+    "text": "For UEs equipped with 4 Rx antenna ports reference sensitivity for 2Rx antenna ports in Table 73E2F2-1 shall be modified by the amount given in ΔRIB4R in Table 73E2F2-2 for the applicable operating bands Table 73E2F2-2 Four antenna port reference sensitivity allowance ΔRIB4R The reference receive sensitivity REFSENS requirement specified in Table 73E2F2-1 and Table 73E2F2-2 shall be met with sidelink transmission bandwidth less than or equal to that specified in Table 73E2F2-3 Table 73E2F2-3 Transmitted sidelink configuration for reference sensitivity Unless given by Table 73E2F2-4 the minimum requirements specified in Tables 73E2F2-1 and 73E2F2-2 shall be verified with the network signalling value NS_01 Table 62F31-1 configured Table 73F2-4 Network signaling value for reference sensitivity 73E3 Reference sensitivity power level for V2X concurrent operation 73E31 General",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_41",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 41,
+    "text": "When UE is configured for NR V2X reception on V2X carrier concurrent with NR uplink and downlink NR V2X sidelink throughput for the carrier shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A72 with parameters specified in Table 73E2-1 and 73E2-2 Also the NR downlink throughput shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A3 with parameters specified in Tables 732-1a 732-1b 732-2 and 732-3 The reference sensitivity is defined to be met with all downlink component carriers active The REFSENS of Uu downlink and PC5 sidelink will be tested at the same time Exceptions to reference sensitivity with different transmission and reception configurations are allowed for the combinations of aggressor and victim bands specified in Tables 73E3-3 and 73E3-4 The limited test configurations are specified in Tables 73E3-3 and 73E3-4 to verify MSD requirements For the intra-band concurrent NR V2X operation the reference sensitivity power level shall be applied per carrier The requirements in clause 732 shall be appled for NR downlink carrier and the requirements in clause 73E2 shall be applied for NR sidelink carrier NR V2X sidelink throughput for the carrier shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A72 Also the NR downlink throughput shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A32 in TS38101-1 For reference sensitivity exception test points where the specified carrier frequency does not correspond to a valid NR-ARFCN the closest NR-ARFCN as specified in clause 542 applies Table 73E3-1 Void Table 73E3-2 ΔRIBV2X two bands Table 73E3-3 Reference sensitivity exceptions MSD due to cross band isolation for inter-band concurrent operation Table 73E3-4 Reference sensitivity exceptions MSD due to harmonic interference for inter-band concurrent operation 73E3F Minimum requirements for SL-U concurrent operation 73E3F1 Reference sensitivity power level for SL-U concurrent operation For the inter-band concurrent NR SL-U operation the requirements specified in clause 73E2F2 shall apply for the NR sidelink reception in the operating bands in Table 52E2F-1 and the requirements specified in clause 732 shall apply for the NR downlink reception in licensed band while all downlink carriers are active For the REFSENS exception of SL_n78-n46 inter-band concurrent NR SL-U operation the existing CA_n46-n78 MSD requirements in Table 73A5-1 are applied Also the existing ΔRIB of CA_n46-n78 in Table 73A321-1 is applied for SL_n78-n46 inter-band concurrent NR SL-U operation UE",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_42",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 42,
+    "text": "73F Reference sensitivity for shared spectrum channel access 73F1 General The reference sensitivity power level REFSENS is the minimum mean power applied to each one of the UE antenna ports at which the throughput shall meet or exceed the requirements for the specified reference measurement channel In later clauses of Clause 7 where the value of REFSENS is used as a reference to set the corresponding requirement the UE shall be verified against those requirements by applying the REFSENS value in Table 73G2-1 with 2 Rx antenna ports tested 73F2 Reference sensitivity power level The throughput shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A222 A32 and A33 with one sided dynamic OCNG Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 with parameters specified in Table 73F2-1 Table 73F2-2 and Table 73F2-3 Table 73F2-1 Two antenna port reference sensitivity QPSK PREFSENS",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_43",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 43,
+    "text": "For UEs equipped with 4 Rx antenna ports reference sensitivity for 2Rx antenna ports in Table 73F2-1 shall be modified by the amount given in ΔRIB4R in Table 73F2-2 for the applicable operating bands Table 73F2-2 Four antenna port reference sensitivity allowance ΔRIB4R",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_44",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 44,
+    "text": "The reference receive sensitivity REFSENS requirement specified in Table 73F2-1 and Table 73F2-2 shall be met with uplink transmission bandwidth less than or equal to that specified in Table 73F2-3 Table 73F2-3 Uplink configuration for reference sensitivity Unless given by Table 73F2-4 the minimum requirements specified in Tables 73F2-1 and 73F2-2 shall be verified with the network signalling value NS_01 Table 62F31-1 configured Table 73F2-4 Network signaling value for reference sensitivity 73F3 Void 73F4 Void 73F4A Shared spectrum channel access CA 73F4A1 Intra-band contiguous shared spectrum channel access CA For intra-band contiguous carrier aggregation the throughput of each component carrier shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A222 A32 and A33 with one sided dynamic OCNG",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_45",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 45,
+    "text": "Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 with parameters specified in Table 73F2-1 Table 73F2-2 and Table 73F2-3 73F5 Void 73F51 Void 73F52 Void 73F53 Void 73G Reference sensitivity for Tx Diversity For UE supporting Tx diversity the minimum requirements specified in Table 732-1a Table 732-1b Table 732-1d Table 732-2 and Table 732-2a shall be met with Tx diversity configuration described in clause 62G1 For Tx diversity the parameter PUMAX is defined in clause 62G4 with the sum of the output power from all UE antenna connectors 73G5 Void 73G50 Void 73H Reserved 73I Reference sensitivity for eRedCap 73I1 General",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_46",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 46,
+    "text": "The reference sensitivity power level REFSENS is the minimum mean power applied to each one of the UE antenna ports for all UE categories at which the throughput shall meet or exceed the requirements for the specified reference measurement channel 73I2 Reference sensitivity power level for RedCap For a RedCap UE equipped with 2 Rx antenna ports the throughput shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A222 A32 and A33 with one sided dynamic OCNG",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_47",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 47,
+    "text": "Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 with parameters specified in Table 732-1a and Table 732-1b for the applicable operating bands The reference sensitivity REFSENS requirement specified for a RedCap UE equipped with 2 Rx antenna ports shall be met with uplink transmission bandwidth less than or equal to that specified in Table 732-3 and for FDD bands with the Tx-Rx separation as defined in clause 544 for the applicable band and UE channel bandwidth For a RedCap UE equipped with 1 Rx antenna ports reference sensitivity for 2Rx antenna ports in Table 732-1a and in Table 732-1b shall be modified by the amount given in ΔR1R in Table 73I2-1 for the applicable operating bands The reference sensitivity REFSENS requirement specified for a RedCap UE equipped with 1 Rx antenna ports shall be met with uplink transmission bandwidth less than or equal to that specified in Table 732-3 and for FDD bands with the Tx-Rx separation as defined in clause 544 for the applicable band and UE channel bandwidth Table 73I2-1 Single antenna port reference sensitivity allowance ΔR1R",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_48",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 48,
+    "text": "For a RedCap UE equipped with 2 Rx antenna ports operating in HD-FDD mode reference sensitivity for 2Rx antenna ports in Table 73I2-2 shall be met with uplink transmission bandwidth less than or equal to that specified in Table 73I2-4 Table 73I2-2 HD-FDD RedCap UE with 2 Rx antenna port reference sensitivity For a RedCap UE equipped with 1 Rx antenna ports and operating in HD-FDD mode reference sensitivity for 1Rx antenna ports in Table 73I2-3 shall be met with uplink transmission bandwidth less than or equal to that specified in Table 73I2-4 Table 73I2-3 HD-FDD RedCap UE with 1 Rx antenna port reference sensitivity Table 73I2-4 Uplink configuration for HD-FDD reference sensitivity 73I3 Reference sensitivity power level for eRedCap For UE supporting IE supportOfERedCap-r18 and IE eRedCapNotReducedBB-BW-r18 the REFSENS requirements for RedCap UE in clause 73I2 apply For UE supporting IE supportOfERedCap-r18 but not supporting eRedCapNotReducedBB-BW-r18 the reference sensitivity requirements for 5 MHz channel bandwidth with 15 kHz SCS defined in clause 73I2 apply These reference sensitivity requirements for 5 MHz channel bandwidth apply also for 10 15 and 20 MHz channel bandwidths with 15 kHz SCS",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_49",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 49,
+    "text": "In case the reference sensitivity requirements for 5 MHz channel bandwidth are not defined the reference sensitivity requirements for 10 MHz channel bandwidth apply with the reference sensitivity level reduced by 32 dB and the UL configuration shall be less than or equal to minimum between RB number specified in Table 73I2-4 and 25 RBs for HD-FDD operation and minimum between RB number specified in Table 732-3 and 25RBs otherwise These reference sensitivity requirements for 10 MHz channel bandwidth apply also for 15 and 20 MHz channel bandwidths Both Tx RBs in UL configuration and Rx RBs in FRC when applicable shall be allocated within the range from RBlow ceilNRB2 - NRB_PR32 to RBhigh RBlow NRB_PR3 -1 where RBlow and RBhigh are the lowest and highest available RB position and NRB_PR3 is 25 RBs for 15 kHz SCS For UE supporting IE supportOfERedCap-r18 but not supporting eRedCapNotReducedBB-BW-r18 for 30 kHz SCS the reference sensitivity requirements defined for 10 MHz channel bandwidth in clause 73I2 apply with reference sensitivity level reduced by 30 dB and the UL configuration shall be less than or equal to minimum between RB number specified in Table 73I2-4 and 12 RBs for HD-FDD operation and minimum between RB number specified in Table 732-3 and 12RBs",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_50",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 50,
+    "text": "otherwise These reference sensitivity requirements for 10 MHz channel bandwidth apply also for 15 and 20 MHz channel bandwidths with 30 kHz SCS Both Tx RBs in UL configuration and Rx RBs in FRC when applicable shall be allocated within the range from RBlow ceilNRB2 - NRB_PR32 to RBhigh RBlow NRB_PR3 -1 where RBlow and RBhigh are the lowest and highest available RB position and NRB_PR3 is 12 RBs for 30 kHz SCS NOTE",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_51",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 51,
+    "text": "It is not necessary to repeat verification when same requirement applies for multiple channel bandwidths 73J Reference sensitivity for ATG 73J1 General For ATG UE with multiple omni-directional antennas not indicating the capability antennaArrayType-r18 the reference sensitivity power level REFSENS is the minimum mean power per polarization at antenna connector at which the throughput shall meet or exceed the requirements for the specified reference measurement channel For ATG UE with antenna array indicating the capability antennaArrayType-r18the reference sensitivity power level REFSENS is the minimum mean power per polarization at TAB antenna connector at which the throughput shall meet or exceed the requirements for the specified reference measurement channel 73J2 Reference sensitivity power level For a ATG UEs equipped with 2 Rx antenna ports the throughput shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A222 and A32 with one sided dynamic OCNG",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_52",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 52,
+    "text": "Pattern OP1 FDD for the DL-signal as described in Annex A511 with parameters specified in Table 732-1a and Table 732-1b for the applicable operating bands For ATG UEs equipped with 4 Rx antenna ports reference sensitivity for 2Rx antenna ports shall be modified by the amount given in ΔRIB4R in Table 732-2 for the applicable operating bands The reference sensitivity REFSENS requirement for a ATG UE shall be met with uplink transmission bandwidth less than or equal to that specified in Table 732-3 73K Reserved 73L Reserved 74 Maximum input level Maximum input level is defined as the maximum mean power received at the UE antenna port at which the specified relative throughput shall meet or exceed the minimum requirements for the specified reference measurement channel The throughput shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexs A32 and A33 with one sided dynamic OCNG",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_53",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 53,
+    "text": "Pattern OP1 FDDTDD as described in Annex A511A521 with parameters specified in Table 74-1 Table 74-1 Maximum input level 74A Maximum input level for CA 74A1 Maximum input level for Intra-band contiguous CA For intra-band contiguous carrier aggregation maximum input level is defined as the maximum mean power received at the UE antenna port over the Transmission bandwidth configuration of each CC The throughput shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexs A32 and A33 with one sided dynamic OCNG",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_54",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 54,
+    "text": "Pattern OP1 FDDTDD as described in Annex A511A521 with parameters specified in Table 74A1-1 for each component carrier Table 74A1-1 Maximum input level for Intra-band contiguous CA 74A2 Maximum input level for Intra-band non-contiguous CA For intra-band non-contiguous carrier aggregation with one uplink carrier and two or more downlink sub-blocks each larger than or equal to 5 MHz the maximum input level requirements are defined with the uplink configuration in accordance with 73A22-1 For this uplink configuration the UE shall meet the requirements for each sub-block as specified in Table 74-1 and Table 74A1-1 for one component carrier and two component carriers per sub-block respectively The throughput of each downlink component carrier shall be 95 of the maximum throughput of the specified reference measurement channel as specified in Annex A32 and A33 with one sided dynamic OCNG Pattern OP1 FDDTDD as described in Annex A511 and A521",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_55",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 55,
+    "text": "The requirements apply with all downlink carriers active 74A3 Maximum input level for Inter-band CA For inter-band carrier aggregation with one component carrier per operating band and the uplink assigned to one NR band the maximum input level is defined with the uplink active on the bands other than the band whose downlink is being tested For NR CA configurations including an operating band without uplink band or an operating band with an unpaired DL part as noted in Table 52-1 the requirements for all downlinks shall be met with the single uplink carrier active in each band capable of UL operation The UE shall meet the requirements specified in clause 74 for each component carrier while all downlink carriers are active The throughput shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexs A32 and A33 with one sided dynamic OCNG",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_56",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 56,
+    "text": "Pattern OP1 FDDTDD as described in Annex A511A521 for each component carrier 74B Maximum input level for NR-DC For inter-band NR-DC configurations the maximum input level for the corresponding inter-band CA configuration as specified in clause 74A applies 74D Maximum input level for UL MIMO For UE with two or four transmitter antenna connectors in closed-loop spatial multiplexing the minimum requirements specified in clause 74 shall be met with the UL MIMO configurations described in clause 62D1 and clause 62F1D for shared spectrum access operation For UL MIMO the parameter PCMAX_L is defined as the total transmitter power over all transmit antenna connectors 74E Maximum input level for V2X 74E1 General Maximum input level is defined as the maximum mean power received at the UE antenna port at which the specified relative throughput shall meet or exceed the minimum requirements for the specified reference measurement channel When UE is configured for NR V2X reception non-concurrent with NR uplink transmissions for NR V2X operating bands specified in Table 52E1-1 the throughput shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A73 and A74 with parameters specified in Table 74E1-1 Table 74E1-1 Maximum input level of NR V2X 74E1A Maximum input level for Sidelink CA For intra-band contiguous NR SL CA operation the following maximum input level requirement shall be applied to the SL CA bandwidth class B Table 74E1A-1 Maximum input levels for intra-band contiguous CA UE",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_57",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 57,
+    "text": "The throughput shall be 95 of the maximum throughput of the reference measurement channels as specified in Annex A73 and A74 The requirements apply with all downlink carriers active 74E1F General requirement for Sidelink Unlicensed",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_58",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 58,
+    "text": "The maximum input level requirement of SL-U operation in clause 74 apply The throughput shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A73 and A74 74E2 Maximum input level for V2X concurrent operation For the inter-band concurrent NR V2X operation the requirements specified in clause 74E1 shall apply for the NR sidelink reception in the operating bands in Table 52E2-1 and the requirements specified in clause 74 shall apply for the NR downlink reception in licensed band while all downlink carriers are active 74E2F Maximum input level for SL-U concurrent operation For the inter-band concurrent NR SL-U operation the requirements specified in clause 74E1F shall apply for the NR sidelink reception in the operating bands in Table 52E2F-1 and the requirements specified in clause 74 shall apply for the NR downlink reception in licensed band while all downlink carriers are active 74F",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_59",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 59,
+    "text": "Reserved 74G Reserved 74H Reserved 74I Reserved 74J Maximum input level for ATG Maximum input level is defined as the maximum mean power received at the UE antenna port at which the specified relative throughput shall meet or exceed the minimum requirements for the specified reference measurement channel The throughput shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexs A32 and A33 with one sided dynamic OCNG Pattern OP1 FDDTDD as described in Annex A511A521 with parameters specified in Table 74J-1 Table 74J-1 Maximum input level for ATG 74K Reserved 74L Reserved 75",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_60",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 60,
+    "text": "Adjacent channel selectivity Adjacent channel selectivity ACS is a measure of a receivers ability to receive an NR signal at its assigned channel frequency in the presence of an adjacent channel signal at a given frequency offset from the centre frequency of the assigned channel ACS is the ratio of the receive filter attenuation on the assigned channel frequency to the receive filter attenuation on the adjacent channels The UE shall fulfil the minimum requirements specified in Table 75-1 for NR bands with FDL_high 2700 MHz and FUL_high 2700 MHz and the minimum requirements specified in Table 75-2 for NR bands with FDL_low 3300 MHz and FUL_low 3300 MHz These requirements apply for all values of an adjacent channel interferer up to -25 dBm and for any SCS specified for the channel bandwidth of the wanted signal",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_61",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 61,
+    "text": "However it is not possible to directly measure the ACS instead the lower and upper range of test parameters are chosen as in Table 75-3 and Table 75-4 for verification of the requirements specified in Table 75-1 and as in Table 75-5 and Table 75-6 for verification of the requirements specified in Table 75-2 For these test parameters the throughput shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A22 A32 and A33 with one sided dynamic OCNG Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_62",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 62,
+    "text": "For operating bands with an unpaired DL part as noted in Table 52-1 the requirements only apply for carriers assigned in the paired part Table 75-1 ACS for NR bands with FDL_high 2700 MHz and FUL_high 2700 MHz Table 75-2 ACS for NR bands with FDL_low 3300 MHz and FUL_low 3300 MHz Table 75-3 Test parameters for NR bands with FDL_high 2700 MHz and FUL_high 2700 MHz case 1 Table 75-4 Test parameters for NR bands with FDL_high 2700 MHz and FUL_high 2700 MHz case 2 Table 75-5 Test parameters for NR bands with FDL_low 3300 MHz and FUL_low 3300 MHz case 1 Table 75-6 Test parameters for NR bands with FDL_low 3300 MHz and FUL_low 3300 MHz case 2 75A",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_63",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 63,
+    "text": "Adjacent channel selectivity for CA 75A1 Adjacent channel selectivity for Intra-band contiguous CA For intra-band contiguous carrier aggregation the downlink SCCs shall be configured at nominal channel spacing to the PCC The UE shall fulfil the minimum requirement specified in Table 75A1-1 and 75A1-1a for an adjacent channel interferer on either side of the aggregated downlink signal at a specified frequency offset and for an interferer power up to -25 dBm The throughput of each carrier shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A22 A32 and A33 with one sided dynamic OCNG Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 with parameters specified in Tables 75A1-2 75A1-2a 75A1-3 and 75A1-3a Table 75A1-1 ACS for intra-band contiguous CA with FDL_low 3300 MHz and FUL_low 3300 MHz Table",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_64",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 64,
+    "text": "75A1-1a ACS for intra-band contiguous CA with FDL_high 2700 MHz and FUL_high 2700 MHz Table 75A1-2 Test parameters for intra-band contiguous CA with FDL_low 3300 MHz and FUL_low 3300 MHz case 1 Table 75A1-2a Test parameters for intra-band contiguous CA with FDL_high2700 MHz and FUL_high2700 MHz case 1 Table 75A1-3 Test parameters for intra-band contiguous CA with FDL_low 3300 MHz and FUL_low 3300 MHz case 2 Table 75A1-3a Test parameters for intra-band contiguous CA with FDL_high 2700 MHz and FUL_high2700 MHz case 2 75A2 Adjacent channel selectivity Intra-band non-contiguous CA For intra-band non-contiguous carrier aggregation with FDL_high 2700 MHz and FUL_high 2700 MHz with one uplink carrier and two or more downlink sub-blocks each larger than or equal to 5 MHz the adjacent channel selectivity requirements are defined with the uplink configuration in accordance with Table 73A22-1 For this uplink configuration the UE shall meet the requirements for each sub-block as specified in clauses 75 and 75A1 for one component carrier and two component carriers per sub-block respectively",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_65",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 65,
+    "text": "The UE shall fulfil the minimum requirements all values of a single adjacent channel interferer in-gap and out-of-gap up to a 25 dBm interferer power while all downlink carriers are active For the lower range of test parameters Case 1 the interferer power Pinterferer shall be set to the maximum of the levels given by the carriers of the respective sub-blocks as specified in Table 75-3 and Table 75A1-2a for one component carrier and two component carriers per sub-block respectively The wanted signal power levels for the carriers of each sub-block shall then be adjusted relative to Pinterferer in accordance with the ACS requirement for each sub-block Table 75-1 and Table 75A1-1a For the upper range of test parameters Case 2 for which the interferer power Pinterferer is -25 dBm",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_66",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 66,
+    "text": "Table 75-4 and Table 75A1-3a the wanted signal power levels for the carriers of each sub-block shall be adjusted relative to Pinterferer like for Case 1 For intra-band non-contiguous carrier aggregation with FDL_low 3300 MHz and FUL_low 3300 MHz with one uplink carrier and two or more downlink sub-blocks each larger than or equal to 5 MHz the adjacent channel selectivity requirements are defined with the uplink configuration in accordance with Table 73A22-1 For this uplink configuration the UE shall meet the requirements for each sub-block as specified in clauses 75 and 75A1 for one component carrier and two component carriers per sub-block respectively",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_67",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 67,
+    "text": "The UE shall fulfil the minimum requirements all values of a single adjacent channel interferer in-gap and out-of-gap up to a 25 dBm interferer power while all downlink carriers are active For the lower range of test parameters Case 1 the interferer power Pinterferer shall be set to the maximum of the levels given by the carriers of the respective sub-blocks as specified in Table 75-5 and Table 75A1-2 for one component carrier and two component carriers per sub-block respectively The wanted signal power levels for the carriers of each sub-block shall then be adjusted relative to Pinterferer in accordance with the ACS requirement for each sub-block Table 75-2 and Table 75A1-1 For the upper range of test parameters Case 2 for which the interferer power Pinterferer is -25 dBm Table 75-6 and Table 75A1-3 the wanted signal power levels for the carriers of each sub-block shall be adjusted relative to Pinterferer like for Case 1",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_68",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 68,
+    "text": "The throughput of each carrier shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A22 A32 and A33 with one sided dynamic OCNG",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_69",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 69,
+    "text": "Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 75A3 Adjacent channel selectivity Inter-band CA For inter-band carrier aggregation with one component carrier per operating band and the uplink assigned to one NR band the adjacent channel requirements are defined with the uplink active on the bands other than the band whose downlink is being tested For NR CA configurations including an operating band without uplink operation or an operating band with an unpaired DL part as noted in Table 52-1 the requirements for all downlinks shall be met with the single uplink carrier active in each band capable of UL operation The UE shall meet the requirements specified in clause 75 and clause 75F when the downlink belongs to a spectrum sharing defined band for each component carrier while all downlink carriers are active The throughput of each carrier shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A22 A32 and A33 with one sided dynamic OCNG",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_70",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 70,
+    "text": "Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 75B Adjacent channel selectivity for NR-DC For inter-band NR-DC configurations the adjacent channel selectivity for the corresponding inter-band CA configuration as specified in clause 75A applies 75D Adjacent channel selectivity for UL MIMO For UEs with two or four transmitter antenna connectors in closed-loop spatial multiplexing scheme the minimum requirements specified in clause 75 shall be met with the UL MIMO configurations described in clause 62D1 and clause 62F1D for shared spectrum access operation For UL MIMO the parameter PCMAX_L is defined as the total transmitter power over all transmit antenna connectors 75E",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_71",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 71,
+    "text": "Adjacent channel selectivity for V2X 75E1 General Adjacent channel selectivity ACS is a measure of a receivers ability to receive an NR signal at its assigned channel frequency in the presence of an adjacent channel signal at a given frequency offset from the centre frequency of the assigned channel ACS is the ratio of the receive filter attenuation on the assigned channel frequency to the receive filter attenuation on the adjacent channels The UE shall fulfil the minimum requirements specified in Table 75E1-1 for NR V2X UE These requirements apply for all values of an adjacent channel interferer up to -25 dBm and for any SCS specified for the channel bandwidth of the wanted signal However it is not possible to directly measure the ACS instead the lower and upper range of test parameters are chosen as in Table 75E1-2 and Table 75E1-3 for verification of the requirements specified in Table 75E1-1",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_72",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 72,
+    "text": "For these test parameters when UE is configured for NR V2X reception non-concurrent with NR uplink transmissions for NR V2X operating bands specified in Table 52E1-1 the throughput shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A72 In licensed band the minimum requirements shall reuse the same ACS values with NR UE Table 75E1-1",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_73",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 73,
+    "text": "Adjacent channel selectivity for NR V2X Table 75E1-2 Test parameters for Adjacent channel selectivity for V2X Case 1 Table 75E1-2a Test parameters for Adjacent channel selectivity in n14 Case 1 Table 75E1-3 Test parameters for Adjacent channel selectivity for V2X Case 2 Table 75E1-3a Test parameters for Adjacent channel selectivity in n14 Case 2 75E1A Adjacent channel selectivity requirement for Sidelink CA For intra-band contiguous NR SL CA operation the UE shall fulfil the minimum requirement specified in Table 75E1A-1 to Table 75E1A-3 where the throughput shall be 95 of the maximum throughput of the reference measurement channels as specified in Annex A72 Table 75E1A-1 ACS for intra-band contiguous NR SL CA UE Table 75E1A-2 Test parameters for intra-band contiguous SL CA UE case 1 Table 75E1A-3 Test parameters for intra-band contiguous SL CA UE case 2 75E1F General requirement for Sidelink Unlicensed The ACS requirement of SL-U operation in clause 75F1 apply The throughput shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A72 75E2 Adjacent channel selectivity for V2X concurrent operation For the inter-band concurrent NR V2X operation the requirements specified in clause 75E1 shall apply for the NR sidelink reception in the operating bands in Table 52E2-1 and the requirements specified in clause 75 shall apply for the NR downlink reception in licensed band while all downlink carriers are active 75E2F",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_74",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 74,
+    "text": "Adjacent channel selectivity for SL-U concurrent operation For the inter-band concurrent NR SL-U operation the requirements specified in clause 75E1F shall apply for the NR sidelink reception in the operating bands in Table 52E2F-1 and the requirements specified in clause 75 shall apply for the NR downlink reception in licensed band while all downlink carriers are active 75F Adjacent channel selectivity for shared spectrum channel access 75F1 General Adjacent channel selectivity ACS is a measure of a receivers ability to receive an NR signal at its assigned channel frequency in the presence of an adjacent channel signal at a given frequency offset from the centre frequency of the assigned channel ACS is the ratio of the receive filter attenuation on the assigned channel frequency to the receive filter attenuation on the adjacent channels Instead of the general ACS requirements specified in clause 75 the UE shall fulfil the minimum requirements specified in Table 75F1-1",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_75",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 75,
+    "text": "These requirements apply for any SCS specified for the channel bandwidth of the wanted signal For the test parameters specified in Table 75F1-2 the throughput shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A22 A32 and A33 with one sided dynamic OCNG Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 Table 75F1-1 ACS for shared spectrum channel access bands Table 75F1-2 Test parameters for shared spectrum channel access bands 75F1A",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_76",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 76,
+    "text": "Adjacent channel selectivity for shared spectrum channel access CA 75F1A1 Intra-band contiguous shared spectrum channel access CA ACS for intra-band contiguous shared access CA requirements are specified in Table 75F1A1-1 These requirements apply for any SCS specified for the channel bandwidth of the wanted signal For the test parameters specified in Table 75F1A1-2 the throughput of each carrier shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A22 A32 and A33 with one sided dynamic OCNG Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 Table 75F1A1-1 ACS for intra-band contiguous shared access CA Table 75F1A1-2 Test parameters for intra-band contiguous NR-U CA 75F2 Void 75G Reserved 75H",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_77",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 77,
+    "text": "Reserved 75I Reserved 75J Adjacent channel selectivity for ATG Adjacent channel selectivity ACS is a measure of a receivers ability to receive an NR signal at its assigned channel frequency in the presence of an adjacent channel signal at a given frequency offset from the centre frequency of the assigned channel ACS is the ratio of the receive filter attenuation on the assigned channel frequency to the receive filter attenuation on the adjacent channels The UE shall fulfil the minimum requirements specified in Table 75J-1 for NR bands with FDL_high 2700 MHz and FUL_high 2700 MHz and the minimum requirements specified in Table 75J-2 for NR bands with FDL_low 3300 MHz and FUL_low 3300 MHz These requirements apply for all values of an adjacent channel interferer up to -42 dBm with omni-directional antenna and -30dBm with antenna array for any SCS specified for the channel bandwidth of the wanted signal",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_78",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 78,
+    "text": "However it is not possible to directly measure the ACS instead the lower and upper range of test parameters are chosen as in Table 75J-3 and Table 75J-4 for verification of the requirements specified in Table 75J-1 and as in Table 75J-5 and Table 75J-6 for verification of the requirements specified in Table 75J-2 For these test parameters the throughput shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A22 A32 and A33 with one sided dynamic OCNG Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 Table 75J-1 ACS for NR bands with FDL_high 2700 MHz and FUL_high 2700 MHz Table",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_79",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 79,
+    "text": "75J-2 ACS for NR bands with FDL_low 3300 MHz and FUL_low 3300 MHz Table 75J-3 Test parameters for NR bands with FDL_high 2700 MHz and FUL_high 2700 MHz case 1 Table 75J-4 Test parameters for NR bands with FDL_high 2700 MHz and FUL_high 2700 MHz case 2 Table 75J-5 Test parameters for NR bands with FDL_low 3300 MHz and FUL_low 3300 MHz case 1 Table 75J-6 Test parameters for NR bands with FDL_low 3300 MHz and FUL_low 3300 MHz case 2 75K Reserved 75L Reserved 76 Blocking characteristics 761 General",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_80",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 80,
+    "text": "The blocking characteristic is a measure of the receivers ability to receive a wanted signal at its assigned channel frequency in the presence of an unwanted interferer on frequencies other than those of the spurious response or the adjacent channels without this unwanted input signal causing a degradation of the performance of the receiver beyond a specified limit The blocking performance shall apply at all frequencies except those at which a spurious response occurs For shared spectrum channel access and band combinations with operating bands intended for shared spectrum channel access the blocking characteristics is specified in clause 76F 762",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_81",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 81,
+    "text": "In-band blocking For NR bands with FDL_high 2700 MHz and FUL_high 2700 MHz in-band blocking IBB is defined for an unwanted interfering signal falling into the UE receive band or into the first 15 MHz below or above the UE receive band The throughput of the wanted signal shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A22 A32 and A33 with one sided dynamic OCNG",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_82",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 82,
+    "text": "Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 with parameters specified in Table 762-1 and Table 762-2 The relative throughput requirement shall be met for any SCS specified for the channel bandwidth of the wanted signal For operating bands with an unpaired DL part as noted in Table 52-1 the requirements only apply for carriers assigned in the paired part Table 762-1 In-band blocking parameters for NR bands with FDL_high 2700 MHz and FUL_high 2700 MHz Table 762-2 In-band blocking for NR bands with FDL_high 2700 MHz and FUL_high 2700 MHz NOTE For bands n100 and n101 additional requirements for wideband cab-radio receiver are specified by ETSI TC RT based on ECC Decision 2002 19",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_83",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 83,
+    "text": "For NR bands with FDL_low 3300 MHz and FUL_low 3300 MHz in-band blocking IBB is defined for an unwanted interfering signal falling into the UE receive band or into an immediately adjacent frequency range up to 3BWChannel below or above the UE receive band where BWChannel is the bandwidth of the wanted signal The throughput of the wanted signal shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A22 A32 and A33 with one sided dynamic OCNG",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_84",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 84,
+    "text": "Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 with parameters specified in Table 762-3 and Table 762-4 The relative throughput requirement shall be met for any SCS specified for the channel bandwidth of the wanted signal Table 762-3 In-band blocking parameters for NR bands with FDL_low 3300 MHz and FUL_low 3300 MHz Table 762-4 In-band blocking for NR bands with FDL_low 3300 MHz and FUL_low 3300 MHz 763 Out-of-band blocking For NR bands with FDL_high 2700 MHz and FUL_high 2700 MHz out-of-band band blocking is defined for an unwanted CW interfering signal falling outside a frequency range 15 MHz below or above the UE receive band The throughput of the wanted signal shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A22 A32 and A33 with one sided dynamic OCNG",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_85",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 85,
+    "text": "Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 with parameters specified in Table 763-1 and Table 763-2 The relative throughput requirement shall be met for any SCS specified for the channel bandwidth of the wanted signal For operating bands with an unpaired DL part as noted in Table 52-1 the requirements only apply for carriers assigned in the paired part Table 763-1 Out-of-band blocking parameters for NR bands with FDL_high 2700 MHz and FUL_high 2700 MHz Table 763-2 Out of-band blocking for NR bands with FDL_high 2700 MHz and FUL_high 2700 MHz NOTE For bands n100 and n101 additional requirements for wideband cab-radio receiver are specified by ETSI TC RT based on ECC Decision 2002 19",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_86",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 86,
+    "text": "For interferer frequencies across ranges 1 2 and 3 in Table 763-2 a maximum of exceptions are allowed for spurious response frequencies in each assigned frequency channel when measured using a step size of MHz withthe number of resource blocks in the downlink transmission bandwidth configuration BWChannel the bandwidth of the frequency channel in MHz and n 1 2 3 for SCS 15 30 60 kHz respectively For these exceptions the requirements in clause 77 apply For NR bands with FDL_low 3300 MHz and FUL_low 3300 MHz out-of-band band blocking is defined for an unwanted CW interfering signal falling outside a frequency range up to 3BWChannel below or from 3BWChannel above the UE receive band where BWChannel is the channel bandwidth The throughput of the wanted signal shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A22 A32 and A33 with one sided dynamic OCNG",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_87",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 87,
+    "text": "Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 with parameters specified in Table 763-3 and Table 763-4 The relative throughput requirement shall be met for any SCS specified for the channel bandwidth of the wanted signal Table 763-3 Out-of-band blocking parameters for NR bands with FDL_low 3300 MHz and FUL_low 3300 MHz Table 763-4 Out of-band blocking for NR bands with FDL_low 3300 MHz and FUL_low 3300 MHz For interferer frequencies across ranges 1 2 and 3 in Table 763-4 a maximum of exceptions are allowed for spurious response frequencies in each assigned frequency channel when measured using a step size of MHz withthe number of resource blocks in the downlink transmission bandwidth configuration BWChannel the bandwidth of the frequency channel in MHz and n 1 2 3 for SCS 15 30 60 kHz respectively For these exceptions the requirements in clause 77 apply 764 Narrow band blocking This requirement is measure of a receivers ability to receive a NR signal at its assigned channel frequency in the presence of an unwanted narrow band CW interferer at a frequency which is less than the nominal channel spacing The relative throughput shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A22 A32 and A33 with one sided dynamic OCNG",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_88",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 88,
+    "text": "Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 with parameters specified in Table 764-1 For operating bands with an unpaired DL part as noted in Table 52-1 the requirements only apply for carriers assigned in the paired part Table 764-1 Narrow Band Blocking NOTE For bands n100 and n101 additional requirements for wideband cab-radio receiver are specified by ETSI TC RT based on ECC Decision 2002 19 76A Blocking characteristics for CA 76A1 General 76A2 In-band blocking for CA 76A21 In-band blocking for Intra-band contiguous CA For intra-band contiguous carrier aggregation the downlink SCCs shall be configured at nominal channel spacing to the PCC The UE shall fulfil the minimum requirement specified in Table 76A21-1 and 76A21-1a for an adjacent channel interferer on either side of the aggregated downlink signal at a specified frequency offset and for an interferer power up to -25 dBm",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_89",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 89,
+    "text": "The throughput of each carrier shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A22 A32 and A33 with one sided dynamic OCNG Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 Table 76A21-1 In-band blocking parameters for intra-band contiguous CA with FDL_low 3300 MHz and FUL_low 3300 MHz Table 76A21-1a In-band blocking parameters for intra-band contiguous CA with FDL_low 2700 MHz and FUL_low 2700 MHz Table 76A21-2 In-band blocking for intra-band contiguous CA with FDL_low 3300 MHz and FUL_low 3300 MHz Table 76A21-2a In-band blocking for intra-band contiguous CA with FDL_low 2700 MHz and FUL_low 2700 MHz 76A22",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_90",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 90,
+    "text": "In-band blocking for Intra-band non-contiguous CA For intra-band non-contiguous carrier aggregation with one uplink carrier and two or more downlink sub-blocks each larger than or equal to 5 MHz the in-band blocking requirements are defined with the uplink configuration in accordance with Table 73A22-1 For this uplink configuration the UE shall meet the requirements for each sub-block as specified in clause 762 and 76A21 for one component carrier and two component carriers per sub-block respectively The requirements apply for in-gap and out-of-gap interferers while all downlink carriers are active The throughput of each carrier shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A22 A32 and A33 with one sided dynamic OCNG Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 76A23",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_91",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 91,
+    "text": "In-band blocking for Inter-band CA For inter-band carrier aggregation with one component carrier per operating band and the uplink assigned to one NR band the in-band blocking requirements are defined with the uplink active on the bands other than the band whose downlink is being tested The UE shall meet the requirements specified in clause 762 and clause 76F2 when the downlink belongs to a spectrum sharing defined band for each component carrier while all downlink carriers are active For the UE which supports inter-band CA configuration in Table 73A321-1 Pinterferer power defined in Table 762-2 and 762-4 and Table 76F21-2 for shared spectrum channel access is increased by the amount given by ΔRIBc in Table 73A321-1 and in Table 73F3-1 for shared spectrum channel access For NR CA configurations including an operating band without uplink operation or an operating band with an unpaired DL part as noted in Table 52-1 the requirements for all downlinks shall be met with the single uplink carrier active in each band capable of UL operation",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_92",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 92,
+    "text": "The requirements for the component carrier configured in the operating band without uplink operation are specified in clause 762 while all downlink carriers are active Table 76A23-1 Void The throughput of each carrier shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A22 A32 and A33 with one sided dynamic OCNG",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_93",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 93,
+    "text": "Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 76A3 Out-of-band blocking for CA 76A31 Out-of-band blocking for Intra-band contiguous CA For intra-band contiguous carrier aggreagation the downlink SCCs shall be configured at nominal channel spacing to the PCC For FDD the PCC shall be configured closest to the uplink band All downlink carriers shall be active throughout the test The UE shall fulfil the minimum requirement in presence of an interfering signal specified in Table 76A3-1 and Table 76A3-2 being on either side of the aggregated signal The throughput of each carrier shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A22 A32 and A33 with one sided dynamic OCNG",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_94",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 94,
+    "text": "Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 Table 76A3-1 Out-of-band blocking parameters for intra-band contiguous CA Table 76A3-1a Void Table 76A3-2 Out of-band blocking for intra-band contiguous CA Table 76A3-2a Void For interferer frequencies across ranges 1 2 and 3 in Table 76A3-2 a maximum of exceptions are allowed for spurious response frequencies in each assigned frequency channel when measured using a step size of MHz with the number of resource blocks in the downlink transmission bandwidth configuration BWChannel is the bandwidth of the frequency channel in MHz and n 1 2 3 for SCS 15 30 60 kHz respectively For these exceptions the requirements in subclause 77A1 apply 76A32 Out-of-band blocking for Intra-band non-contiguous CA For intra-band non-contiguous carrier aggregation with one uplink carrier and two or more downlink sub-blocks the out-of-band blocking requirements are defined with the uplink configuration in accordance with Table 73A22-1 For this uplink configuration the UE shall meet the requirements for each sub-block as specified in clauses 763 and 76A31 for one component carrier and two component carriers per sub-block respectively",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_95",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 95,
+    "text": "The requirements apply with all downlink carriers active The throughput of each carrier shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A22 A32 and A33 with one sided dynamic OCNG",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_96",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 96,
+    "text": "Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 76A33 Out-of-band blocking for Inter-band CA For inter-band carrier aggregation with one component carrier per operating band and the uplink assigned to one NR band the out-of-band blocking requirements are defined with the uplink active on the bands other than the band whose downlink is being tested For NR CA configurations including an operating band without uplink band or an operating band with an unpaired DL part as noted in Table 52-1 the requirements for all downlinks shall be met with the single uplink carrier active in each band capable of UL operation The UE shall meet the requirements specified in clause 763 for each component carrier while all downlink carriers are active For inter-band carrier aggregation with component carriers in operating bands 27GHz including n48 and for FDL_Lowj 15 MHz",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_97",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 97,
+    "text": "f FDL_Highj 15 MHz the appropriate adjacent channel selectivity and in-band blocking requirements in the respective clauses 75 and 762 shall be applied for carrier j For inter-band carrier aggregation with component carriers in operating bands 27GHz excluding n48 and for FDL_Lowj 3 BWchannel f FDL_Highj 3 BWchannel the appropriate adjacent channel selectivity and in-band blocking requirements in the respective clauses 75 and 762 shall be applied for carrier j FDL_Lowj and FDL_Highj denote the respective lower and upper frequency limits of the operating band containing carrier j j 1X with carriers numbered in increasing order of carrier frequency and X the number of component carriers in the band combination BWchannel denotes the channel bandwidth of the wanted signal component carrier j",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_98",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 98,
+    "text": "If CW interferer falls in a gap between FDL_Highj and FDL_Lowj1 where the corresponding OOB ranges 1 and 2 overlap then the lower level interferer limit of the overlapping OOB ranges applies If FDL_high of the lower NR band is greater than or equal to the FDL_low of the another upper NR band as in overlapping RX frequency ranges then the OOB range shall start from the FDL_low of the lower NR band and from the FDL_high of the upper NR band For inter-band carrier aggregation with uplink assigned to two NR bands the out-of-band blocking requirements specified in clause 763 shall be met with the transmitter power for the uplink set to 7 dB below PCMAX_Lfc for each serving cell c",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_99",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 99,
+    "text": "For the UE which supports inter-band CA configuration in Table 73A321-1 Pinterferer power defined in Table 763-2 and 763-4 and Table 76F32-2 for shared spectrum channel access is increased by the amount given by ΔRIBc in Table 73A321-1 and in Table 73F3-1 for shared spectrum channel access For inter-band CA combination listed in Table 76A33-1 exceptions to the requirement specified in Table 76A33-2 are allowed when the second order intermodulation product of the lower frequency band UL carrier and the CW interfering signal fully or partially overlaps with the higher frequency band DL carrier Unless otherwise stated the exceptions apply to any power classes for the listed inter-band CA combinations Table 76A33-1 CA band combination with exceptions allowed Table 76A33-1a Void Table 76A33-2 Requirement for out-of-band blocking exceptions For all interferer frequency ranges specified in clause 763 a maximum of exceptions are allowed for spurious response frequencies in each assigned frequency channel when measured using a step size of MHz with NRB the number of resource blocks in the downlink transmission bandwidth configuration BWChannel the bandwidth of the frequency channel in MHz and n 1 2 3 for SCS 15 30 60 kHz respectively For these exceptions the requirements in clause 77 apply The throughput of each carrier shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A22 A32 and A33 with one sided dynamic OCNG",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_100",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 100,
+    "text": "Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 76A4 Narrow band blocking for CA 76A41 Narrow band blocking for Intra-band contiguous CA For intra-band contiguous carrier aggregation the downlink SCCs shall be configured at nominal channel spacing to the PCC For FDD the PCC shall be configured closest to the uplink band All downlink carriers shall be active throughout the test The uplink output power shall be set as specified in Table 76A41-1 with the uplink configuration For UEs supporting one uplink the uplink configuration of the PCC shall be in accordance with Table 732-3 The UE shall fulfil the minimum requirement in presence of an interfering signal specified in Table 76A41-1 being on either side of the aggregated signal The throughput of each carrier shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A32 and A33 with one sided dynamic OCNG",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_101",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 101,
+    "text": "Pattern OP1 FDDTDD for the DL-signal as described in Annex A521 with parameters specified in Table 76A41-1 Table 76A41-1 Narrow-band blocking for intra-band contiguous CA 76A42 Narrow band blocking for Intra-band non-contiguous CA For intra-band non-contiguous carrier aggregation with FDL_low 2700 MHz and FUL_low 2700 MHz with one uplink carrier and two or more downlink sub-blocks the narrow band blocking requirements are defined with the uplink configuration in accordance with Table 73A22-1 For this uplink configuration the UE shall meet the requirements for each sub-block as specified in clauses 764 and 76A41 for one component carrier and two component carriers per sub-block respectively The requirements apply for in-gap and out-of-gap interferers while all downlink carriers are active The throughput of each carrier shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A22 A32 and A33 with one sided dynamic OCNG",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_102",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 102,
+    "text": "Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 76A43",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_103",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 103,
+    "text": "Narrow band blocking for Inter-band CA For inter-band carrier aggregation with one component carrier per operating band and the uplink assigned to one NR band the narrow band blocking requirements are defined with the uplink active on the bands other than the band whose downlink is being tested For NR CA configurations including an operating band without uplink band or an operating band with an unpaired DL part as noted in Table 52-1 the requirements for all downlinks shall be met with the single uplink carrier active in each band capable of UL operation The UE shall meet the requirements specified in clause 764 for each component carrier while all downlink carriers are active For the UE which supports inter-band CA configuration in Table 73A321-1 PUW power defined in Table 764-1 is increased by the amount given by ΔRIBc in Table 73A321-1 The throughput of each carrier shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A22 A32 and A33 with one sided dynamic OCNG",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_104",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 104,
+    "text": "Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 76B",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_105",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 105,
+    "text": "Blocking characteristics for NR-DC For inter-band NR-DC configurations the blocking characterstics for the corresponding inter-band CA configuration as specified in clause 76A applies 76C Blocking characteristics for SUL 76C1 General 76C2 In-band blocking for SUL For SUL operation the in-band blocking requirement for downlink bands specified in clause 762 shall be met For SUL operation with downlink CA the in-band blocking requirement for downlink bands specified in clause 76A2 shall be met 76C3 Out-of-band blocking for SUL For SUL operation the out-of-band blocking requirement for downlink bands specified in clause 763 shall be met For SUL operation with downlink CA the out-of-band blocking requirement for downlink bands specified in clause 76A3 shall be met For operation band combination listed in Table 76C3-1 exceptions to the requirement specified in Table 76C3-2 are allowed when the second order intermodulation product of the SUL carrier and the CW interfering signal fully or partially overlaps with the DL carrier Table 76C3-1 SUL operating band combination with exceptions allowed Table 76C3-2 Requirement for out-of-band blocking exceptions For all interferer frequency ranges specified in clause 763 a maximum of exceptions are allowed for spurious response frequencies in each assigned frequency channel when measured using a step size of MHz with NRB the number of resource blocks in the downlink transmission bandwidth configuration BWChannel the bandwidth of the frequency channel in MHz and n 1 2 3 for SCS 15 30 60 kHz respectively For these exceptions the requirements in clause 77 apply 76C4 Narrow band blocking for SUL Narrow band blocking is not specified for SUL band combination 76D Blocking characteristics for UL MIMO For UE with two or four transmitter antenna connectors in closed-loop spatial multiplexing scheme the minimum requirements specified in clause 76 shall be met with the UL MIMO configurations described in clause 62D1 and in clause 62F1D for shared spectrum access operation For UL MIMO the parameter PCMAX_L is defined as the total transmitter power over all transmit antenna connectors 76E Blocking characteristics for V2X 76E1 General",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_106",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 106,
+    "text": "The blocking characteristic is a measure of the receivers ability to receive a wanted signal at its assigned channel frequency in the presence of an unwanted interferer on frequencies other than those of the spurious response or the adjacent channels without this unwanted input signal causing a degradation of the performance of the receiver beyond a specified limit The blocking performance shall apply at all frequencies except those at which a spurious response occurs 76E2 In-band blocking 76E21 General When UE is configured for NR V2X reception non-concurrent with NR uplink transmissions for NR V2X operating bands specified in Table 52E1-1 the throughput of the wanted signal shall be 95 of the maximum throughput of the reference measurement channels as specified in Annex A72 with parameters specified in Table 76E21-1 and Table 76E21-2 The relative throughput requirement shall be met for any SCS specified for the channel bandwidth of the wanted signal Table 76E21-1 In-band blocking parameters for NR V2X Table 76E21-1a In-band blocking parameters in n14 Table 76E21-2 In-band blocking for NR V2X 76E21A In-band blocking for Sidelink CA For intra-band contiguous SL CA operation the UE shall fulfil the minimum requirement specified in Table 76E21A-1 to Table 76E21A-2 where the throughput shall be 95 of the maximum throughput of the reference measurement channels as specified in Annex A72 Table 76E21A-1 In-band blocking parameters for intra-band contiguous SL CA UE Table 76E21A-2 In-band blocking for intra-band contiguous SL CA UE 76E22",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_107",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 107,
+    "text": "In-band blocking for V2X concurrent operation For the inter-band concurrent NR V2X operation the requirements specified in clause 76E21 shall apply for the NR sidelink reception in the operating bands in Table 52E2-1 and the requirements specified in clause 762 shall apply for the NR downlink reception in licensed band while all downlink carriers are active 76E22F In-band blocking for SL-U concurrent operation For the inter-band concurrent NR SL-U operation the requirements specified in clause 76E2F shall apply for the NR sidelink reception in the operating bands in Table 52E2F-1 and the requirements specified in clause 762 shall apply for the NR downlink reception in licensed band while all downlink carriers are active 76E3 Out-of-band blocking 76E31 General For NR V2X bands out-of-band band blocking is defined for an unwanted CW interfering signal falling outside a frequency range 30 MHz below or above the UE receive band When UE is configured for NR V2X reception non-concurrent with NR uplink transmissions for NR V2X operating bands specified in Table 52E1-1 the throughput of the wanted signal shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A72 with parameters specified in Table 76E31-1 and Table 76E31-2 The relative throughput requirement shall be met for any SCS specified for the channel bandwidth of the wanted signal For interferer frequencies across ranges 1 2 and 3 in Table 76E31-2 a maximum of exceptions are allowed for spurious response frequencies in each assigned frequency channel when measured using a step size of MHz with NRB the number of resource blocks in the transmission bandwidth configuration BWChannel the bandwidth of the frequency channel in MHz and n 1 2 3 for SCS 15 30 60 kHz respectively For these exceptions the requirements in clause 77E1 apply Table 76E31-1 Out-of-band blocking parameters for NR V2X Table 76E31-2 Out of-band blocking for NR V2X 76E31A Out-of-band blocking for Sidelink CA For intra-band contiguous SL CA operation the UE throughput shall be 95 of the maximum throughput of the reference measurement channels as specified in Annex A72 with parameters specified in Tables 76E31A-1 and 76E31A-2",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_108",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 108,
+    "text": "For Table 76E31A-2 in frequency range 1 2 and 3 up to exceptions are allowed for spurious response frequencies in each assigned frequency channel when measured using a 1MHz step size For these exceptions the requirements of subclause 735 spurious response are applicable Table 76E31A-1 Out-of-band blocking parameters for intra-band contiguous SL CA UE Table 76E31A-2 Out of band blocking for intra-band contiguous SL CA UE 76E32",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_109",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 109,
+    "text": "Out-of-band blocking for V2X concurrent operation For the inter-band concurrent NR V2X operation the requirements specified in clause 76E31 shall apply for the NR sidelink reception in Band n47 and the requirements specified in clause 763 shall apply for the NR downlink reception in licensed band while all downlink carriers are active 76E32F Out-of-band blocking for SL-U concurrent operation For the inter-band concurrent NR SL-U operation the requirements specified in clause 76E3F shall apply for the NR sidelink reception in the operating bands in Table 52E2F-1 and the requirements specified in clause 763 shall apply for the NR downlink reception in licensed band while all downlink carriers are active 76E3F Out-of-band blocking for Sidelink Unlicensed Out-of-band band blocking is defined for an unwanted CW interfering signal falling outside a frequency range 60 MHz or greater below or above the UE receive band",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_110",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 110,
+    "text": "The throughput of the wanted signal shall be 95 of the maximum throughput of the reference measurement channels as specified in Annex 72 with parameters specified in Table 76F31-1 and Table 76F31-2 The relative throughput requirement shall be met for any SCS specified for the channel bandwidth of the wanted signal 76F Blocking characteristics for shared spectrum channel access 76F1 General",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_111",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 111,
+    "text": "The blocking characteristic is a measure of the receivers ability to receive a wanted signal at its assigned channel frequency in the presence of an unwanted interferer on frequencies other than those of the spurious response or the adjacent channels without this unwanted input signal causing a degradation of the performance of the receiver beyond a specified limit The blocking performance shall apply at all frequencies except those at which a spurious response occurs 76F2 In-band blocking 76F21 General In-band blocking IBB is defined for an unwanted interfering signal falling into the UE receive band or into the first 60 MHz below or above the UE receive band The throughput of the wanted signal shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A22 A32 and A33 with one sided dynamic OCNG",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_112",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 112,
+    "text": "Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 with parameters specified in Table 76F21-1 and Table 76F21-2 The relative throughput requirement shall be met for any SCS specified for the channel bandwidth of the wanted signal Table 76F21-1 In-band blocking parameters for shared access bands Table 76F21-2 In-band blocking for shared access bands 76F22 Void 76F2A In-band blocking for shared spectrum CA 76F2A1 Intra-band contiguous shared spectrum channel access CA In-band blocking for intra-band contiguous shared access CA requirements are specified in Table 76F2A1-1 These requirements apply for any SCS specified for the channel bandwidth of the wanted signal For the test parameters specified in Table 76F2A1-2 the throughput of each carrier shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A22 A32 and A33 with one sided dynamic OCNG",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_113",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 113,
+    "text": "Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 Table 76F2A1-1 In-band blocking parameters for intra-band contiguous shared access CA Table 76F2A1-2 In-band blocking for intra-band contiguous shared access CA 76F3 Out-of-band blocking 76F31 General Out-of-band band blocking is defined for an unwanted CW interfering signal falling outside a frequency range 60 MHz or greater below or above the UE receive band The throughput of the wanted signal shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A22 A32 and A33 with one sided dynamic OCNG",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_114",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 114,
+    "text": "Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 with parameters specified in Table 76F31-1 and Table 76F31-2 The relative throughput requirement shall be met for any SCS specified for the channel bandwidth of the wanted signal Table 76F31-1 Out-of-band blocking parameters for shared access bands Table 76F31-2 Out of-band blocking for shared access bands For interferer frequencies across ranges 1 2 and 3 in Table 76F31-2 a maximum of exceptions are allowed for spurious response frequencies in each assigned frequency channel when measured using a step size of MHz withthe number of resource blocks in the downlink transmission bandwidth configuration CBW the bandwidth of the frequency channel in MHz and n 1 2 3 for SCS 15 30 60 kHz respectively For these exceptions the requirements in clause 77F apply 76F32",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_115",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 115,
+    "text": "Void 76F3A Out-of-band blocking for shared spectrum CA 76F3A1 Intra-band contiguous shared spectrum channel access CA Out-of-band blocking for intra-band contiguous shared access CA requirements are specified in Table 76F3A1-1 These requirements apply for any SCS specified for the channel bandwidth of the wanted signal For the test parameters specified in Table 76F3A1-2 the throughput of each carrier shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A22 A32 and A33 with one sided dynamic OCNG Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 Table 76F3A1-1 Out-of-band blocking parameters for intra-band contiguous shared access CA Table 76F3A1-2 Out of-band blocking for intra-band contiguous CA 76G Reserved 76H Reserved 76I Reserved 76J Blocking characteristics for ATG 76J1 General",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_116",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 116,
+    "text": "The blocking characteristic is a measure of the receivers ability to receive a wanted signal at its assigned channel frequency in the presence of an unwanted interferer on frequencies other than those of the spurious response or the adjacent channels without this unwanted input signal causing a degradation of the performance of the receiver beyond a specified limit The blocking performance shall apply at all frequencies except those at which a spurious response occurs 76J2 In-band blocking for ATG For ATG UE the in-band blocking requirement defined in clause 762 applies 76J3 Out-of-band blocking for ATG For ATG UE the out-of-band blocking requirement defined in clause 763 applies NOTE",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_117",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 117,
+    "text": "In 3GPP the ATG UE out-of-band blocking specification is defined to ensure the telecommunication link and there may be other sources of interference and regulatory issues that need to be considered when designing ATG UE ie avionic equipment 76K Reserved 76L Reserved 77 Spurious response Spurious response is a measure of the ability of the receiver to receive a wanted signal on its assigned channel frequency without exceeding a given degradation due to the presence of an unwanted CW interfering signal at any other frequency for which a response is obtained ie for which the out-of-band blocking limit as specified in clause 763 is not met The throughput shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A22 A32 and A33 with one sided dynamic OCNG",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_118",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 118,
+    "text": "Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 with parameters for the wanted signal as specified in Table 77-1 for NR bands with FDL_high 2700 MHz and FUL_high 2700 MHz and in Table 77-1a for NR bands with FDL_high 3300 MHz and FUL_high 3300 MHz and for the interferer as specified in Table 77-2 The relative throughput requirement shall be met for any SCS specified for the channel bandwidth of the wanted signal For operating bands with an unpaired DL part as noted in Table 52-1 the requirements only apply for carriers assigned in the paired part Table 77-1 Spurious response parameters for NR bands with FDL_high 2700 MHz and FUL_high 2700 MHz Table 771-1a Spurious response parameters for NR bands with FDL_low 3300 MHz and FUL_low 3300 MHz Table 77-2 Spurious response 77A Spurious response for CA 77A1 Spurious response for Intra-band contiguous CA Table 77A-1 Spurious response parameters for intra-band contiguous CA Table 77A-2",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_119",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 119,
+    "text": "Spurious response for CA Table 77A-3 Void Table 77A-4 Void 77A2 Spurious response for Intra-band non-contiguous CA For intra-band non-contiguous carrier aggregation with one uplink carrier and two or more downlink sub-blocks the spurious response requirements are defined with the uplink configuration in accordance with Table 73A22-1 For this uplink configuration the UE shall meet the requirements for each sub-block as specified in clauses 77 and 77A1 for one component carrier and two component carriers per sub-block respectively The requirements apply with all downlink carriers active The throughput of each carrier shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A22 A32 and A33 with one sided dynamic OCNG Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 77A3",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_120",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 120,
+    "text": "Spurious response for Inter-band CA For inter-band carrier aggregation with one component carrier per operating band and the uplink assigned to one NR band the spurious response are defined with the uplink active on the bands other than the band whose downlink is being tested The UE shall meet the requirements specified in clause 77 for each component carrier while all downlink carriers are active For the UE which supports inter-band CA configuration in Table 73A321-1 Pinterferer power defined in Table 77-2 and Table 77F1-2 for shared spectrum channel access is increased by the amount given by ΔRIBc in Table 73A321-1 and in Table 73F3-1 for shared spectrum channel access The throughput of each carrier shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A22 A32 and A33 with one sided dynamic OCNG Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 77B",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_121",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 121,
+    "text": "Spurious response for NR-DC For inter-band NR-DC configurations the spurious response for the corresponding inter-band CA configuration as specified in clause 77A applies 77D Spurious response for UL MIMO For UE with two or four transmitter antenna connectors in closed-loop spatial multiplexing scheme the minimum requirements specified in clause 77 shall be met with the UL MIMO configurations described in clause 62D1 and in clause 62F1D for shared spectrum access operation For UL MIMO the parameter PCMAX_L is defined as the total transmitter power over all transmit antenna connectors 77E",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_122",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 122,
+    "text": "Spurious response for V2X 77E1 General Spurious response is a measure of the receivers ability to receive a wanted signal on its assigned channel frequency without exceeding a given degradation due to the presence of an unwanted CW interfering signal at any other frequency for which a response is obtained ie for which the out-of-band blocking limit as specified in clause 76E31 is not met When UE is configured for NR V2X reception non-concurrent with NR uplink transmissions for NR V2X operating bands specified in Table 52E1-1 the throughput shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A72 with parameters for the wanted signal as specified in Table 77E1-1 and Table 77E1-2 for NR V2X bands The relative throughput requirement shall be met for any SCS specified for the channel bandwidth of the wanted signal Table 77E1-1 Spurious response parameters for NR V2X Table 77E1-2 Spurious response for NR V2X 77E1A Spurious response requirements for Sidelink CA For intra-band contiguous SL CA operation the UE throughput shall be 95 of the maximum throughput of the reference measurement channels as specified in Annex A72 with parameters specified in Table 77E1A-1 and Table 77E1A-2 Table 77E1A-1 Spurious response parameters for intra-band contiguous SL CA UE Tables 77E1A-2 Spurious response for intra-band contiguous SL CA UE 77E1F General requirement for",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_123",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 123,
+    "text": "Sidelink Unlicensed The spurious response requirement in clause 77F1 apply For spurious responses the throughput of the wanted signal shall be 95 of the maximum throughput of the reference measurement channels as specified in Annex 72 77E2 Spurious response for V2X concurrent operation For the inter-band concurrent NR V2X operation the requirements specified in clause 77E1 shall apply for the NR sidelink reception in the operating bands in Table 52E2-1 and the requirements specified in clause 77 shall apply for the NR downlink reception in licensed band while all downlink carriers are active 77E2F Spurious response for SL-U concurrent operation For the inter-band concurrent NR SL-U operation the requirements specified in clause 77E1F shall apply for the NR sidelink reception in the operating bands in Table 52E2F-1 and the requirements specified in clause 77 shall apply for the NR downlink reception in licensed band while all downlink carriers are active 77F",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_124",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 124,
+    "text": "Spurious response for shared spectrum channel access 77F1 General For spurious responses the throughput of the wanted signal shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A22 A32 and A33 with one sided dynamic OCNG Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 with parameters specified in Table 77F1-1 and Table 77F1-2 The relative throughput requirement shall be met for any SCS at any other frequency at which a response is obtained ie for which the limit as specified in clause 76F31 is not met Table 77F1-1 Spurious response parameters for shared access bands Table 77F1-2 Spurious response for shared spectrum channel access 77F1A Spurious response for shared spectrum channel access CA 77F1A1 Intra-band contiguous shared spectrum channel access CA",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_125",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 125,
+    "text": "For spurious responses the throughput of each carrier shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A22 A32 and A33 with one sided dynamic OCNG Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 with parameters specified in Table 77F1A1-1 and Table 77F1A1-2 The relative throughput requirement shall be met for any SCS at any other frequency at which a response is obtained ie for which the limit as specified in clause 76F32 is not met Table 77F1A1-1 Spurious response parameters for intra-band contiguous shared access CA Table 77F1A1-2 Spurious response for intra-band contiguous shared access CA 77F2 Void 77G Reserved 77H Reserved 77I Reserved 77J Spurious response for ATG For ATG UE the spurious response defined in clause 77 applies 77K Reserved 77L",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_126",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 126,
+    "text": "Reserved 78 Intermodulation characteristics 781 General Intermodulation response rejection is a measure of the capability of the receiver to receive a wanted signal on its assigned channel frequency in the presence of two or more interfering signals which have a specific frequency relationship to the wanted signal 782 Wide band Intermodulation The wide band intermodulation requirement is defined using a CW carrier and modulated NR signal as interferer 1 and interferer 2 respectively The throughput shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A22 A32 and A33 with one sided dynamic OCNG Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 with parameters specified in Table 782-1 for NR bands with FDL_high 2700 MHz and FUL_high 2700 MHz and Table 782-2 for NR bands with FDL_low 3300 MHz and FUL_low 3300 MHz",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_127",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 127,
+    "text": "The relative throughput requirement shall be met for any SCS specified for the channel bandwidth of the wanted signal For operating bands with an unpaired DL part as noted in Table 52-1 the requirements only apply for carriers assigned in the paired part Table 782-1 Wide band intermodulation parameters for NR bands with FDL_high 2700 MHz and FUL_high 2700 MHz Table 782-2 Wide band intermodulation parameters for NR bands with FDL_low 3300 MHz and FUL_low 3300 MHz 78A Intermodulation characteristics for CA 78A1 General 78A2 Wide band intermodulation for CA 78A21 Wide band intermodulation for Intra-band contiguous CA Table 78A21-1 Wide band intermodulation parameters for intra-band contiguous CA with FDL_low 3300 MHz and FUL_low 3300 MHz Table 78A21-2 Wide band intermodulation parameters for intra-band contiguous CA with FDL_low 2700 MHz and FUL_low 2700 MHz 78A22",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_128",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 128,
+    "text": "Wide band intermodulation for Intra-band non-contiguous CA For intra-band non-contiguous carrier aggregation with one uplink carrier and two or more downlink sub-blocks the wide band intermodulation requirements are defined with the uplink configuration in accordance with Table 73A22-1 For this uplink configuration the UE shall meet the requirements for each sub-block as specified in clause 782 and 78A21 for one component carrier and two component carriers per sub-block respectively The requirements apply for out-of-gap interferers while all downlink carriers are active The throughput of each carrier shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A22 A32 and A33 with one sided dynamic OCNG Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 78A23",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_129",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 129,
+    "text": "Wide band intermodulation for Inter-band CA For inter-band carrier aggregation with one component carrier per operating band and the uplink assigned to one NR band the wide band intermodulation requirements are defined with the uplink active on the bands other than the band whose downlink is being tested The UE shall meet the requirements specified in clause 78 for each component carrier while all downlink carriers are active For the UE which supports inter-band CA configuration in Table 73A321-1 Pinterferer power defined in Table 782-1 and 782-2 and Table 78F2-1 for shared spectrum channel access is increased by the amount given by ΔRIBc in Table 73A321-1 in Table 73F3-1 for shared spectrum channel access The throughput of each carrier shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A22 A32 and A33 with one sided dynamic OCNG",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_130",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 130,
+    "text": "Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 78B Intermodulation characteristics for NR-DC For inter-band NR-DC configurations the intermodulation characteristics for the corresponding inter-band CA configuration as specified in clause 78A applies 78D Intermodulation characteristics for UL MIMO For UEs with two or four transmitter antenna connectors in closed-loop spatial multiplexing scheme the minimum requirements in clause 78 shall be met with the UL MIMO configurations described in clause 62D1 and in clause 62F1D for shared spectrum access operation For UL MIMO the parameter PCMAX_L is defined as the total transmitter power over all transmit antenna connectors 78E Intermodulation characteristics for V2X 78E1 General Intermodulation response rejection is a measure of the capability of the receiver to receive a wanted signal on its assigned channel frequency in the presence of two or more interfering signals which have a specific frequency relationship to the wanted signal 78E2 Wide band Intermodulation 78E21",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_131",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 131,
+    "text": "General",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_132",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 132,
+    "text": "The wide band intermodulation requirement is defined using modulated NR carrier and a CW signal as interferer 1 and interferer 2 respectively When UE is configured for NR V2X reception non-concurrent with NR uplink transmissions for NR V2X operating bands specified in Table 52E1-1 the throughput shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A72 with parameters specified in Table 78E2-1 for NR V2X bands The relative throughput requirement shall be met for any SCS specified for the channel bandwidth of the wanted signal Table 78E2-1 Wide band intermodulation parameters for NR V2X Table 78E2-1a Wide band intermodulation parameters in n14 78E22 Wide band Intermodulation for V2X concurrent operation For the inter-band concurrent NR V2X operation the requirements specified in clause 78E21 shall apply for the NR sidelink reception in the operating bands in Table 52E2-1 and the requirements specified in clause 78 shall apply for the NR downlink reception in licensed band while all downlink carriers are active 78E22A Wide band intermodulation for Sidelink CA For intra-band contiguous SL CA operation the UE throughput shall be 95 of the maximum throughput of the reference measurement channels as specified in Annex A72 with parameters specified in Table 78E21A-1 for the specified wanted signal mean power in the presence of two interfering signals Table 78E22A-1 Wide band intermodulation for intra-band contiguous SL CA UE",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_133",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 133,
+    "text": "78E22F Wide band Intermodulation for SL-U concurrent operation For the inter-band concurrent NR SL-U operation the requirements specified in clause 78E2F shall apply for the NR sidelink reception in the operating bands in Table 52E2F-1 and the requirements specified in clause 78 shall apply for the NR downlink reception in licensed band while all downlink carriers are active",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_134",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 134,
+    "text": "78E2F Wide band Intermodulation for Sidelink Unlicensed The spurious response requirement in clause 78F2 apply Instead of the general wideband intermodulation requirements specified in clause 782 the throughput shall be 95 of the maximum throughput of the reference measurement channels as specified in Annex 72 with parameters specified in Table 78F2-1 The relative throughput requirement shall be met for any SCS specified for the channel bandwidth of the wanted signal 78F Intermodulation characteristics for shared spectrum channel access 78F1 General Intermodulation response rejection is a measure of the capability of the receiver to receive a wanted signal on its assigned channel frequency in the presence of two or more interfering signals which have a specific frequency relationship to the wanted signal 78F2 Wide band Intermodulation",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_135",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 135,
+    "text": "The wide band intermodulation requirement is defined using a CW carrier and modulated NR signal as interferer 1 and interferer 2 respectively Instead of the general wideband intermodulation requirements specified in clause 782 the throughput shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A22 A32 and A33 with one sided dynamic OCNG",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_136",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 136,
+    "text": "Pattern OP1 FDDTDD for the DL-signal as described in Annex A511A521 with parameters specified in Table 78F2-1 The relative throughput requirement shall be met for any SCS specified for the channel bandwidth of the wanted signal Table 78F2-1 Wide band intermodulation parameters for shared spectrum channel access 78G Reserved 78H Reserved 78I Reserved 78J Intermodulation characteristics for ATG 78J1 General Intermodulation response rejection is a measure of the capability of the receiver to receive a wanted signal on its assigned channel frequency in the presence of two or more interfering signals which have a specific frequency relationship to the wanted signal 78J2 Wide band intermodulation for ATG For ATG UE the wide band intermodulation requirement defined in clause 782 applies 78K Reserved 78L Reserved 79 Spurious emissions",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_137",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 137,
+    "text": "The spurious emissions power is the power of emissions generated or amplified in a receiver that appear at the UE antenna connector The power of any narrow band CW spurious emission shall not exceed the maximum level specified in Table 79-1 Table 79-1 General receiver spurious emission requirements 79A Spurious emissions for CA 79A1 Void 79A2 Void 79A3 Spurious emissions for Inter-band CA For inter-band carrier aggregation including an operating band without uplink band the UE shall meet the Rx spurious emissions requirements specified in clause 79 for each component carrier while all downlink carriers are active 79B Spurious emissions for NR-DC For inter-band NR-DC configurations the spurious emissions for the corresponding inter-band CA configuration as specified in clause 79A applies 79J Spurious emissions for ATG For ATG UE",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_138",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 138,
+    "text": "the spurious emissions as specified in clause 79 applies 710 Power imbalance 710A Power imbalance for CA 710A1 General Power imbalance requirement is a measure of the receivers ability to receive a wanted signal in the presence of another signal with a power imbalance and a specific frequency offset from the wanted signal Power imbalance requirement in this subclause is only applicable for a UE capable of intraBandNR-CA-non-collocated-r18 and is not provided with nonCollocatedTypeNR-CA-r18 and is configured with maxMIMO-Layers with value less than or equal to 2 710A2 Minimum requirement For the test parameters in Table 710A2-1 the throughput shall be 95 of the maximum throughput of the reference measurement channels as specified in Annexes A22 A32 and A33 with one sided dynamic OCNG",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s07-XX_chunk_139",
+    "document_id": "38101-1-i80_s07-XX",
+    "chunk_id": 139,
+    "text": "Pattern OP1 TDD for the DL-signal as described in Annex A521 Table 710A2-1 Power imbalance parameters for intra-band non-contiguous CA For a UE capable of intraBandNR-CA-non-collocated-r18 for the following CA band combinations in Table 710A2-2 the Power imbalance requirements are applicable with 2Rx antenna ports for each component carrier if it is not provided with nonCollocatedTypeNR-CA-r18 and is configured with maxMIMO-Layers with value less than or equal to 2 Table 710A2-2 NR CA combinations",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s07-XX.docx"
+    }
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "38101-1-i80_s0505B-0505E_chunk_1",
+    "document_id": "38101-1-i80_s0505B-0505E",
+    "chunk_id": 1,
+    "text": "",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s0505B-0505E.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s0505B-0505E_chunk_2",
+    "document_id": "38101-1-i80_s0505B-0505E",
+    "chunk_id": 2,
+    "text": "55B Configurations for DC For an NR DC configuration specified in Table 55B-1 the bandwidth combination sets for the corresponding NR CA configuration in 55A3 ie dual uplink inter-band carrier aggregation with uplink assigned to two NR bands are applicable to Dual Connectivity Table 55B-1 Inter-band NR DC configurations two bands Table 55B-2 Inter-band NR DC configurations three bands Table 55B-3 Inter-band NR DC configurations four bands Table 55B-4 Inter-band NR DC configurations five bands 55C Configurations for SUL The configuration tables for SUL describe Bandwidth Combination Sets Bandwidth Combination Set 4 and 5 contains all possible defined channel bandwidths for each band in the combination The fact that BCS4 and BCS5 contains all channel bandwidths for each band does not alter if a bandwidth is mandatory or optional for a given band Bandwidths that are identified as optional in Table 535-1 for a given release are still optional for UEs that support BCS4 or BCS5 where the bandwidths the UE supports for each band the maximum bandwidth andor minimum bandwidth for the band in the band combination are indicated in the UE capabilities The minimum bandwidth per CC and aggregated FDD TDD and total bandwidth per band combination may be indicated only for BCS5 as described in 38306 15 and BCS5 shall not be indicated together with BCS4 for a SUL configuration For SUL band combinations including FR1 intra-band CA and with BCS4 or BCS5 the Bandwidth Combination Sets for the FR1 intra-band CA are BCS4 or BCS5 For the NR SUL band configurations with inter-band CA in sub-clause 55C when the capability supportedBandPairListNR-r18 is present three or four bands can be configured in the uplink with simultaneous uplink transmission on up to two bands and the corresponding requirements for SUL band configurations with inter-band CA and with uplink assigned to one or two bands shall apply For each uplink band pair in the NR SUL band configurations with inter-band CA according to the capability uplinkTxSwitchingOptionForBandPair if switchedUL is supported uplink transmission on any one band of the band pair in the band combination shall be supported according to the scheduling commands and the corresponding requirements for SUL band configuration with inter-band CA and with uplink assigned to one band on band X or band Y apply if dualUL is supported simultaneous uplink transmission on the two NR UL bands from the band pair for which dualUL is declared in the band combination shall be supported according to the scheduling commands and the corresponding requirements for SUL band configuration with inter-band CA and with uplink CA between the two uplink bands apply For SUL band configuration with inter-band CA band pairs of two non-SUL bands with switchedUL or dualUL by the parameter uplinkTxSwitchingOption is supported and any other band pairs including SUL with switchedUL is supported in release 18 Table 55C-1",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s0505B-0505E.docx"
+    }
+  },
+  {
+    "id": "38101-1-i80_s0505B-0505E_chunk_3",
+    "document_id": "38101-1-i80_s0505B-0505E",
+    "chunk_id": 3,
+    "text": "Supported channel bandwidths per SUL band combination Table 55C-2 Supported channel bandwidths per SUL band combination with intra-band non-contiguous CA Table 55C-3 Supported channel bandwidths per SUL band combination with intra-band contiguous CA Table 55C-4 Supported channel bandwidths per SUL band combination with inter-band CA Table 55C-5 Supported channel bandwidths per SUL band combination with inter-band CA two SUL cells 55D Reserved 55E Void 55E1A Configurations for Sidelink CA For NR SL CA operation the SL CA channel bandwidths for intra-band contiguous are specified in clause 55E1A1 The same symmetrical channel bandwidth is specified for both the transmission and reception path 55E1A1 Configurations for Sidelink intra-band contiguous CA Table 55E1A1-1 NR SL CA configurations and bandwidth combination set for SL intra-band contiguous CA in FR1",
+    "metadata": {
+      "source": "0_spec/38101-1-i80_s0505B-0505E.docx"
+    }
+  }
+]

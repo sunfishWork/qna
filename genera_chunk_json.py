@@ -108,7 +108,7 @@ nlp.max_length = 3_000_000  # spaCy 최대 길이 확장
 #     print(f"Saved: {chunk_file}")
 
 
-def save_text_to_json(text: str, output_path: str, out_folder: str, source_file: str, chunk_size: int = 1000) -> None:
+def save_text_to_json(text: str, source_file: str, out_folder: str, chunk_size: int = 1000) -> None:
     """Save cleaned text as JSON format without splitting sentences."""
     doc = nlp(text)
     sentences = [sent.text for sent in doc.sents]
@@ -160,7 +160,7 @@ def create_chunk_dict(document_id, chunk_number, chunk_sentences, source_file):
     }
 
 
-def process_document(input_path: str, out_folder: str, chunk_size: int = 1000) -> None:
+def process_document(input_path: str, out_folder: str) -> None:
     """Process the document and save cleaned text in chunks."""
     # Extract text based on file type
     if input_path.lower().endswith('.docx'):
@@ -177,26 +177,113 @@ def process_document(input_path: str, out_folder: str, chunk_size: int = 1000) -
     os.makedirs(out_folder, exist_ok=True)
 
     # Save text in chunks
-    output_file_name = os.path.join(out_folder, "output.txt")  # Base output file name
+    # output_file_name = os.path.join(out_folder, "output.txt")  # Base output file name
     # save_text_to_file(cleaned_text, output_file_name, out_folder, chunk_size)
-    save_text_to_json(cleaned_text, output_folder, output_folder, input_file, chunk_size=1000)
+    save_text_to_json(cleaned_text, input_file, out_folder, chunk_size=1000)
+
+
+import json
+import requests
+import time
+
+# DeepSeek-R1:32B 모델을 사용하는 Ollama API 엔드포인트
+OLLAMA_API_URL = "http://localhost:11434/api/generate"
+MODEL_NAME = "deepseek-r1:32b"
+
+
+def generate_qna(text):
+    """LLM을 사용하여 주어진 텍스트에서 QnA를 생성"""
+    prompt = f"""
+    Generate QnA pairs in **strict JSON format** based on the following text. 
+    Do **NOT** add explanations, comments, or any additional text. 
+    Only return the JSON array.
+
+    Text:
+    {text}
+
+    Output Format (JSON array only):
+    ```json
+    [
+      {{"question": "What is the main topic of the document?", "answer": "This document discusses machine learning."}},
+      {{"question": "What is machine learning?", "answer": "Machine learning is a method of analyzing data and automatically building predictive models."}}
+    ]
+    ```
+    """
+
+    payload = {
+        "model": "deepseek-r1:7b",
+        "prompt": prompt,
+        "stream": False
+    }
+
+    try:
+        response = requests.post("http://localhost:11434/api/generate", json=payload)
+        response.raise_for_status()
+        result = response.json()
+
+        # API 응답 출력하여 확인
+        # print("DeepSeek API Response:", result["response"])
+
+        # JSON 데이터만 추출하기 위해 <think> 태그 및 코드 블록 제거
+        raw_text = result["response"].strip()
+        raw_text = raw_text.replace("<think>", "").replace("</think>", "").strip()
+
+        # JSON 코드 블록이 있을 경우 제거
+        if "```json" in raw_text:
+            raw_text = raw_text.split("```json")[-1].split("```")[0].strip()
+
+        return json.loads(raw_text)  # JSON 변환
+    except Exception as e:
+        print(f"Error generating QnA: {e}")
+        return []  # 실패 시 빈 리스트 반환
 
 
 
-# Example usage
 if __name__ == "__main__":
-    from_folder = "0_spec"  # 'qnaspec' 폴더 지정
-    to_folder = "1_chunk"  # 결과 저장할 상위 폴더 지정
+    # ==============================
+    # Create Chunk json files
+    # ==============================
+    # from_folder = "0_spec"
+    # to_folder = "1_chunk"
+    #
+    # # 'from' 폴더 내 모든 .pdf 및 .docx 파일 찾기
+    # if not os.path.exists(from_folder):
+    #     print(f"Error: The folder '{from_folder}' does not exist.")
+    #     exit()
+    #
+    # files = [f for f in os.listdir(from_folder) if f.lower().endswith(('.pdf', '.docx'))]
+    #
+    # if not files:
+    #     print("No PDF or DOCX files found in 'from' folder.")
+    #     exit()
+    #
+    # output_folder = os.path.join(to_folder)
+    # for file in files:
+    #     input_file = os.path.join(from_folder, file)
+    #
+    #     # Extract the base name of the input file without extension
+    #     base_name = os.path.splitext(os.path.basename(input_file))[0]
+    #
+    #     os.makedirs(output_folder, exist_ok=True)
+    #     print(f"Processing '{file}' and saving output to: {output_folder}")
+    #
+    #     process_document(input_file, output_folder)
+
+    # ==============================
+    # Create QnA json files
+    # ==============================
+    from_folder = "1_chunk"
+    to_folder = "2_qna"
 
     # 'from' 폴더 내 모든 .pdf 및 .docx 파일 찾기
     if not os.path.exists(from_folder):
         print(f"Error: The folder '{from_folder}' does not exist.")
         exit()
 
-    files = [f for f in os.listdir(from_folder) if f.lower().endswith(('.pdf', '.docx'))]
+    files = [f for f in os.listdir(from_folder) if f.lower().endswith('.json')]
 
     if not files:
-        print("No PDF or DOCX files found in 'from' folder.")
+        print("No json files found in 'from' folder.")
         exit()
 
     for file in files:
@@ -205,9 +292,43 @@ if __name__ == "__main__":
         # Extract the base name of the input file without extension
         base_name = os.path.splitext(os.path.basename(input_file))[0]
 
-        # Create an output folder inside '1_chunk' with the same name as the original file
-        output_folder = os.path.join(to_folder, base_name)
-        os.makedirs(output_folder, exist_ok=True)
-        print(f"Processing '{file}' and saving output to: {output_folder}")
+        # Create an output folder inside '2_qna' with the same name as the original file
+        # output_folder = os.path.join(to_folder, base_name)
+        os.makedirs(to_folder, exist_ok=True)
+        print(f"Processing '{file}' and saving output to: {to_folder}")
 
-        process_document(input_file, output_folder)
+        # JSON 파일 읽기
+        with open(input_file, 'r', encoding='utf-8') as f:
+            chunk_data = json.load(f)
+
+        qna_data = []
+
+        for chunk in chunk_data:
+            chunk_id = chunk["id"]
+            text = chunk["text"]
+            source = chunk["metadata"]["source"]
+
+            # LLM을 호출하여 QnA 생성
+            qna_list = generate_qna(text)
+            print(f"from Deekseek: ", qna_list)
+
+            for idx, qna in enumerate(qna_list):
+                qna_data.append({
+                    "id": f"{chunk_id}_qna_{idx + 1}",
+                    "document_id": base_name,
+                    "chunk_id": chunk_id,
+                    "question": qna["question"],
+                    "answer": qna["answer"],
+                    "metadata": {
+                        "source": source
+                    }
+                })
+
+            # time.sleep(1)  # API 과부하 방지를 위한 딜레이
+
+        # QnA JSON 저장
+        output_file = os.path.join(to_folder, f"{base_name}.json")
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(qna_data, f, ensure_ascii=False, indent=2)
+
+        print(f"Saved QnA JSON: {output_file}")
